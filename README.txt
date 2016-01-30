@@ -2,9 +2,9 @@ Russian Universal Dependencies Treebank
 
 === Machine-readable metadata =================================================
 Documentation status: partial
-Data source: unknown
+Data source: semi-automatic
 Data available since: UD v1.3
 License: CC BY-SA 4.0
-Genre: unknown
+Genre: news wiki blog legal non-fiction fiction
 Contributors: Lyashevskaya, Olga; Kutuzov, Andrey; Toldova, Svetlana; Droganova, Kira; Mustafina, Nina; Alexeeva, Maria; Shakurova, Elena
 ===============================================================================
