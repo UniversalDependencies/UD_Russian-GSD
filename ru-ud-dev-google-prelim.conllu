@@ -361,7 +361,7 @@
 21	года	_	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Person=3	19	nmod:tmod	_	_
 22	.	_	PUNCT	.	_	3	punct	_	_
 
-1	Когда	_	ADV	WRB	_	6	mark	_	_
+1	Когда	_	SCONJ	WRB	_	6	mark	_	_
 2	этот	_	DET	DT	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	det	_	_
 3	состав	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3	6	dobj	_	_
 4	героев	_	NOUN	NN	Animacy=Anim|Case=Gen|Number=Plur|Person=3	3	nmod:gobj	_	_
@@ -522,7 +522,7 @@
 2	не	_	PART	NEG	_	3	neg	_	_
 3	почувствовали	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past	0	root	_	_
 4	,	_	PUNCT	,	_	3	punct	_	_
-5	как	_	ADP	IN	_	6	mark	_	_
+5	как	_	SCONJ	IN	_	6	mark	_	_
 6	вступили	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past	3	ccomp	_	_
 7	на	_	ADP	IN	_	8	case	_	_
 8	землю	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing|Person=3	6	nmod	_	_
@@ -1064,7 +1064,7 @@
 3	не	_	PART	NEG	_	4	neg	_	_
 4	видна	_	ADJ	JJS	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 5	,	_	PUNCT	,	_	8	punct	_	_
-6	так	_	ADV	RB	_	8	mark	_	_
+6	так	_	SCONJ	RB	_	8	mark	_	_
 7	как	_	ADV	WRB	_	6	mwe	_	_
 8	прикрыта	_	VERB	VBNS	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|Voice=Pass	4	advcl	_	_
 9	переднеспинкой	_	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing|Person=3	8	iobj	_	_
@@ -1182,7 +1182,7 @@
 2	ноябре	_	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Person=3	7	nmod	_	_
 3	этого	_	DET	DT	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod:gobj	_	_
 4	же	_	X	UH	_	3	discourse	_	_
-5	когда	_	ADV	WRB	_	7	mark	_	_
+5	когда	_	SCONJ	WRB	_	7	mark	_	_
 6	группа	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing|Person=3	7	nsubj	_	_
 7	начинает	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 8	работу	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing|Person=3	7	dobj	_	_
@@ -1270,7 +1270,7 @@
 17	Карран	_	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3	18	nsubj	_	_
 18	отмечает	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	parataxis	_	_
 19	,	_	PUNCT	,	_	25	punct	_	_
-20	что	_	ADP	IN	_	25	mark	_	_
+20	что	_	SCONJ	IN	_	25	mark	_	_
 21	для	_	ADP	IN	_	22	case	_	_
 22	него	_	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=3	25	nmod	_	_
 23	ключевым	_	ADJ	JJL	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	25	amod	_	_
@@ -1405,7 +1405,7 @@
 18	университета	_	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Person=3	14	nmod:gobj	_	_
 19	.	_	PUNCT	.	_	5	punct	_	_
 
-1	Так	_	ADV	RB	_	4	mark	_	_
+1	Так	_	SCONJ	RB	_	4	mark	_	_
 2	как	_	ADV	WRB	_	1	mwe	_	_
 3	белые	_	NOUN	NN	Animacy=Anim|Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
 4	готовились	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past	14	advcl	_	_
@@ -1866,7 +1866,7 @@
 5	в	_	ADP	IN	_	6	case	_	_
 6	том	_	DET	DT	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	_
 7	,	_	PUNCT	,	_	11	punct	_	_
-8	что	_	ADP	IN	_	11	mark	_	_
+8	что	_	SCONJ	IN	_	11	mark	_	_
 9	один	_	NUM	CD	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nummod	_	_
 10	человек	_	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
 11	создавал	_	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past	4	ccomp	_	_
@@ -2214,7 +2214,7 @@
 6	в	_	ADP	IN	_	7	case	_	_
 7	атмосфере	_	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing|Person=3	5	nmod	_	_
 8	,	_	PUNCT	,	_	10	punct	_	_
-9	поэтому	_	ADP	IN	_	10	mark	_	_
+9	поэтому	_	SCONJ	IN	_	10	mark	_	_
 10	используется	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	3	advcl	_	_
 11	как	_	ADP	IN	_	15	case	_	_
 12	сигнальный	_	ADJ	JJL	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	amod	_	_
@@ -2295,7 +2295,7 @@
 9	объясняется	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 10	тем	_	DET	DT	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	iobj	_	_
 11	,	_	PUNCT	,	_	18	punct	_	_
-12	что	_	ADP	IN	_	18	mark	_	_
+12	что	_	SCONJ	IN	_	18	mark	_	_
 13	его	_	PRON	PRP$	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	det	_	_
 14	бывшая	_	ADJ	JJL	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	15	amod	_	_
 15	жена	_	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing|Person=3	18	nsubj	_	_
@@ -2482,7 +2482,7 @@
 9	министром	_	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Person=3	7	iobj	_	_
 10	США	_	PROPN	NNP	Animacy=Inan|Case=Gen|Number=Plur|Person=3	9	nmod:gobj	_	_
 11	,	_	PUNCT	,	_	18	punct	_	_
-12	хотя	_	ADP	IN	_	18	mark	_	_
+12	хотя	_	SCONJ	IN	_	18	mark	_	_
 13	с	_	ADP	IN	_	15	case	_	_
 14	8	_	ADJ	JJL	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	amod	_	_
 15	марта	_	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Person=3	18	nmod	_	_
@@ -2526,7 +2526,7 @@
 28	о	_	ADP	IN	_	29	case	_	_
 29	том	_	DET	DT	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	27	nmod	_	_
 30	,	_	PUNCT	,	_	39	punct	_	_
-31	что	_	ADP	IN	_	39	mark	_	_
+31	что	_	SCONJ	IN	_	39	mark	_	_
 32	калмыки	_	NOUN	NN	Animacy=Anim|Case=Nom|Number=Plur|Person=3	39	nsubjpass	_	_
 33	,	_	PUNCT	,	_	34	punct	_	_
 34	разбитые	_	VERB	VBNL	Animacy=Anim|Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|Voice=Pass	32	acl	_	_
@@ -2615,7 +2615,7 @@
 12	пара	_	NUM	CD	Animacy=Anim|Case=Nom	13	nummod	_	_
 13	козлят	_	NOUN	NN	Animacy=Anim|Case=Gen|Number=Plur|Person=3	10	nsubj	_	_
 14	,	_	PUNCT	,	_	18	punct	_	_
-15	хотя	_	ADP	IN	_	18	mark	_	_
+15	хотя	_	SCONJ	IN	_	18	mark	_	_
 16	нередко	_	ADV	RB	_	18	advmod	_	_
 17	и	_	X	UH	_	18	discourse	_	_
 18	большее	_	ADJ	JJR	_	10	advcl	_	_
@@ -2955,7 +2955,7 @@
 1	Он	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	надеялся	_	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past	0	root	_	_
 3	,	_	PUNCT	,	_	12	punct	_	_
-4	что	_	ADP	IN	_	12	mark	_	_
+4	что	_	SCONJ	IN	_	12	mark	_	_
 5	архиерей	_	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
 6	,	_	PUNCT	,	_	7	punct	_	_
 7	утомленный	_	VERB	VBNL	Animacy=Anim|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Voice=Pass	5	acl	_	_
@@ -3079,7 +3079,7 @@
 3	солдата	_	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Person=3	1	nmod:gobj	_	_
 4	ухудшается	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 5	,	_	PUNCT	,	_	9	punct	_	_
-6	если	_	ADP	IN	_	9	mark	_	_
+6	если	_	SCONJ	IN	_	9	mark	_	_
 7	срочно	_	ADV	RB	_	9	advmod	_	_
 8	не	_	PART	NEG	_	9	neg	_	_
 9	сделать	_	VERB	VB	Aspect=Perf	17	advcl	_	_
@@ -3271,7 +3271,7 @@
 10	серьёзных	_	ADJ	JJL	Animacy=Inan|Case=Gen|Number=Plur	11	amod	_	_
 11	подтверждений	_	NOUN	NN	Animacy=Inan|Case=Gen|Number=Plur|Person=3	8	nmod:gobj	_	_
 12	,	_	PUNCT	,	_	17	punct	_	_
-13	т.	_	ADV	RB	_	17	mark	_	_
+13	т.	_	SCONJ	RB	_	17	mark	_	_
 14	к.	_	ADV	WRB	_	13	mwe	_	_
 15	египтологи	_	NOUN	NN	Animacy=Anim|Case=Nom|Number=Plur|Person=3	17	nsubj	_	_
 16	не	_	PART	NEG	_	17	neg	_	_
@@ -3504,7 +3504,7 @@
 5	Точно	_	ADV	RB	_	20	advmod	_	_
 6	так	_	ADV	RB	_	5	advmod	_	_
 7	,	_	PUNCT	,	_	10	punct	_	_
-8	как	_	ADV	WRB	_	10	mark	_	_
+8	как	_	SCONJ	WRB	_	10	mark	_	_
 9	вы	_	PRON	PRP	Case=Nom|Number=Plur|Person=2	10	nsubj	_	_
 10	создали	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past	6	advcl	_	_
 11	диктатуру	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing|Person=3	10	dobj	_	_
@@ -3543,7 +3543,7 @@
 15	Церкви	_	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Person=3	14	nmod:gobj	_	_
 16	саентологии	_	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Person=3	15	nmod:gobj	_	_
 17	,	_	PUNCT	,	_	20	punct	_	_
-18	хотя	_	ADP	IN	_	20	mark	_	_
+18	хотя	_	SCONJ	IN	_	20	mark	_	_
 19	и	_	X	UH	_	20	discourse	_	_
 20	имеют	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	13	advcl	_	_
 21	меньший	_	ADJ	JJL	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	amod	_	_
@@ -3554,7 +3554,7 @@
 26	аморфность	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing|Person=3	22	conj	_	_
 27	.	_	PUNCT	.	_	13	punct	_	_
 
-1	Как	_	ADV	WRB	_	2	mark	_	_
+1	Как	_	SCONJ	WRB	_	2	mark	_	_
 2	показывает	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	10	advcl	_	_
 3	практика	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
 4	,	_	PUNCT	,	_	2	punct	_	_
@@ -3632,7 +3632,7 @@
 2	вели	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past	0	root	_	_
 3	себя	_	PRON	PRP	Case=Acc|Reflex=Yes	2	dobj	_	_
 4	,	_	PUNCT	,	_	2	punct	_	_
-5	словно	_	ADP	IN	_	8	mark	_	_
+5	словно	_	SCONJ	IN	_	8	mark	_	_
 6	оба	_	NUM	CD	Animacy=Anim|Case=Nom|Gender=Masc	8	nsubj	_	_
 7	не	_	PART	NEG	_	8	neg	_	_
 8	ожидали	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past	2	advcl	_	_
@@ -3667,7 +3667,7 @@
 24	отрицая	_	VERB	VBG	Aspect=Imp	20	acl	_	_
 25	мысль	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing|Person=3	24	dobj	_	_
 26	,	_	PUNCT	,	_	32	punct	_	_
-27	что	_	ADP	IN	_	32	mark	_	_
+27	что	_	SCONJ	IN	_	32	mark	_	_
 28	психологическое	_	ADJ	JJL	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	29	amod	_	_
 29	исследование	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|Person=3	32	nsubj	_	_
 30	возникновения	_	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|Person=3	29	nmod:gobj	_	_
@@ -3806,7 +3806,7 @@
 2	операции	_	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Person=3	1	nmod:gobj	_	_
 3	думали	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past	0	root	_	_
 4	,	_	PUNCT	,	_	9	punct	_	_
-5	что	_	ADP	IN	_	9	mark	_	_
+5	что	_	SCONJ	IN	_	9	mark	_	_
 6	террористов	_	NOUN	NN	Animacy=Anim|Case=Gen|Number=Plur|Person=3	9	nmod:gobj	_	_
 7	у	_	ADP	IN	_	8	case	_	_
 8	вертолётов	_	NOUN	NN	Animacy=Inan|Case=Gen|Number=Plur|Person=3	9	nmod	_	_
@@ -3997,7 +3997,7 @@
 15	практического	_	ADJ	JJL	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	amod	_	_
 16	применения	_	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|Person=3	11	dobj	_	_
 17	,	_	PUNCT	,	_	21	punct	_	_
-18	поскольку	_	ADP	IN	_	21	mark	_	_
+18	поскольку	_	SCONJ	IN	_	21	mark	_	_
 19	для	_	ADP	IN	_	20	case	_	_
 20	него	_	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=3	21	nmod	_	_
 21	требуется	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	11	advcl	_	_
@@ -4075,7 +4075,7 @@
 
 1	После	_	ADP	IN	_	2	case	_	_
 2	того	_	DET	DT	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
-3	как	_	ADV	WRB	_	12	mark	_	_
+3	как	_	SCONJ	WRB	_	12	mark	_	_
 4	,	_	PUNCT	,	_	5	punct	_	_
 5	после	_	ADP	IN	_	12	nmod	_	_
 6	Второй	_	ADJ	JJL	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	amod	_	_
@@ -4112,7 +4112,7 @@
 37	виллы	_	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Person=3	20	nmod	_	_
 38	Модьяно	_	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Person=3	37	nmod:gobj	_	_
 39	,	_	PUNCT	,	_	42	punct	_	_
-40	где	_	ADV	WRB	_	42	mark	_	_
+40	где	_	SCONJ	WRB	_	42	mark	_	_
 41	сегодня	_	ADV	RB	_	42	advmod	_	_
 42	располагается	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	37	acl:relcl	_	_
 43	Музей	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Person=3	42	nsubj	_	_
@@ -4411,7 +4411,7 @@
 6	и	_	CONJ	CC	_	5	cc	_	_
 7	сказать	_	VERB	VB	Aspect=Perf	5	conj	_	_
 8	,	_	PUNCT	,	_	12	punct	_	_
-9	что	_	ADP	IN	_	12	mark	_	_
+9	что	_	SCONJ	IN	_	12	mark	_	_
 10	``	_	PUNCT	'	_	12	punct	_	_
 11	Президент	_	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
 12	оторвался	_	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past	7	ccomp	_	_
@@ -4419,14 +4419,14 @@
 14	души	_	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Person=3	12	nmod	_	_
 15	''	_	PUNCT	.	_	12	punct	_	_
 16	,	_	PUNCT	,	_	12	punct	_	_
-17	как	_	ADV	RB	_	18	mark	_	_
+17	как	_	SCONJ	RB	_	18	mark	_	_
 18	раздался	_	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past	12	advcl	_	_
 19	телефонный	_	ADJ	JJL	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	amod	_	_
 20	звонок	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Person=3	18	nsubj	_	_
 21	с	_	ADP	IN	_	22	case	_	_
 22	сообщением	_	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|Person=3	20	nmod	_	_
 23	,	_	PUNCT	,	_	27	punct	_	_
-24	что	_	ADP	IN	_	27	mark	_	_
+24	что	_	SCONJ	IN	_	27	mark	_	_
 25	Горбачёв	_	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3	27	nsubj	_	_
 26	не	_	PART	NEG	_	27	neg	_	_
 27	приземлился	_	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past	22	ccomp	_	_
@@ -4618,7 +4618,7 @@
 13	же	_	X	UH	_	12	discourse	_	_
 14	фирмы	_	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Person=3	11	nmod:gobj	_	_
 15	,	_	PUNCT	,	_	19	punct	_	_
-16	поэтому	_	ADP	IN	_	19	mark	_	_
+16	поэтому	_	SCONJ	IN	_	19	mark	_	_
 17	они	_	PRON	PRP	Case=Nom|Number=Plur|Person=3	19	nsubj	_	_
 18	стали	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past	19	cop	_	_
 19	символом	_	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Person=3	6	advcl	_	_
@@ -4649,7 +4649,7 @@
 20	стало	_	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past	21	cop	_	_
 21	известно	_	ADJ	JJS	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	conj	_	_
 22	,	_	PUNCT	,	_	28	punct	_	_
-23	что	_	ADP	IN	_	28	mark	_	_
+23	что	_	SCONJ	IN	_	28	mark	_	_
 24	Клинт	_	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3	28	nsubj	_	_
 25	и	_	CONJ	CC	_	24	cc	_	_
 26	Рич	_	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3	24	conj	_	_
@@ -4702,7 +4702,7 @@
 11	совесть	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing|Person=3	7	conj	_	_
 12	''	_	PUNCT	``	_	11	punct	_	_
 13	,	_	PUNCT	,	_	17	punct	_	_
-14	так	_	ADV	RB	_	17	mark	_	_
+14	так	_	SCONJ	RB	_	17	mark	_	_
 15	как	_	ADV	WRB	_	14	mwe	_	_
 16	она	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	17	nsubj	_	_
 17	направляет	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	4	advcl	_	_
@@ -4979,7 +4979,7 @@
 4	,	_	PUNCT	,	_	3	punct	_	_
 5	выясняется	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	_
 6	,	_	PUNCT	,	_	12	punct	_	_
-7	что	_	ADP	IN	_	12	mark	_	_
+7	что	_	SCONJ	IN	_	12	mark	_	_
 8	в	_	ADP	IN	_	10	case	_	_
 9	этом	_	DET	DT	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	det	_	_
 10	тайнике	_	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
@@ -5476,7 +5476,7 @@
 
 1	Говорят	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 2	,	_	PUNCT	,	_	1	punct	_	_
-3	что	_	ADP	IN	_	8	mark	_	_
+3	что	_	SCONJ	IN	_	8	mark	_	_
 4	на	_	ADP	IN	_	6	case	_	_
 5	смертном	_	ADJ	JJL	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	amod	_	_
 6	одре	_	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Person=3	8	nmod	_	_
@@ -5945,7 +5945,7 @@
 4	в	_	ADP	IN	_	15	nmod	_	_
 5	древности	_	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing|Person=3	4	nmod	_	_
 6	,	_	PUNCT	,	_	4	punct	_	_
-7	если	_	ADP	IN	_	9	mark	_	_
+7	если	_	SCONJ	IN	_	9	mark	_	_
 8	вождь	_	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
 9	принимает	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	15	advcl	_	_
 10	Православие	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|Person=3	9	dobj	_	_
@@ -6065,7 +6065,7 @@
 2	источники	_	NOUN	NN	Animacy=Inan|Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
 3	утверждают	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 4	,	_	PUNCT	,	_	14	punct	_	_
-5	что	_	ADP	IN	_	14	mark	_	_
+5	что	_	SCONJ	IN	_	14	mark	_	_
 6	от	_	ADP	IN	_	8	case	_	_
 7	внебрачной	_	ADJ	JJL	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	amod	_	_
 8	связи	_	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing|Person=3	14	nmod	_	_
@@ -6088,7 +6088,7 @@
 7	для	_	ADP	IN	_	8	case	_	_
 8	птиц	_	NOUN	NN	Animacy=Anim|Case=Gen|Number=Plur|Person=3	5	nmod	_	_
 9	,	_	PUNCT	,	_	13	punct	_	_
-10	следовательно	_	ADP	IN	_	13	mark	_	_
+10	следовательно	_	SCONJ	IN	_	13	mark	_	_
 11	он	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
 12	является	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	13	cop	_	_
 13	место	_	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|Person=3	3	advcl	_	_
@@ -6345,7 +6345,7 @@
 13	войскового	_	ADJ	JJL	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	amod	_	_
 14	клуба	_	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod:gobj	_	_
 15	,	_	PUNCT	,	_	17	punct	_	_
-16	где	_	ADV	WRB	_	17	mark	_	_
+16	где	_	SCONJ	WRB	_	17	mark	_	_
 17	начал	_	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past	14	acl:relcl	_	_
 18	делать	_	VERB	VB	Aspect=Imp	17	xcomp	_	_
 19	первые	_	ADJ	JJL	Animacy=Inan|Case=Acc|Number=Plur	20	amod	_	_
@@ -6510,7 +6510,7 @@
 5	и	_	CONJ	CC	_	4	cc	_	_
 6	термически	_	ADV	RB	_	4	conj	_	_
 7	,	_	PUNCT	,	_	10	punct	_	_
-8	хотя	_	ADP	IN	_	10	mark	_	_
+8	хотя	_	SCONJ	IN	_	10	mark	_	_
 9	и	_	X	UH	_	10	discourse	_	_
 10	представляют	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	3	advcl	_	_
 11	собой	_	PRON	PRP	Case=Ins|Reflex=Yes	10	iobj	_	_
@@ -6526,7 +6526,7 @@
 2	источников	_	NOUN	NN	Animacy=Inan|Case=Gen|Number=Plur|Person=3	1	nmod:gobj	_	_
 3	утверждают	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
 4	,	_	PUNCT	,	_	6	punct	_	_
-5	что	_	ADP	IN	_	6	mark	_	_
+5	что	_	SCONJ	IN	_	6	mark	_	_
 6	повинны	_	ADJ	JJS	Animacy=Inan|Case=Nom|Number=Plur	3	ccomp	_	_
 7	в	_	ADP	IN	_	8	case	_	_
 8	этом	_	DET	DT	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	_
@@ -6704,7 +6704,7 @@
 8	Франкен	_	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 9	''	_	PUNCT	'	_	8	punct	_	_
 10	,	_	PUNCT	,	_	13	punct	_	_
-11	где	_	ADV	WRB	_	13	mark	_	_
+11	где	_	SCONJ	WRB	_	13	mark	_	_
 12	он	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
 13	играл	_	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past	8	acl:relcl	_	_
 14	в	_	ADP	IN	_	15	case	_	_
@@ -6889,7 +6889,7 @@
 10	тех	_	DET	DT	Animacy=Inan|Case=Gen|Number=Plur	11	det	_	_
 11	пор	_	NOUN	NN	Animacy=Inan|Case=Gen|Number=Plur|Person=3	4	nmod	_	_
 12	,	_	PUNCT	,	_	15	punct	_	_
-13	пока	_	ADP	IN	_	15	mark	_	_
+13	пока	_	SCONJ	IN	_	15	mark	_	_
 14	не	_	PART	NEG	_	15	neg	_	_
 15	начнутся	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut	2	advcl	_	_
 16	тесты	_	NOUN	NN	Animacy=Inan|Case=Nom|Number=Plur|Person=3	15	nsubj	_	_
@@ -7076,7 +7076,7 @@
 10	в	_	ADP	IN	_	11	case	_	_
 11	Гандже	_	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing|Person=3	9	nmod	_	_
 12	,	_	PUNCT	,	_	15	punct	_	_
-13	где	_	ADV	WRB	_	15	mark	_	_
+13	где	_	SCONJ	WRB	_	15	mark	_	_
 14	стал	_	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past	15	cop	_	_
 15	свидетелем	_	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Person=3	11	acl:relcl	_	_
 16	разгрома	_	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod:gobj	_	_
@@ -7369,7 +7369,7 @@
 9	не	_	PART	NEG	_	10	neg	_	_
 10	только	_	ADV	RB	_	8	discourse	_	_
 11	,	_	PUNCT	,	_	14	punct	_	_
-12	что	_	ADP	IN	_	14	mark	_	_
+12	что	_	SCONJ	IN	_	14	mark	_	_
 13	он	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
 14	полез	_	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past	8	ccomp	_	_
 15	не	_	PART	NEG	_	17	neg	_	_
@@ -7483,7 +7483,7 @@
 16	до	_	ADP	IN	_	17	case	_	_
 17	того	_	DET	DT	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
 18	,	_	PUNCT	,	_	27	punct	_	_
-19	что	_	ADP	IN	_	27	mark	_	_
+19	что	_	SCONJ	IN	_	27	mark	_	_
 20	на	_	ADP	IN	_	24	case	_	_
 21	какое	_	DET	WDT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	det	_	_
 22	-	_	PUNCT	-	_	21	goeswith	_	_
@@ -7561,7 +7561,7 @@
 6	особенностей	_	NOUN	NN	Animacy=Inan|Case=Gen|Number=Plur|Person=3	7	nmod:gobj	_	_
 7	достаточно	_	VERB	PRED	_	0	root	_	_
 8	,	_	PUNCT	,	_	10	punct	_	_
-9	чтобы	_	ADP	IN	_	10	mark	_	_
+9	чтобы	_	SCONJ	IN	_	10	mark	_	_
 10	назвать	_	VERB	VB	Aspect=Perf	7	xcomp	_	_
 11	мускулоход	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3	10	dobj	_	_
 12	веломобилем	_	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Person=3	10	advmod	_	_
@@ -8010,7 +8010,7 @@
 29	сокровищницу	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing|Person=3	27	dobj	_	_
 30	.	_	PUNCT	.	_	27	punct	_	_
 
-1	Так	_	ADV	RB	_	5	mark	_	_
+1	Так	_	SCONJ	RB	_	5	mark	_	_
 2	как	_	ADV	WRB	_	1	mwe	_	_
 3	южное	_	ADJ	JJL	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	amod	_	_
 4	полушарие	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|Person=3	5	nsubjpass	_	_
@@ -8024,7 +8024,7 @@
 12	же	_	X	UH	_	11	discourse	_	_
 13	время	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|Person=3	5	nmod	_	_
 14	,	_	PUNCT	,	_	17	punct	_	_
-15	когда	_	ADV	WRB	_	17	mark	_	_
+15	когда	_	SCONJ	WRB	_	17	mark	_	_
 16	Земля	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing|Person=3	17	nsubj	_	_
 17	находится	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	5	advcl	_	_
 18	ближе	_	ADV	RBR	_	17	advmod	_	_
@@ -8247,7 +8247,7 @@
 10	по	_	ADP	IN	_	11	case	_	_
 11	i	_	X	SYM	_	7	nmod	_	_
 12	,	_	PUNCT	,	_	16	punct	_	_
-13	где	_	ADV	WRB	_	16	mark	_	_
+13	где	_	SCONJ	WRB	_	16	mark	_	_
 14	n	_	X	SYM	_	16	nsubj	_	_
 15	--	_	PUNCT	-	_	16	punct	_	_
 16	степень	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing|Person=3	7	acl:relcl	_	_
@@ -8353,7 +8353,7 @@
 16	семей	_	NOUN	NN	Animacy=Inan|Case=Gen|Number=Plur|Person=3	10	conj	_	_
 17	.	_	PUNCT	.	_	8	punct	_	_
 
-1	Если	_	ADP	IN	_	4	mark	_	_
+1	Если	_	SCONJ	IN	_	4	mark	_	_
 2	диски	_	NOUN	NN	Animacy=Inan|Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
 3	не	_	PART	NEG	_	4	neg	_	_
 4	попали	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past	15	advcl	_	_
@@ -8550,7 +8550,7 @@
 6	птиц	_	NOUN	NN	Animacy=Anim|Case=Gen|Number=Plur|Person=3	5	nmod:gobj	_	_
 7	.	_	PUNCT	.	_	2	punct	_	_
 
-1	Когда	_	ADV	WRB	_	3	mark	_	_
+1	Когда	_	SCONJ	WRB	_	3	mark	_	_
 2	Мэлоуну	_	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3	3	iobj	_	_
 3	исполнилось	_	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past	13	advcl	_	_
 4	три	_	NUM	CD	Animacy=Inan|Case=Nom	5	nummod	_	_
@@ -8856,7 +8856,7 @@
 5	время	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|Person=3	7	nmod	_	_
 6	малыш	_	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
 7	должен	_	ADJ	JJS	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
-8	как	_	ADV	WRB	_	10	mark	_	_
+8	как	_	SCONJ	WRB	_	10	mark	_	_
 9	будто	_	ADP	IN	_	8	mwe	_	_
 10	идти	_	VERB	VB	Aspect=Imp	7	xcomp	_	_
 11	к	_	ADP	IN	_	12	case	_	_
@@ -8981,7 +8981,7 @@
 6	скорбей	_	NOUN	NN	Animacy=Inan|Case=Gen|Number=Plur|Person=3	5	nmod:gobj	_	_
 7	''	_	PUNCT	'	_	5	punct	_	_
 8	,	_	PUNCT	,	_	5	punct	_	_
-9	где	_	ADV	WRB	_	11	mark	_	_
+9	где	_	SCONJ	WRB	_	11	mark	_	_
 10	ангелы	_	NOUN	NN	Animacy=Anim|Case=Nom|Number=Plur|Person=3	11	nsubj	_	_
 11	придерживают	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres	3	acl:relcl	_	_
 12	израненное	_	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|Voice=Pass	13	amod	_	_
@@ -8995,7 +8995,7 @@
 20	а	_	CONJ	CC	_	18	cc	_	_
 21	живого	_	ADJ	JJL	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	conj	_	_
 22	,	_	PUNCT	,	_	28	punct	_	_
-23	так	_	ADV	RB	_	28	mark	_	_
+23	так	_	SCONJ	RB	_	28	mark	_	_
 24	как	_	ADV	WRB	_	23	mwe	_	_
 25	это	_	DET	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	28	nsubj	_	_
 26	является	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	28	cop	_	_
@@ -9136,7 +9136,7 @@
 13	и	_	CONJ	CC	_	12	cc	_	_
 14	аэродинамичными	_	ADJ	JJL	Animacy=Inan|Case=Ins|Number=Plur	12	conj	_	_
 15	(	_	PUNCT	(	_	20	punct	_	_
-16	хотя	_	ADP	IN	_	20	mark	_	_
+16	хотя	_	SCONJ	IN	_	20	mark	_	_
 17	нередко	_	ADV	RB	_	20	advmod	_	_
 18	--	_	PUNCT	-	_	20	punct	_	_
 19	лишь	_	X	UH	_	20	discourse	_	_
@@ -9207,7 +9207,7 @@
 20	больших	_	ADJ	JJL	Animacy=Inan|Case=Loc|Number=Plur	21	amod	_	_
 21	количествах	_	NOUN	NN	Animacy=Inan|Case=Loc|Number=Plur|Person=3	18	nmod	_	_
 22	,	_	PUNCT	,	_	26	punct	_	_
-23	так	_	ADV	RB	_	26	mark	_	_
+23	так	_	SCONJ	RB	_	26	mark	_	_
 24	как	_	ADV	WRB	_	23	mwe	_	_
 25	оно	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	26	nsubj	_	_
 26	служит	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	18	advcl	_	_
@@ -9309,7 +9309,7 @@
 7	в	_	ADP	IN	_	8	case	_	_
 8	Льеж	_	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3	6	nmod	_	_
 9	,	_	PUNCT	,	_	11	punct	_	_
-10	где	_	ADV	WRB	_	11	mark	_	_
+10	где	_	SCONJ	WRB	_	11	mark	_	_
 11	играл	_	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past	8	acl:relcl	_	_
 12	в	_	ADP	IN	_	15	case	_	_
 13	течение	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|Person=3	15	mwe	_	_
@@ -9351,7 +9351,7 @@
 2	Младшей	_	ADJ	JJL	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	amod	_	_
 3	Эдде	_	PROPN	NNP	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing|Person=3	10	nmod	_	_
 4	,	_	PUNCT	,	_	3	punct	_	_
-5	если	_	ADP	IN	_	7	mark	_	_
+5	если	_	SCONJ	IN	_	7	mark	_	_
 6	Тор	_	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
 7	проголодался	_	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past	10	advcl	_	_
 8	,	_	PUNCT	,	_	7	punct	_	_
@@ -9536,7 +9536,7 @@
 5	его	_	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	6	dobj	_	_
 6	пропустить	_	VERB	VB	Aspect=Perf	4	xcomp	_	_
 7	,	_	PUNCT	,	_	11	punct	_	_
-8	потому	_	ADV	RB	_	11	mark	_	_
+8	потому	_	SCONJ	RB	_	11	mark	_	_
 9	что	_	ADP	IN	_	8	mwe	_	_
 10	он	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
 11	опаздывает	_	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	advcl	_	_
@@ -10004,12 +10004,12 @@
 9	2004	_	ADJ	JJL	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	amod	_	_
 10	года	_	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Person=3	8	nmod:tmod	_	_
 11	,	_	PUNCT	,	_	15	punct	_	_
-12	когда	_	ADV	WRB	_	15	mark	_	_
+12	когда	_	SCONJ	WRB	_	15	mark	_	_
 13	Дзюнъити	_	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nmod	_	_
 14	Масуда	_	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
 15	объявил	_	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past	6	advcl	_	_
 16	,	_	PUNCT	,	_	20	punct	_	_
-17	что	_	ADP	IN	_	20	mark	_	_
+17	что	_	SCONJ	IN	_	20	mark	_	_
 18	новая	_	ADJ	JJL	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	amod	_	_
 19	игра	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing|Person=3	20	nsubj	_	_
 20	выйдет	_	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut	15	ccomp	_	_
@@ -10212,7 +10212,7 @@
 4	занял	_	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past	0	root	_	_
 5	Кутаиси	_	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3	4	dobj	_	_
 6	,	_	PUNCT	,	_	8	punct	_	_
-7	где	_	ADV	WRB	_	8	mark	_	_
+7	где	_	SCONJ	WRB	_	8	mark	_	_
 8	схватил	_	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past	5	acl:relcl	_	_
 9	Вахтанга	_	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3	8	dobj	_	_
 10	,	_	PUNCT	,	_	9	punct	_	_
@@ -10303,7 +10303,7 @@
 11	в	_	ADP	IN	_	12	case	_	_
 12	Россию	_	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing|Person=3	10	nmod	_	_
 13	,	_	PUNCT	,	_	15	punct	_	_
-14	где	_	ADV	WRB	_	15	mark	_	_
+14	где	_	SCONJ	WRB	_	15	mark	_	_
 15	подписал	_	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past	12	acl:relcl	_	_
 16	контракт	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3	15	dobj	_	_
 17	,	_	PUNCT	,	_	20	punct	_	_
@@ -10318,7 +10318,7 @@
 26	''	_	PUNCT	'	_	25	punct	_	_
 27	.	_	PUNCT	.	_	10	punct	_	_
 
-1	Чтобы	_	ADP	IN	_	2	mark	_	_
+1	Чтобы	_	SCONJ	IN	_	2	mark	_	_
 2	сгладить	_	VERB	VB	Aspect=Perf	14	advcl	_	_
 3	конфронтацию	_	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing|Person=3	2	dobj	_	_
 4	,	_	PUNCT	,	_	2	punct	_	_
@@ -10345,7 +10345,7 @@
 6	банк	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
 7	объявил	_	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past	0	root	_	_
 8	,	_	PUNCT	,	_	14	punct	_	_
-9	что	_	ADP	IN	_	14	mark	_	_
+9	что	_	SCONJ	IN	_	14	mark	_	_
 10	реал	_	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubjpass	_	_
 11	больше	_	ADV	RBR	_	14	advmod	_	_
 12	не	_	PART	NEG	_	13	neg	_	_
