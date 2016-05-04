@@ -7979,7 +7979,7 @@
 56	сподвижник	_	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	40	conj	_	_
 57	Жанны	_	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	56	nmod	_	_
 58	д	_	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	57	name	_	_
-59	'	_	PUNCT	'	_	58	punct	_	_	punct	60	
+59	'	_	PUNCT	'	_	58	punct	_	_
 60	Арк	_	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	56	name	_	_
 61	.	_	PUNCT	.	_	40	punct	_	_
 
