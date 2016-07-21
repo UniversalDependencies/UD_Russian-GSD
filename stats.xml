@@ -8,7 +8,7 @@
     <total><sentences>5030</sentences><tokens>99389</tokens><words>99389</words><fused>0</fused></total>
   </size>
   <lemmas unique="0" /><!--  -->
-  <forms unique="29960" /><!-- ,, ., в, и, --, на, ), (, ``, &#39;&#39;, -, с, по, года, году -->
+  <forms unique="29960" /><!-- ,, ., в, и, –, на, ), (, ``, &#39;&#39;, -, с, по, года, году -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="15">
