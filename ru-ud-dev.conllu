@@ -2898,7 +2898,7 @@
 5	Алматы	АЛМАТЫ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
 6	расположены	РАСПОЛОЖИТЬ	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|Voice=Pass	0	root	_	_
 7	:	:	PUNCT	:	_	6	punct	_	_
-8	В	В	ADP	IN	_	9	case	_	_
+8	В	В	ADP	IN	_	10	advmod	_	_
 9	районе	РАЙОН	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	mwe	_	_
 10	58	58	NUM	CD	Case=Gen	14	nummod:gov	_	_
 11	лечебно	ЛЕЧЕБНО	ADV	AFX	_	13	goeswith	_	_
