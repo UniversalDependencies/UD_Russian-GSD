@@ -9368,7 +9368,7 @@
 37	-	-	PUNCT	-	_	36	goeswith	_	_
 38	Высока	ВЫСОКИЙ	ADV	AFX	_	36	goeswith	_	_
 39	(	(	PUNCT	(	_	41	punct	_	_
-40	1/2	1/2 	NUM	CD	Animacy=Inan|Case=Nom|Gender=Fem	41	nummod:gov	_	_
+40	1/2	1/2	NUM	CD	Animacy=Inan|Case=Nom|Gender=Fem	41	nummod:gov	_	_
 41	версты	ВЕРСТА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	list	_	_
 42	от	ОТ	ADP	IN	_	43	case	_	_
 43	деревни	ДЕРЕВНЯ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	41	nmod	_	_
