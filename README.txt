@@ -9,3 +9,10 @@ Genre: wiki
 Contributors: McDonald, Ryan; Nikolaev, Vitaly; Lyashevskaya, Olga
 Contact: Lyashevskaya, Olga (olesar@yandex.ru)
 ===============================================================================
+
+
+Changelog
+
+2016-11-15 v1.4
+  * Added lemmas.
+  * Various changes to make UD_Russian more similar to UD_Russian-SynTagRus.
