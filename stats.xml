@@ -30,7 +30,7 @@
     <tag name="X">3</tag><!-- ​, С -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="37">
+  <feats unique="38">
     <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">9372</feat><!-- человек, который, человека, женщин, один, II, де, мужчин, которые, назначен -->
     <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">42455</feat><!-- года, году, время, это, области, лет, России, том, того, этого -->
     <feat name="Aspect" value="Imp" upos="AUX,VERB">5199</feat><!-- был, было, были, была, является, составляет, может, находится, быть, входит -->
@@ -62,6 +62,7 @@
     <feat name="Tense" value="Fut" upos="AUX,VERB">126</feat><!-- будет, будут, сможет, поможет, станет, станут, выйдет, начнутся, останется, рассмотрим -->
     <feat name="Tense" value="Past" upos="AUX,VERB">5535</feat><!-- был, было, были, была, стал, получил, родился, начал, работал, стала -->
     <feat name="Tense" value="Pres" upos="AUX,VERB">2438</feat><!-- является, составляет, может, находится, входит, имеет, есть, занимает, могут, являются -->
+    <feat name="Variant" value="Short" upos="ADJ,AUX,VERB">1189</feat><!-- назначен, расположен, должен, основана, должна, основан, расположена, должны, известен, награждён -->
     <feat name="VerbForm" value="Conv" upos="AUX,VERB">310</feat><!-- будучи, включая, начиная, используя, говоря, став, выйдя, имея, считая, чувствуя -->
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">6048</feat><!-- был, было, были, была, является, стал, составляет, может, находится, входит -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">869</feat><!-- быть, заниматься, играть, сделать, использовать, работать, стать, найти, считать, принимать -->
@@ -70,7 +71,7 @@
     <feat name="Voice" value="Pass" upos="AUX,VERB">1476</feat><!-- назначен, расположен, основана, основан, расположена, награждён, создана, расположено, расположены, назван -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="41">
+  <deps unique="40">
     <dep name="acl">1118</dep>
     <dep name="acl:relcl">652</dep>
     <dep name="advcl">530</dep>
@@ -98,14 +99,13 @@
     <dep name="list">583</dep>
     <dep name="mark">510</dep>
     <dep name="nmod">12228</dep>
-    <dep name="nmod:agent">6</dep>
     <dep name="nsubj">4974</dep>
     <dep name="nsubj:pass">672</dep>
-    <dep name="nummod">530</dep>
-    <dep name="nummod:entity">128</dep>
+    <dep name="nummod">658</dep>
     <dep name="nummod:gov">900</dep>
     <dep name="obj">2631</dep>
     <dep name="obl">6971</dep>
+    <dep name="obl:agent">6</dep>
     <dep name="parataxis">610</dep>
     <dep name="punct">17787</dep>
     <dep name="remnant">228</dep>
