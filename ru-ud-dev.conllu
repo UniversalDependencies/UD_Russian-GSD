@@ -139,7 +139,7 @@
 15	распространения	РАСПРОСТРАНЕНИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
 16	СМИ	СМИ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	19	punct	_	_
-18	что	ЧТО	ADP	IN	_	19	nsubj	_	_
+18	что	ЧТО	PRON	IN	_	19	nsubj	_	_
 19	вынудило	ВЫНУДИТЬ	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	10	acl:relcl	_	_
 20	её	ЕЕ	DET	PRP$	Person=3	21	det	_	_
 21	учредителей	УЧРЕДИТЕЛЬ	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	19	obj	_	_
@@ -339,12 +339,12 @@
 21	в	В	ADP	IN	_	23	case	_	_
 22	чашеобразные	ЧАШЕОБРАЗНЫЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Number=Plur	23	amod	_	_
 23	гнёзда	ГНЕЗДО	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	14	nmod	_	SpaceAfter=No
-24	,	,	PUNCT	,	_	25	punct	_	_
-25	такие	ТАКОЙ	DET	DT	Animacy=Inan|Case=Ins|Number=Plur	23	nmod	_	_
-26	как	КАК	ADP	IN	_	25	case	_	_
-27	у	У	ADP	IN	_	25	fixed	_	_
+24	,	,	PUNCT	,	_	29	punct	_	_
+25	такие	ТАКОЙ	DET	DT	Animacy=Inan|Case=Ins|Number=Plur	29	case	_	_
+26	как	КАК	ADP	IN	_	25	fixed	_	_
+27	у	У	ADP	IN	_	29	case	_	_
 28	жёлтой	ЖЕЛТЫЙ	ADJ	JJL	Animacy=Anim|Case=Loc|Gender=Fem|Number=Sing	29	amod	_	_
-29	древесницы	ДРЕВЕСНИЦА	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+29	древесницы	ДРЕВЕСНИЦА	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = dev-s14
@@ -708,8 +708,8 @@
 19	,	,	PUNCT	,	_	22	punct	_	_
 20	а	А	CCONJ	CC	_	22	cc	_	_
 21	также	ТАКЖЕ	CCONJ	CC	_	20	fixed	_	_
-22	от	ОТ	ADP	IN	_	13	conj	_	_
-23	монахов	МОНАХ	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+22	от	ОТ	ADP	IN	_	23	case	_	_
+23	монахов	МОНАХ	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	conj	_	_
 24	сербского	СЕРБСКИЙ	ADJ	JJL	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	amod	_	_
 25	монастыря	МОНАСТЫРЬ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
 26	Хиландар	ХИЛАНДАР	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	appos	_	_
@@ -1126,11 +1126,11 @@
 
 # sent_id = dev-s46
 # text = Несмотря на неопределённость дат, все средневековые списки королей Ульстера сообщают, что преемником короля Эохайда стал его брат Кайрелл.
-1	Несмотря	НЕСМОТРЯ	ADP	IN	_	2	case	_	_
-2	на	НА	ADP	IN	_	11	obl	_	_
-3	неопределённость	НЕОПРЕДЕЛЕННОСТЬ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	fixed	_	_
-4	дат	ДАТА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
-5	,	,	PUNCT	,	_	2	punct	_	_
+1	Несмотря	НЕСМОТРЯ	ADP	IN	_	3	case	_	_
+2	на	НА	ADP	IN	_	1	fixed	_	_
+3	неопределённость	НЕОПРЕДЕЛЕННОСТЬ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+4	дат	ДАТА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	3	punct	_	_
 6	все	ВЕСЬ	DET	DT	Animacy=Inan|Case=Nom|Number=Plur	8	det	_	_
 7	средневековые	СРЕДНЕВЕКОВЫЙ	ADJ	JJL	Animacy=Inan|Case=Nom|Number=Plur	8	amod	_	_
 8	списки	СПИСОК	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
@@ -1337,9 +1337,9 @@
 17	делах	ДЕЛО	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	10	nmod	_	_
 18	с	С	ADP	IN	_	19	case	_	_
 19	горцами	ГОРЕЦ	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	17	nmod	_	_
-20	и	И	CCONJ	CC	_	21	cc	_	_
-21	в	В	ADP	IN	_	17	conj	_	_
-22	проложении	ПРОЛОЖЕНИЕ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	nmod	_	_
+20	и	И	CCONJ	CC	_	22	cc	_	_
+21	в	В	ADP	IN	_	22	case	_	_
+22	проложении	ПРОЛОЖЕНИЕ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	conj	_	_
 23	просек	ПРОСЕКА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_
 24	и	И	CCONJ	CC	_	25	cc	_	_
 25	дорог	ДОРОГА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	conj	_	SpaceAfter=No
@@ -1469,14 +1469,14 @@
 8	развитие	РАЗВИТИЕ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
 9	липосарком	ЛИПОСАРКОМА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
 10	как	КАК	ADV	WRB	_	8	cc:preconj	_	_
-11	из	ИЗ	ADP	IN	_	10	nmod	_	_
-12	одиночных	ОДИНОЧНЫЙ	ADJ	JJL	Animacy=Inan|Case=Gen|Number=Plur	11	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	,	_	16	punct	_	_
-14	так	ТАК	ADV	RB	_	16	cc	_	_
+11	из	ИЗ	ADP	IN	_	18	case	_	_
+12	одиночных	ОДИНОЧНЫЙ	ADJ	JJL	Animacy=Inan|Case=Gen|Number=Plur	18	amod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	17	punct	_	_
+14	так	ТАК	ADV	RB	_	17	cc	_	_
 15	и	И	CCONJ	CC	_	14	fixed	_	_
-16	из	ИЗ	ADP	IN	_	11	conj	_	_
+16	из	ИЗ	ADP	IN	_	18	case	_	_
 17	множественных	МНОЖЕСТВЕННЫЙ	ADJ	JJL	Animacy=Inan|Case=Gen|Number=Plur	18	amod	_	_
-18	липом	ЛИПОМА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nmod	_	SpaceAfter=No
+18	липом	ЛИПОМА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = dev-s62
@@ -1521,10 +1521,10 @@
 12	мир	МИР	AUX	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	cop	_	_
 13	другими	ДРУГОЙ	ADJ	JJL	Animacy=Inan|Case=Ins|Number=Plur	14	amod	_	_
 14	глазами	ГЛАЗ	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	10	iobj	_	_
-15	и	И	CCONJ	CC	_	14	cc	_	_
-16	в	В	ADP	IN	_	10	conj	_	_
+15	и	И	CCONJ	CC	_	18	cc	_	_
+16	в	В	ADP	IN	_	18	case	_	_
 17	других	ДРУГОЙ	ADJ	JJL	Animacy=Inan|Case=Loc|Number=Plur	18	amod	_	_
-18	красках	КРАСКА	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	16	nmod	_	_
+18	красках	КРАСКА	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	14	conj	_	_
 19	--	--	PUNCT	--	_	20	punct	_	_
 20	непростым	НЕПРОСТОЙ	ADJ	JJL	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	23	punct	_	_
@@ -1649,9 +1649,9 @@
 28	в	В	ADP	IN	_	30	case	_	_
 29	своей	СВОЙ	DET	PRP$	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing|Reflex=Yes	30	det	_	_
 30	пирамиде	ПИРАМИДА	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
-31	,	,	PUNCT	,	_	32	punct	_	_
-32	в	В	ADP	IN	_	30	conj	_	_
-33	текстах	ТЕКСТ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	32	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	,	_	33	punct	_	_
+32	в	В	ADP	IN	_	33	case	_	_
+33	текстах	ТЕКСТ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	30	conj	_	SpaceAfter=No
 34	,	,	PUNCT	,	_	36	punct	_	_
 35	не	НЕ	PART	NEG	Polarity=Neg	36	advmod	_	_
 36	предназначенных	ПРЕДНАЗНАЧИТЬ	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Loc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	33	acl	_	_
@@ -2034,25 +2034,25 @@
 1	У	У	ADP	IN	_	3	case	_	_
 2	восточных	ВОСТОЧНЫЙ	ADJ	JJL	Animacy=Anim|Case=Gen|Number=Plur	3	amod	_	_
 3	славян	СЛАВЯНИН	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	obl	_	_
-4	и	И	CCONJ	CC	_	5	cc	_	_
-5	на	НА	ADP	IN	_	3	conj	_	_
-6	Балканах	БАЛКАНЫ	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	nmod	_	_
+4	и	И	CCONJ	CC	_	6	cc	_	_
+5	на	НА	ADP	IN	_	6	case	_	_
+6	Балканах	БАЛКАНЫ	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	3	conj	_	_
 7	во	ВО	ADP	IN	_	8	case	_	_
 8	время	ВРЕМЯ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	obl	_	_
 9	Святок	СВЯТКИ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
-10	(	(	PUNCT	(	_	11	punct	_	SpaceAfter=No
-11	в	В	ADP	IN	_	8	conj	_	_
-12	Крещенский	КРЕЩЕНСКИЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	,	_	19	punct	_	_
-14	а	А	CCONJ	CC	_	19	cc	_	_
-15	с	С	ADP	IN	_	19	nmod	_	_
+10	(	(	PUNCT	(	_	21	punct	_	SpaceAfter=No
+11	в	В	ADP	IN	_	21	case	_	_
+12	Крещенский	КРЕЩЕНСКИЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	20	punct	_	_
+14	а	А	CCONJ	CC	_	20	cc	_	_
+15	с	С	ADP	IN	_	17	case	_	_
 16	XVIII	XVIII	ADJ	JJL	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	amod	_	_
-17	века	ВЕК	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
-18	--	--	PUNCT	--	_	19	punct	_	_
-19	в	В	ADP	IN	_	11	conj	_	_
+17	века	ВЕК	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+18	--	--	PUNCT	--	_	17	punct	_	_
+19	в	В	ADP	IN	_	21	case	_	_
 20	Васильев	ВАСИЛЬЕВ	ADJ	JJL	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	amod	_	_
-21	вечер	ВЕЧЕР	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
-22	)	)	PUNCT	)	_	11	punct	_	_
+21	вечер	ВЕЧЕР	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
+22	)	)	PUNCT	)	_	21	punct	_	_
 23	проводился	ПРОВОДИТЬСЯ	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
 24	обряд	ОБРЯД	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
 25	``	``	PUNCT	``	_	26	punct	_	SpaceAfter=No
@@ -2129,9 +2129,9 @@
 1	Выступала	ВЫСТУПАТЬ	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
 2	в	В	ADP	IN	_	3	case	_	_
 3	театрах	ТЕАТР	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	1	obl	_	_
-4	и	И	CCONJ	CC	_	5	cc	_	_
-5	на	НА	ADP	IN	_	3	conj	_	_
-6	фестивалях	ФЕСТИВАЛЬ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	nmod	_	_
+4	и	И	CCONJ	CC	_	6	cc	_	_
+5	на	НА	ADP	IN	_	6	case	_	_
+6	фестивалях	ФЕСТИВАЛЬ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	conj	_	_
 7	в	В	ADP	IN	_	8	case	_	_
 8	Германии	ГЕРМАНИЯ	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	_	_
@@ -2537,7 +2537,7 @@
 2	налог	НАЛОГ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
 3	перелагается	ПЕРЕЛАГАТЬСЯ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	7	punct	_	_
-5	то	ТО	ADP	IN	_	7	advmod	_	_
+5	то	ТО	SCONJ	IN	_	7	mark	_	_
 6	это	ЭТО	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
 7	значит	ЗНАЧИТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	11	punct	_	_
@@ -2651,10 +2651,10 @@
 7	танков	ТАНК	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
 8	и	И	CCONJ	CC	_	9	cc	_	_
 9	САУ	САУ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	conj	_	SpaceAfter=No
-10	,	,	PUNCT	,	_	11	punct	_	_
-11	до	ДО	ADP	IN	_	7	conj	_	_
+10	,	,	PUNCT	,	_	13	punct	_	_
+11	до	ДО	ADP	IN	_	13	case	_	_
 12	750	750	NUM	CD	Case=Gen|NumType=Card	13	nummod	_	_
-13	орудий	ОРУДИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	SpaceAfter=No
+13	орудий	ОРУДИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	conj	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	15	punct	_	_
 15	миномётов	МИНОМЕТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	conj	_	_
 16	и	И	CCONJ	CC	_	18	cc	_	_
@@ -3005,15 +3005,15 @@
 
 # sent_id = dev-s129
 # text = В рамках региональной инициативы ``Харьков научный -- Харькову индустриальному! &#39;&#39;
-1	В	В	ADP	IN	_	0	root	_	_
-2	рамках	РАМКА	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	1	nmod	_	_
+1	В	В	ADP	IN	_	4	case	_	_
+2	рамках	РАМКА	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	1	fixed	_	_
 3	региональной	РЕГИОНАЛЬНЫЙ	ADJ	JJL	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	amod	_	_
-4	инициативы	ИНИЦИАТИВА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	инициативы	ИНИЦИАТИВА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	root	_	_
 5	``	``	PUNCT	``	_	6	punct	_	SpaceAfter=No
 6	Харьков	ХАРЬКОВ	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
 7	научный	НАУЧНЫЙ	ADJ	JJL	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
 8	--	--	PUNCT	--	_	6	punct	_	_
-9	Харькову	ХАРЬКОВ	PROPN	NNP	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	iobj	_	_
+9	Харькову	ХАРЬКОВ	PROPN	NNP	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	orphan	_	_
 10	индустриальному	ИНДУСТРИАЛЬНЫЙ	ADJ	JJL	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
 11	!	!	PUNCT	.	_	6	punct	_	_
 12	&#39;&#39;	&#39;&#39;	PUNCT	&#39;&#39;	_	6	punct	_	_
@@ -3054,7 +3054,7 @@
 20	мы	МЫ	PRON	PRP	Case=Nom|Number=Plur|Person=1	21	nsubj	_	_
 21	знаем	ЗНАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	24	punct	_	_
-23	что	ЧТО	ADP	IN	_	24	obj	_	_
+23	что	ЧТО	PRON	WP	_	24	obj	_	_
 24	надо	НАДО	VERB	PRED	Degree=Pos	21	ccomp	_	_
 25	делать	ДЕЛАТЬ	VERB	VB	Aspect=Imp|VerbForm=Inf	24	xcomp	_	_
 26	и	И	CCONJ	CC	_	28	cc	_	_
@@ -3269,16 +3269,16 @@
 13	против	ПРОТИВ	ADP	IN	_	15	case	_	_
 14	царского	ЦАРСКИЙ	ADJ	JJL	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	amod	_	_
 15	указа	УКАЗ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
-16	``	``	PUNCT	``	_	17	punct	_	SpaceAfter=No
-17	о	О	ADP	IN	_	15	appos	_	_
-18	призыве	ПРИЗЫВ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	nmod	_	_
+16	``	``	PUNCT	``	_	18	punct	_	SpaceAfter=No
+17	о	О	ADP	IN	_	18	case	_	_
+18	призыве	ПРИЗЫВ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	appos	_	_
 19	в	В	ADP	IN	_	20	case	_	_
 20	армию	АРМИЯ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	nmod	_	_
 21	инородцев	ИНОРОДЕЦ	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
 22	из	ИЗ	ADP	IN	_	23	case	_	_
 23	числа	ЧИСЛО	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
 24	казахов	КАЗАХ	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
-25	&#39;&#39;	&#39;&#39;	PUNCT	&#39;&#39;	_	17	punct	_	_
+25	&#39;&#39;	&#39;&#39;	PUNCT	&#39;&#39;	_	18	punct	_	_
 26	о	О	ADP	IN	_	28	case	_	_
 27	данном	ДАННЫЙ	ADJ	JJL	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	28	amod	_	_
 28	восстании	ВОССТАНИЕ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	29	obl	_	_
@@ -3412,12 +3412,12 @@
 
 # sent_id = dev-s145
 # text = Несмотря на базирование на Холбоулин, экипаж корабля связывают шефские отношения с городом Голуэй.
-1	Несмотря	НЕСМОТРЯ	ADP	IN	_	2	case	_	_
-2	на	НА	ADP	IN	_	9	obl	_	_
-3	базирование	БАЗИРОВАНИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	fixed	_	_
+1	Несмотря	НЕСМОТРЯ	ADP	IN	_	3	case	_	_
+2	на	НА	ADP	IN	_	1	fixed	_	_
+3	базирование	БАЗИРОВАНИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
 4	на	НА	ADP	IN	_	5	case	_	_
 5	Холбоулин	ХОЛБОУЛИН	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	,	_	2	punct	_	_
+6	,	,	PUNCT	,	_	3	punct	_	_
 7	экипаж	ЭКИПАЖ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
 8	корабля	КОРАБЛЬ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
 9	связывают	СВЯЗЫВАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4653,14 +4653,14 @@
 
 # sent_id = dev-s195
 # text = О лечении и профилактике в статье неврит.
-1	О	О	ADP	IN	_	0	root	_	_
-2	лечении	ЛЕЧЕНИЕ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	_
+1	О	О	ADP	IN	_	2	case	_	_
+2	лечении	ЛЕЧЕНИЕ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	_
 3	и	И	CCONJ	CC	_	4	cc	_	_
 4	профилактике	ПРОФИЛАКТИКА	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	conj	_	_
 5	в	В	ADP	IN	_	6	case	_	_
 6	статье	СТАТЬЯ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
 7	неврит	НЕВРИТ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
-8	.	.	PUNCT	.	_	1	punct	_	_
+8	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = dev-s196
 # text = Большую роль играет методологическая составляющая -- как именно ставить задачи, какие предположения принять с целью дальнейшего математического изучения.
@@ -4815,12 +4815,12 @@
 # text = Нижние листья -- в розетке, немного кожистые, эллиптические или продолговатые (обратноланцетные), постепенно сужающиеся в черешок.
 1	Нижние	НИЖНИЙ	ADJ	JJL	Animacy=Inan|Case=Nom|Number=Plur	2	amod	_	_
 2	листья	ЛИСТ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
-3	--	--	PUNCT	--	_	4	punct	_	_
-4	в	В	ADP	IN	_	0	root	_	_
-5	розетке	РОЗЕТКА	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+3	--	--	PUNCT	--	_	5	punct	_	_
+4	в	В	ADP	IN	_	5	case	_	_
+5	розетке	РОЗЕТКА	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	8	punct	_	_
 7	немного	НЕМНОГО	ADV	RB	_	8	advmod	_	_
-8	кожистые	КОЖИСТЫЙ	ADJ	JJL	Animacy=Inan|Case=Nom|Number=Plur	4	conj	_	SpaceAfter=No
+8	кожистые	КОЖИСТЫЙ	ADJ	JJL	Animacy=Inan|Case=Nom|Number=Plur	5	conj	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	_	_
 10	эллиптические	ЭЛЛИПТИЧЕСКИЙ	ADJ	JJL	Animacy=Inan|Case=Nom|Number=Plur	8	conj	_	_
 11	или	ИЛИ	CCONJ	CC	_	12	cc	_	_
@@ -4833,7 +4833,7 @@
 18	сужающиеся	СУЖАТЬСЯ	VERB	VBNL	Animacy=Inan|Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	acl	_	_
 19	в	В	ADP	IN	_	20	case	_	_
 20	черешок	ЧЕРЕШОК	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
-21	.	.	PUNCT	.	_	4	punct	_	_
+21	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = dev-s204
 # text = Эта башня является самой узнаваемой достопримечательностью на северо - западе тихоокеанского побережья США и символом Сиэтла.
@@ -6553,24 +6553,24 @@
 
 # sent_id = dev-s285
 # text = В отличие от остальных мультфильмов про Астерикса, он основан не на комиксе, а на древнегреческом мифе о двенадцати подвигах Геракла.
-1	В	В	ADP	IN	_	2	case	_	_
-2	отличие	ОТЛИЧИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
-3	от	ОТ	ADP	IN	_	2	fixed	_	_
-4	остальных	ОСТАЛЬНОЙ	ADJ	JJL	Animacy=Inan|Case=Gen|Number=Plur	2	amod	_	_
-5	мультфильмов	МУЛЬТФИЛЬМ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	fixed	_	_
+1	В	В	ADP	IN	_	5	case	_	_
+2	отличие	ОТЛИЧИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	от	ОТ	ADP	IN	_	1	fixed	_	_
+4	остальных	ОСТАЛЬНОЙ	ADJ	JJL	Animacy=Inan|Case=Gen|Number=Plur	5	amod	_	_
+5	мультфильмов	МУЛЬТФИЛЬМ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
 6	про	ПРО	ADP	IN	_	7	case	_	_
-7	Астерикса	АСТЕРИКС	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+7	Астерикса	АСТЕРИКС	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	2	punct	_	_
 9	он	ОН	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj:pass	_	_
 10	основан	ОСНОВАТЬ	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
 11	не	НЕ	PART	NEG	Polarity=Neg	13	advmod	_	_
 12	на	НА	ADP	IN	_	13	case	_	_
 13	комиксе	КОМИКС	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
-14	,	,	PUNCT	,	_	16	punct	_	_
-15	а	А	CCONJ	CC	_	16	cc	_	_
-16	на	НА	ADP	IN	_	13	conj	_	_
+14	,	,	PUNCT	,	_	18	punct	_	_
+15	а	А	CCONJ	CC	_	18	cc	_	_
+16	на	НА	ADP	IN	_	18	case	_	_
 17	древнегреческом	ДРЕВНЕГРЕЧЕСКИЙ	ADJ	JJL	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	amod	_	_
-18	мифе	МИФ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	nmod	_	_
+18	мифе	МИФ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	conj	_	_
 19	о	О	ADP	IN	_	21	case	_	_
 20	двенадцати	ДВЕНАДЦАТЬ	NUM	CD	Case=Loc|NumType=Card	21	nummod	_	_
 21	подвигах	ПОДВИГ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	nmod	_	_
@@ -6597,19 +6597,19 @@
 16	,	,	PUNCT	,	_	18	punct	_	_
 17	Красной	КРАСНЫЙ	ADJ	JJL	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	amod	_	_
 18	Звезды	ЗВЕЗДА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
-19	,	,	PUNCT	,	_	21	punct	_	_
-20	``	``	PUNCT	&#39;&#39;	_	21	punct	_	SpaceAfter=No
-21	За	ЗА	ADP	IN	_	11	conj	_	_
-22	службу	СЛУЖБА	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	nmod	_	_
+19	,	,	PUNCT	,	_	22	punct	_	_
+20	``	``	PUNCT	&#39;&#39;	_	22	punct	_	SpaceAfter=No
+21	За	ЗА	ADP	IN	_	22	case	_	_
+22	службу	СЛУЖБА	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	conj	_	_
 23	Родине	РОДИНА	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	22	iobj	_	_
 24	в	В	ADP	IN	_	25	case	_	_
 25	ВС	ВС	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	22	nmod	_	_
 26	СССР	СССР	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
-27	&#39;&#39;	&#39;&#39;	PUNCT	``	_	21	punct	_	_
+27	&#39;&#39;	&#39;&#39;	PUNCT	``	_	22	punct	_	_
 28	3	3	ADV	AFX	_	31	amod	_	_
 29	-	-	PUNCT	-	_	28	goeswith	_	_
 30	й	Й	ADJ	ORD	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	goeswith	_	_
-31	степени	СТЕПЕНЬ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+31	степени	СТЕПЕНЬ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
 32	,	,	PUNCT	,	_	33	punct	_	_
 33	рядом	РЯД	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	conj	_	_
 34	медалей	МЕДАЛЬ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	33	nmod	_	SpaceAfter=No
@@ -7221,8 +7221,8 @@
 21	в	В	ADP	IN	_	22	case	_	_
 22	помете	ПОМЕТ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	nmod	_	_
 23	(	(	PUNCT	(	_	24	punct	_	SpaceAfter=No
-24	до	ДО	ADP	IN	_	20	appos	_	_
-25	пяти	ПЯТЬ	NUM	CD	Case=Gen|NumType=Card	24	nmod	_	SpaceAfter=No
+24	до	ДО	ADP	IN	_	25	case	_	_
+25	пяти	ПЯТЬ	NUM	CD	Case=Gen|NumType=Card	18	parataxis	_	SpaceAfter=No
 26	)	)	PUNCT	)	_	24	punct	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	10	punct	_	_
 
@@ -7359,9 +7359,9 @@
 2	при	ПРИ	ADP	IN	_	3	case	_	_
 3	освобождении	ОСВОБОЖДЕНИЕ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	obl	_	_
 4	Донбасса	ДОНБАСС	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
-5	и	И	CCONJ	CC	_	6	cc	_	_
-6	в	В	ADP	IN	_	3	conj	_	_
-7	боях	БОЙ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	nmod	_	_
+5	и	И	CCONJ	CC	_	7	cc	_	_
+6	в	В	ADP	IN	_	7	case	_	_
+7	боях	БОЙ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	3	conj	_	_
 8	за	ЗА	ADP	IN	_	9	case	_	_
 9	Ростов	РОСТОВ	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
 10	-	-	PUNCT	-	_	9	goeswith	_	_
@@ -7519,7 +7519,7 @@
 5	Алматы	АЛМАТЫ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
 6	расположены	РАСПОЛОЖИТЬ	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 7	:	:	PUNCT	:	_	6	punct	_	_
-8	В	В	ADP	IN	_	10	advmod	_	_
+8	В	В	ADP	IN	_	14	case	_	_
 9	районе	РАЙОН	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	fixed	_	_
 10	58	58	NUM	CD	Case=Gen|NumType=Card	14	nummod:gov	_	_
 11	лечебно	ЛЕЧЕБНО	ADV	AFX	_	14	amod	_	_
@@ -7997,22 +7997,22 @@
 42	прорыве	ПРОРЫВ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	39	obl	_	_
 43	обороны	ОБОРОНА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	42	nmod	_	_
 44	противника	ПРОТИВНИК	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	43	nmod	_	_
-45	в	В	ADP	IN	_	46	case	_	_
-46	ходе	ХОД	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	39	obl	_	_
+45	в	В	ADP	IN	_	50	case	_	_
+46	ходе	ХОД	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	45	fixed	_	_
 47	Люблинско	ЛЮБЛИНСКО	ADV	AFX	_	50	amod	_	_
 48	-	-	PUNCT	-	_	47	goeswith	_	_
 49	Брестской	БРЕСТСКИЙ	ADJ	JJL	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	47	goeswith	_	_
-50	операции	ОПЕРАЦИЯ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	46	nmod	_	_
+50	операции	ОПЕРАЦИЯ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	42	nmod	_	_
 51	в	В	ADP	IN	_	52	case	_	_
 52	июле	ИЮЛЬ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	39	obl	_	_
 53	1944	1944	ADJ	ORD	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	54	amod	_	_
 54	года	ГОД	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	52	nmod	_	SpaceAfter=No
-55	,	,	PUNCT	,	_	58	punct	_	_
-56	а	А	CCONJ	CC	_	58	cc	_	_
+55	,	,	PUNCT	,	_	60	punct	_	_
+56	а	А	CCONJ	CC	_	60	cc	_	_
 57	также	ТАКЖЕ	CCONJ	CC	_	56	fixed	_	_
-58	в	В	ADP	IN	_	46	conj	_	_
-59	ходе	ХОД	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	58	nmod	_	_
-60	форсирования	ФОРСИРОВАНИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	59	nmod	_	_
+58	в	В	ADP	IN	_	60	case	_	_
+59	ходе	ХОД	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	58	fixed	_	_
+60	форсирования	ФОРСИРОВАНИЕ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	46	conj	_	_
 61	Западного	ЗАПАДНЫЙ	ADJ	JJL	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	62	amod	_	_
 62	Буга	БУГ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	60	nmod	_	_
 63	у	У	ADP	IN	_	64	case	_	_
@@ -8813,12 +8813,12 @@
 1	После	ПОСЛЕ	ADP	IN	_	2	case	_	_
 2	того	ТО	PRON	DT	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	obl	_	_
 3	как	КАК	SCONJ	IN	_	12	mark	_	SpaceAfter=No
-4	,	,	PUNCT	,	_	5	punct	_	_
-5	после	ПОСЛЕ	ADP	IN	_	12	obl	_	_
+4	,	,	PUNCT	,	_	8	punct	_	_
+5	после	ПОСЛЕ	ADP	IN	_	8	case	_	_
 6	Второй	ВТОРОЙ	ADJ	ORD	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	amod	_	_
 7	мировой	МИРОВОЙ	ADJ	JJL	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	amod	_	_
-8	войны	ВОЙНА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
-9	,	,	PUNCT	,	_	5	punct	_	_
+8	войны	ВОЙНА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+9	,	,	PUNCT	,	_	8	punct	_	_
 10	кладбище	КЛАДБИЩЕ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj:pass	_	_
 11	было	БЫТЬ	AUX	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	12	aux:pass	_	_
 12	разрушено	РАЗРУШИТЬ	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	20	advcl	_	SpaceAfter=No
@@ -8968,11 +8968,11 @@
 
 # sent_id = dev-s381
 # text = В отличие от них, неграмотный Чхольджон не мог даже прочитать отдельное слово на уведомлении с поздравлениями, адресованными ему по случаю коронации.
-1	В	В	ADP	IN	_	2	case	_	_
-2	отличие	ОТЛИЧИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
-3	от	ОТ	ADP	IN	_	2	fixed	_	_
-4	них	ОНИ	PRON	PRP	Case=Gen|Number=Plur|Person=3	2	fixed	_	SpaceAfter=No
-5	,	,	PUNCT	,	_	2	punct	_	_
+1	В	В	ADP	IN	_	4	case	_	_
+2	отличие	ОТЛИЧИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	fixed	_	_
+3	от	ОТ	ADP	IN	_	1	fixed	_	_
+4	них	ОНИ	PRON	PRP	Case=Gen|Number=Plur|Person=3	9	obl	_	SpaceAfter=No
+5	,	,	PUNCT	,	_	4	punct	_	_
 6	неграмотный	НЕГРАМОТНЫЙ	ADJ	JJL	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	amod	_	_
 7	Чхольджон	ЧХОЛЬДЖОН	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 8	не	НЕ	PART	NEG	Polarity=Neg	9	advmod	_	_
@@ -9292,10 +9292,10 @@
 38	портов	ПОРТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	35	nmod	_	_
 39	USB	USB	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	appos	_	_
 40	3.0	3.0	NUM	CD	Case=Nom|NumType=Card	39	nummod	_	_
-41	и	И	CCONJ	CC	_	42	cc	_	_
-42	до	ДО	ADP	IN	_	38	conj	_	_
+41	и	И	CCONJ	CC	_	44	cc	_	_
+42	до	ДО	ADP	IN	_	44	case	_	_
 43	6	6	NUM	CD	Case=Gen|NumType=Card	44	nummod	_	_
-44	шин	ШИНА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	42	nmod	_	_
+44	шин	ШИНА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	38	conj	_	_
 45	SATA	SATA	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	44	appos	_	_
 46	6	6	NUM	CD	Case=Gen|NumType=Card	47	nummod	_	_
 47	Гбит	ГБИТ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	45	advmod	_	_
@@ -9390,11 +9390,11 @@
 4	Air	AIR	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
 5	Max	MAX	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
 6	выше	ВЫСОКИЙ	ADJ	JJR	Degree=Cmp	0	root	_	SpaceAfter=No
-7	,	,	PUNCT	,	_	6	punct	_	_
-8	чем	ЧЕМ	ADP	IN	_	9	case	_	_
-9	на	НА	ADP	IN	_	6	nmod	_	_
+7	,	,	PUNCT	,	_	11	punct	_	_
+8	чем	ЧЕМ	SCONJ	IN	_	11	case	_	_
+9	на	НА	ADP	IN	_	11	case	_	_
 10	другие	ДРУГОЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Number=Plur	11	amod	_	_
-11	кроссовки	КРОССОВОК	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	nmod	_	_
+11	кроссовки	КРОССОВОК	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	nmod	_	_
 12	той	ТОТ	DET	DT	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	det	_	_
 13	же	ЖЕ	PART	UH	_	12	discourse	_	_
 14	фирмы	ФИРМА	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
@@ -10060,13 +10060,13 @@
 13	Чама	ЧАМА	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
 14	Ча	ЧА	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
 15	Мапиндузи	МАПИНДУЗИ	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	appos	_	SpaceAfter=No
-16	,	,	PUNCT	,	_	5	punct	_	_
-17	в	В	ADP	IN	_	5	conj	_	orig_deprel=obl
-18	1997	1997	ADJ	ORD	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	nmod	_	_
+16	,	,	PUNCT	,	_	22	punct	_	_
+17	в	В	ADP	IN	_	18	case	_	orig_deprel=obl
+18	1997	1997	ADJ	ORD	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	orphan	_	_
 19	--	--	PUNCT	--	_	18	punct	_	_
-20	в	В	ADP	IN	_	9	punct	_	_
+20	в	В	ADP	IN	_	22	punct	_	_
 21	Центральный	ЦЕНТРАЛЬНЫЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	amod	_	_
-22	Комитет	КОМИТЕТ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+22	Комитет	КОМИТЕТ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = dev-s426
@@ -10457,11 +10457,11 @@
 3	в	В	ADP	IN	_	5	case	_	_
 4	18	18	NUM	CD	Case=Loc|NumType=Card	5	nummod	_	_
 5	мидрашах	МИДРАШ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	18	obl	_	_
-6	и	И	CCONJ	CC	_	7	cc	_	_
-7	в	В	ADP	IN	_	5	conj	_	_
+6	и	И	CCONJ	CC	_	10	cc	_	_
+7	в	В	ADP	IN	_	10	case	_	_
 8	4	4	NUM	CD	Animacy=Inan|Case=Loc|NumType=Card	10	nummod	_	_
 9	молитвенных	МОЛИТВЕННЫЙ	ADJ	JJL	Animacy=Inan|Case=Loc|Number=Plur	10	amod	_	_
-10	школах	ШКОЛА	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+10	школах	ШКОЛА	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	12	punct	_	_
 12	существовавших	СУЩЕСТВОВАТЬ	VERB	VBNL	Animacy=Inan|Aspect=Imp|Case=Loc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	5	acl	_	_
 13	при	ПРИ	ADP	IN	_	16	case	_	_
@@ -10483,8 +10483,8 @@
 
 # sent_id = dev-s446
 # text = По данным государственного водного реестра России относится к Двинско - Печорскому бассейновому округу, водохозяйственный участок реки -- Печора от истока до водомерного поста у посёлка Шердино, речной подбассейн реки -- Бассейны притоков Печоры до впадения Усы.
-1	По	ПО	ADP	IN	_	7	obl	_	_
-2	данным	ДАННЫЕ	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	1	nmod	_	_
+1	По	ПО	ADP	IN	_	2	case	_	_
+2	данным	ДАННЫЕ	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	7	obl	_	_
 3	государственного	ГОСУДАРСТВЕННЫЙ	ADJ	JJL	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	amod	_	_
 4	водного	ВОДНЫЙ	ADJ	JJL	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	amod	_	_
 5	реестра	РЕЕСТР	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
@@ -10859,17 +10859,17 @@
 # sent_id = dev-s464
 # text = Иногда, как в древности, если вождь принимает Православие, то его примеру следует все племя.
 1	Иногда	ИНОГДА	ADV	RB	_	15	advmod	_	SpaceAfter=No
-2	,	,	PUNCT	,	_	4	punct	_	_
-3	как	КАК	ADP	IN	_	4	case	_	_
-4	в	В	ADP	IN	_	15	obl	_	_
-5	древности	ДРЕВНОСТЬ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
-6	,	,	PUNCT	,	_	4	punct	_	_
+2	,	,	PUNCT	,	_	5	punct	_	_
+3	как	КАК	SCONJ	IN	_	4	case	_	_
+4	в	В	ADP	IN	_	5	case	_	_
+5	древности	ДРЕВНОСТЬ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	appos	_	SpaceAfter=No
+6	,	,	PUNCT	,	_	5	punct	_	_
 7	если	ЕСЛИ	SCONJ	IN	_	9	mark	_	_
 8	вождь	ВОЖДЬ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
 9	принимает	ПРИНИМАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
 10	Православие	ПРАВОСЛАВИЕ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	9	punct	_	_
-12	то	ТО	ADV	RB	_	15	advmod	_	_
+12	то	ТО	ADV	RB	_	15	mark	_	_
 13	его	ЕГО	DET	PRP$	Person=3	14	det	_	_
 14	примеру	ПРИМЕР	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	15	iobj	_	_
 15	следует	СЛЕДОВАТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12459,10 +12459,10 @@
 6	:	:	PUNCT	:	_	4	punct	_	_
 7	в	В	ADP	IN	_	8	case	_	_
 8	Англии	АНГЛИЯ	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
-9	,	,	PUNCT	,	_	10	punct	_	_
-10	в	В	ADP	IN	_	8	conj	_	_
+9	,	,	PUNCT	,	_	12	punct	_	_
+10	в	В	ADP	IN	_	12	case	_	_
 11	Британской	БРИТАНСКИЙ	ADJ	JJL	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	amod	_	_
-12	Индии	ИНДИЯ	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	_
+12	Индии	ИНДИЯ	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	conj	_	_
 13	и	И	CCONJ	CC	_	15	cc	_	_
 14	Соединенных	СОЕДИНЕННЫЙ	ADJ	JJL	Animacy=Inan|Case=Loc|Number=Plur	15	amod	_	_
 15	Штатах	ШТАТ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
@@ -12474,13 +12474,13 @@
 21	Франции	ФРАНЦИЯ	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	orphan	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	21	punct	_	_
 23	20	20	NUM	CD	Case=Acc|NumType=Card	24	nummod:gov	_	_
-24	фр.	ФР.	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	conj	_	orig_deprel=obj
+24	фр.	ФР.	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	conj	_	orig_deprel=obj
 25	и	И	CCONJ	CC	_	30	cc	_	_
 26	в	В	ADP	IN	_	30	case	_	orig_deprel=obl
 27	Бельгии	БЕЛЬГИЯ	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	30	orphan	_	SpaceAfter=No
 28	,	,	PUNCT	,	_	30	punct	_	_
 29	10	10	NUM	CD	Case=Acc|NumType=Card	30	nummod:gov	_	_
-30	фр.	ФР.	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	conj	_	orig_deprel=obj
+30	фр.	ФР.	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	conj	_	orig_deprel=obj
 31	(	(	PUNCT	(	_	32	punct	_	SpaceAfter=No
 32	bons	BON	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	37	parataxis	_	_
 33	de	DE	ADP	IN	_	34	case	_	_
@@ -13301,11 +13301,11 @@
 # text = С 1990 года -- на пенсии.
 1	С	С	ADP	IN	_	3	case	_	_
 2	1990	1990	ADJ	ORD	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	amod	_	_
-3	года	ГОД	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
-4	--	--	PUNCT	--	_	5	punct	_	_
-5	на	НА	ADP	IN	_	0	root	_	_
-6	пенсии	ПЕНСИЯ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
-7	.	.	PUNCT	.	_	5	punct	_	_
+3	года	ГОД	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+4	--	--	PUNCT	--	_	6	punct	_	_
+5	на	НА	ADP	IN	_	6	case	_	_
+6	пенсии	ПЕНСИЯ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = dev-s566
 # text = Живёт и работает в Таганроге.
@@ -13453,9 +13453,9 @@
 16	русской	РУССКИЙ	ADJ	JJL	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	17	amod	_	_
 17	матрёшки	МАТРЕШКА	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
 18	)	)	PUNCT	)	_	11	punct	_	_
-19	про	ПРО	ADP	IN	_	5	conj	_	_
+19	про	ПРО	ADP	IN	_	21	case	_	_
 20	повседневную	ПОВСЕДНЕВНЫЙ	ADJ	JJL	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	amod	_	_
-21	жизнь	ЖИЗНЬ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	nmod	_	_
+21	жизнь	ЖИЗНЬ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	conj	_	_
 22	в	В	ADP	IN	_	24	case	_	_
 23	современной	СОВРЕМЕННЫЙ	ADJ	JJL	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	amod	_	_
 24	России	РОССИЯ	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	nmod	_	_
@@ -13541,9 +13541,9 @@
 12	-	-	PUNCT	-	_	11	goeswith	_	_
 13	Западном	ЗАПАДНЫЙ	ADJ	JJL	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	goeswith	_	_
 14	Китае	КИТАЙ	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
-15	и	И	CCONJ	CC	_	16	cc	_	_
-16	в	В	ADP	IN	_	14	conj	_	_
-17	Индокитае	ИНДОКИТАЙ	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+15	и	И	CCONJ	CC	_	17	cc	_	_
+16	в	В	ADP	IN	_	17	case	_	_
+17	Индокитае	ИНДОКИТАЙ	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = dev-s577
