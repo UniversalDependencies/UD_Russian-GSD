@@ -1,0 +1,42 @@
+Sun Feb 11 20:50:14 CET 2018
+perl -I perllib/lib/perl5 -I tools tools/evaluate_treebank.pl --verbose UD_Russian-GSD
+Running the following version of tools/evaluate_treebank.pl:
+commit c1cb17aec6a5505b56b885f578dc6b1093bb4b30
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sun Feb 11 20:27:50 2018 +0100
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+Evaluating the following revision of UD_Russian-GSD:
+commit 7bb0e2ba6a6423460dadf3b01c66fb3a3d4c991d
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat Nov 11 14:07:18 2017 +0100
+Size: counted 99389 of 99389 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.19808288710983.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Found more than 10000 training words.
+Split: Found at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 0.4.
+Universal POS tags: 16 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 0.1.
+Features: 62279 out of 99389 total words have one or more features.
+Features: source of annotation (from README) factor is 0.4.
+Universal relations: 33 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 0.1.
+Udapi: found 4303 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 99389 words.
+Genres: found 1 out of 14 known.
+Availability: README does not say Includes text: yes
+(weight=0.0769230769230769) * (score{features}=0.4) = 0.0307692307692308
+(weight=0.0769230769230769) * (score{genres}=0.0714285714285714) = 0.00549450549450549
+(weight=0.0769230769230769) * (score{lemmas}=0.4) = 0.0307692307692308
+(weight=0.256410256410256) * (score{size}=0.665779440326755) = 0.17071267700686
+(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
+(weight=0.0769230769230769) * (score{tags}=0.0941176470588235) = 0.00723981900452489
+(weight=0.307692307692308) * (score{udapi}=0.567054704242924) = 0.174478370536284
+(weight=0.0769230769230769) * (score{udeprels}=0.0891891891891892) = 0.00686070686070686
+(TOTAL score=0.477606591723395) * (availability=0.1) * (validity=1) = 0.0477606591723395
+STARS = 0
+UD_Russian-GSD	0.0477606591723395	0
+Switched to branch 'dev'
+Your branch is up-to-date with 'origin/dev'.
