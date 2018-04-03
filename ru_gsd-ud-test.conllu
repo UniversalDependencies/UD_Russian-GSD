@@ -2804,7 +2804,7 @@
 12	?	?	PUNCT	.	_	8	punct	_	SpaceAfter=No
 13	)	)	PUNCT	)	_	12	punct	_	_
 14	--	--	PUNCT	--	_	8	punct	_	_
-15	также	ТАКЖЕ	PART	UDH?	_	8	advmod	_	_
+15	также	ТАКЖЕ	PART	IN	_	8	advmod	_	_
 16	невысокая	НЕВЫСОКИЙ	ADJ	JJL	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	17	amod	_	_
 17	старушка	СТАРУШКА	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	8	appos	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	1	punct	_	_
@@ -10829,7 +10829,7 @@
 16	составе	СОСТАВ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
 17	которой	КОТОРЫЙ	PRON	AWP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
 18	были	БЫТЬ	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	13	acl:relcl	_	_
-19	также	ТАКЖЕ	PART	UDH?	_	18	advmod	_	_
+19	также	ТАКЖЕ	PART	IN	_	18	advmod	_	_
 20	отряды	ОТРЯД	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
 21	немецких	НЕМЕЦКИЙ	ADJ	JJL	Animacy=Anim|Case=Gen|Number=Plur	22	amod	_	_
 22	наёмников	НАЕМНИК	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
