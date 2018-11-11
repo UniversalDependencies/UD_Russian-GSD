@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Russian-GSD:
-commit 1b4f78bb52938ab75b3605d713c5a5e547671990
-Merge: a09d4bb 0b0871b
+commit 61bf0d11b44060fff89bef68e2ffaff646862e39
+Merge: 98c10c5 c41aac6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 99389 of 99389 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.19808288710983.
