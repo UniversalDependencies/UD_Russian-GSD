@@ -37,7 +37,7 @@
 8	--	--	PUNCT	--	_	10	punct	_	_
 9	15	15	NUM	CD	Case=Nom|NumType=Card	10	nummod:gov	_	_
 10	рублей	рубль	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
-11	,	,	PUNCT	,	_	10	punct	_	_
+11	,	,	PUNCT	,	_	13	punct	_	_
 12	движение	движение	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
 13	осуществляется	осуществляться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	10	parataxis	_	_
 14	с	с	ADP	IN	_	15	case	_	_
@@ -87,10 +87,10 @@
 
 # sent_id = test-s5
 # text = Здесь обитает несколько десятков видов птиц.
-1	Здесь	здесь	ADV	RB	_	2	advmod	_	_
+1	Здесь	здесь	ADV	RB	Degree=Pos	2	advmod	_	_
 2	обитает	обитать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	несколько	несколько	NUM	RB	Animacy=Inan|Case=Nom|NumType=Card	4	nummod:gov	_	_
-4	десятков	десяток	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+4	десятков	десяток	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nsubj	_	_
 5	видов	вид	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
 6	птиц	птица	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	2	punct	_	_
@@ -101,7 +101,7 @@
 2	Мэлоуну	Мэлоун	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	_
 3	исполнилось	исполниться	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	13	advcl	_	_
 4	три	три	NUM	CD	Animacy=Inan|Case=Nom|NumType=Card	5	nummod:gov	_	_
-5	года	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+5	года	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	3	punct	_	_
 7	его	его	DET	PRP$	_	8	det	_	_
 8	отец	отец	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	SpaceAfter=No
@@ -137,7 +137,7 @@
 8	заказчиков	заказчик	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
 9	Нарбута	Нарбут	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
 10	стал	стать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	0	root	_	_
-11	литературно-художественный	литературно-художественный	ADJ	JJL	_	14	amod	_	_
+11	литературно-художественный	литературно-художественный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
 12	и	и	CCONJ	CC	_	13	cc	_	_
 13	сатирический	сатирический	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	conj	_	_
 14	журнал	журнал	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
@@ -153,8 +153,8 @@
 3	года	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	_
 4	центр	центр	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 5	занимается	заниматься	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
-6	также	также	CCONJ	CC	_	5	conj	_	_
-7	вопросом	вопрос	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	iobj	_	_
+6	также	также	CCONJ	CC	_	5	cc	_	_
+7	вопросом	вопрос	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obj	_	_
 8	об	об	ADP	IN	_	9	case	_	_
 9	освещении	освещение	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	nmod	_	_
 10	изменения	изменение	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
@@ -201,7 +201,7 @@
 12	правительство	правительство	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
 13	озаботилось	озаботиться	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
 14	её	ее	DET	PRP$	_	15	det	_	_
-15	конфискацией	конфискация	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	iobj	_	SpaceAfter=No
+15	конфискацией	конфискация	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	20	punct	_	_
 17	со	со	ADP	IN	_	20	case	_	_
 18	всеми	весь	DET	DT	Case=Ins|Number=Plur	20	det	_	_
@@ -215,7 +215,7 @@
 26	неё	она	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3	24	obl	_	_
 27	опровержение	опровержение	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_
 28	газскому	газский	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
-29	митр	митр	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	23	iobj	_	SpaceAfter=No
+29	митр	митрополит	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	23	iobj	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = test-s11
@@ -242,7 +242,7 @@
 2	последние	последний	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	_
 3	150	150	NUM	CD	Case=Acc|NumType=Card	4	nummod:gov	_	_
 4	лет	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
-5	здесь	здесь	ADV	RB	_	8	advmod	_	_
+5	здесь	здесь	ADV	RB	Degree=Pos	8	advmod	_	_
 6	не	не	PART	NEG	Polarity=Neg	8	advmod	_	_
 7	было	быть	AUX	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
 8	срублено	срубить	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -266,7 +266,7 @@
 26	в	в	ADP	IN	_	27	case	_	_
 27	охвате	охват	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	,	_	35	punct	_	_
-29	которому	который	PRON	AWP	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	35	iobj	_	SpaceAfter=No
+29	которому	который	PRON	AWP	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	36	iobj	_	SpaceAfter=No
 30	,	,	PUNCT	,	_	32	punct	_	_
 31	по	по	ADP	IN	_	32	case	_	_
 32	оценкам	оценка	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	35	obl	_	_
@@ -292,7 +292,7 @@
 10	для	для	ADP	IN	_	12	case	_	_
 11	собственного	собственный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
 12	пользования	пользование	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
-13	QA	QA	X	FW	Foreign=Yes	3	parataxis	_	SpaceAfter=No
+13	QA	QA	X	FW	Foreign=Yes	12	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s14
@@ -312,7 +312,7 @@
 5	Муамар	Муамар	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 6	Каддафи	Каддафи	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	_
 7	предложил	предложить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-8	одновременно	одновременно	ADV	RB	_	9	advmod	_	_
+8	одновременно	одновременно	ADV	RB	Degree=Pos	9	advmod	_	_
 9	вывести	вывести	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
 10	французские	французский	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
 11	и	и	CCONJ	CC	_	12	cc	_	_
@@ -355,13 +355,13 @@
 1	Хан	хан	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 2	Золотой	золотой	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
 3	Орды	Орда	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
-4	Улу	улу	ADV	AFX	_	1	appos	_	SpaceAfter=No
+4	Улу	Улу	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
 5	-	-	PUNCT	-	_	6	punct	_	SpaceAfter=No
 6	Мухаммед	Мухаммед	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	_
 7	поддерживал	поддерживать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 8	Свидригайло	Свидригайло	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
 9	и	и	CCONJ	CC	_	11	cc	_	_
-10	неоднократно	неоднократно	ADV	RB	_	11	advmod	_	_
+10	неоднократно	неоднократно	ADV	RB	Degree=Pos	11	advmod	_	_
 11	посылал	посылать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
 12	ему	он	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	11	iobj	_	_
 13	на	на	ADP	IN	_	14	case	_	_
@@ -381,7 +381,7 @@
 27	Тохтамыша	Тохтамыш	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
 28	и	и	CCONJ	CC	_	29	cc	_	_
 29	соперником	соперник	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	26	conj	_	_
-30	Улу	улу	ADV	AFX	_	29	nmod	_	SpaceAfter=No
+30	Улу	Улу	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
 31	-	-	PUNCT	-	_	32	punct	_	SpaceAfter=No
 32	Мухаммеда	Мухаммед	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	30	flat:name	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	7	punct	_	_
@@ -438,7 +438,7 @@
 16	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = test-s20
-# text = На выборах в Европейский парламент 2009 года партия получила 769125 голосов (17 %) и 4 места из 25 (в настоящее время -- 5).
+# text = На выборах в Европейский парламент 2009 года партия получила 769125 голосов (17%) и 4 места из 25 (в настоящее время -- 5).
 1	На	на	ADP	IN	_	2	case	_	_
 2	выборах	выборы	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	obl	_	_
 3	в	в	ADP	IN	_	5	case	_	_
@@ -451,7 +451,7 @@
 10	769125	769125	NUM	CD	Case=Acc|NumType=Card	11	nummod:gov	_	_
 11	голосов	голос	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obj	_	_
 12	(	(	PUNCT	(	_	14	punct	_	SpaceAfter=No
-13	17	17	NUM	CD	Case=Nom|NumType=Card	14	nummod:gov	_	_
+13	17	17	NUM	CD	Case=Nom|NumType=Card	14	nummod:gov	_	SpaceAfter=No
 14	%	%	SYM	SYM	_	11	appos	_	SpaceAfter=No
 15	)	)	PUNCT	)	_	14	punct	_	_
 16	и	и	CCONJ	CC	_	18	cc	_	_
@@ -475,15 +475,15 @@
 3	укреплена	укрепить	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	16	punct	_	_
 5	кроме	кроме	ADP	IN	_	6	case	_	_
-6	того	то	PRON	DT	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No
+6	того	то	PRON	DT	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	parataxis	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	6	punct	_	_
 8	во	во	ADP	IN	_	10	case	_	_
 9	многих	много	NUM	RB	Animacy=Inan|Case=Loc|NumType=Card	10	amod	_	_
 10	пунктах	пункт	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	16	obl	_	_
 11	от	от	ADP	IN	_	12	case	_	_
-12	Арафали	Арафали	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
+12	Арафали	Арафали	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
 13	до	до	ADP	IN	_	14	case	_	_
-14	Кассалы	Кассала	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	_
+14	Кассалы	Кассала	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
 15	были	быть	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
 16	возведены	возвести	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	_
 17	форты	форт	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	16	nsubj:pass	_	SpaceAfter=No
@@ -528,7 +528,7 @@
 4	издавал	издавать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	7	punct	_	_
 6	в	в	ADP	IN	_	7	case	_	_
-7	частности	частность	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	частности	частность	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	parataxis	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	7	punct	_	_
 9	свои	свой	DET	PRP$	Animacy=Inan|Case=Acc|Number=Plur	12	det	_	_
 10	многочисленные	многочисленный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	12	amod	_	_
@@ -623,7 +623,7 @@
 
 # sent_id = test-s26
 # text = Тем не менее, насущными проблемами являются недостаток образованных священнослужителей, средств для передвижения и вопросы строительства капитальных церковных зданий.
-1	Тем	то	PRON	DT	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	advmod	_	_
+1	Тем	то	PRON	DT	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	parataxis	_	_
 2	не	не	PART	NEG	_	1	fixed	_	_
 3	менее	менее	ADV	RBR	Degree=Cmp	1	fixed	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	1	punct	_	_
@@ -688,7 +688,7 @@
 # sent_id = test-s29
 # text = Такси Тук-тук в большинстве своем отличаются от используемых в столице Таиланда Бангкок и представляют собой пикапы, оборудованные крышей и скамейками.
 1	Такси	такси	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
-2	Тук-тук	тук-тук	ADV	AFX	_	1	appos	_	_
+2	Тук-тук	тук-тук	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 3	в	в	ADP	IN	_	4	case	_	_
 4	большинстве	большинство	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
 5	своем	свой	DET	PRP$	Case=Loc|Gender=Neut|Number=Sing	4	det	_	_
@@ -713,7 +713,7 @@
 # sent_id = test-s30
 # text = Но уже в начале тридцатых годов автомобили стали делать значительно более обтекаемыми и аэродинамичными (хотя нередко -- лишь визуально).
 1	Но	но	CCONJ	CC	_	8	cc	_	_
-2	уже	уже	ADV	RB	_	4	advmod	_	_
+2	уже	уже	ADV	RB	Degree=Pos	4	advmod	_	_
 3	в	в	ADP	IN	_	4	case	_	_
 4	начале	начало	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
 5	тридцатых	тридцатый	ADJ	ORD	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
@@ -721,17 +721,17 @@
 7	автомобили	автомобиль	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
 8	стали	стать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 9	делать	делать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
-10	значительно	значительно	ADV	RB	_	11	advmod	_	_
+10	значительно	значительно	ADV	RB	Degree=Pos	11	advmod	_	_
 11	более	более	ADV	RBR	Degree=Cmp	12	advmod	_	_
 12	обтекаемыми	обтекаемый	ADJ	JJL	Case=Ins|Degree=Pos|Number=Plur	9	xcomp	_	_
 13	и	и	CCONJ	CC	_	14	cc	_	_
 14	аэродинамичными	аэродинамичный	ADJ	JJL	Case=Ins|Degree=Pos|Number=Plur	12	conj	_	_
 15	(	(	PUNCT	(	_	20	punct	_	SpaceAfter=No
 16	хотя	хотя	SCONJ	IN	_	20	mark	_	_
-17	нередко	нередко	ADV	RB	_	20	advmod	_	_
+17	нередко	нередко	ADV	RB	Degree=Pos	20	advmod	_	_
 18	--	--	PUNCT	--	_	20	punct	_	_
 19	лишь	лишь	PART	UH	_	20	advmod	_	_
-20	визуально	визуально	ADV	RB	_	12	parataxis	_	SpaceAfter=No
+20	визуально	визуально	ADV	RB	Degree=Pos	12	parataxis	_	SpaceAfter=No
 21	)	)	PUNCT	)	_	20	punct	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -754,8 +754,8 @@
 15	в	в	ADP	IN	_	19	case	_	_
 16	соответствии	соответствие	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	fixed	_	_
 17	с	с	ADP	IN	_	15	fixed	_	_
-18	Кэмп-Дэвидскими	кэмп-дэвидский	ADV	AFX	_	19	amod	_	_
-19	соглашениями	соглашение	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No
+18	Кэмп-Дэвидскими	кэмп-дэвидский	ADJ	JJL	Case=Ins|Degree=Pos|Number=Plur	19	amod	_	_
+19	соглашениями	соглашение	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	10	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s32
@@ -782,7 +782,7 @@
 
 # sent_id = test-s34
 # text = Ещё в XIX в. её использовали для лечения ревматизма и мочекислого диатеза, а сегодня это вещество синтезируют в больших количествах, так как оно служит основой для производства многих лекарств.
-1	Ещё	еще	ADV	UH	_	4	advmod	_	_
+1	Ещё	еще	ADV	RB	Degree=Pos	4	advmod	_	_
 2	в	в	ADP	IN	_	4	case	_	_
 3	XIX	XIX	ADJ	ORD	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
 4	в.	век	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
@@ -796,7 +796,7 @@
 12	диатеза	диатез	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	18	punct	_	_
 14	а	а	CCONJ	CC	_	18	cc	_	_
-15	сегодня	сегодня	ADV	RB	_	18	advmod	_	_
+15	сегодня	сегодня	ADV	RB	Degree=Pos	18	advmod	_	_
 16	это	этот	DET	DT	Case=Acc|Gender=Neut|Number=Sing	17	det	_	_
 17	вещество	вещество	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
 18	синтезируют	синтезировать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
@@ -808,7 +808,7 @@
 24	как	как	ADV	WRB	_	23	fixed	_	_
 25	оно	оно	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3	26	nsubj	_	_
 26	служит	служить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	_
-27	основой	основа	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	26	obj	_	_
+27	основой	основа	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	26	xcomp	_	_
 28	для	для	ADP	IN	_	29	case	_	_
 29	производства	производство	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
 30	многих	много	NUM	RB	Animacy=Inan|Case=Gen|NumType=Card	31	amod	_	_
@@ -833,7 +833,7 @@
 14	две	два	NUM	CD	Animacy=Anim|Case=Nom|Gender=Fem|NumType=Card	15	nummod:gov	_	_
 15	сестры	сестра	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	18	nsubj	_	_
 16	также	также	CCONJ	CC	_	18	cc	_	_
-17	профессионально	профессионально	ADV	RB	_	18	advmod	_	_
+17	профессионально	профессионально	ADV	RB	Degree=Pos	18	advmod	_	_
 18	играли	играть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
 19	в	в	ADP	IN	_	20	case	_	_
 20	баскетбол	баскетбол	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
@@ -926,7 +926,7 @@
 13	течение	течение	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	fixed	_	_
 14	десяти	десять	NUM	CD	Case=Gen|NumType=Card	15	nummod	_	_
 15	лет	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
-16	прежде	прежде	ADV	RB	_	11	advmod	_	SpaceAfter=No
+16	прежде	прежде	ADV	RB	Degree=Pos	11	advmod	_	SpaceAfter=No
 17	,	,	PUNCT	,	_	19	punct	_	_
 18	чем	чем	SCONJ	IN	_	19	mark	_	_
 19	перейти	перейти	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	16	advcl	_	_
@@ -966,7 +966,7 @@
 # text = Согласно Младшей Эдде, если Тор проголодался, он мог зажарить козлов себе на угощение.
 1	Согласно	согласно	ADP	IN	_	3	case	_	_
 2	Младшей	младший	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
-3	Эдде	Эдда	PROPN	NNP	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+3	Эдде	Эдда	PROPN	NNP	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	parataxis	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	если	если	SCONJ	IN	_	7	mark	_	_
 6	Тор	Тор	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -1015,7 +1015,7 @@
 
 # sent_id = test-s47
 # text = Все произведённое является общественным достоянием, а изобилие материальных благ позволяет распределять их по потребностям.
-1	Все	весь	DET	DT	Case=Nom|Gender=Neut|Number=Sing	2	amod	_	_
+1	Все	весь	DET	DT	Case=Nom|Gender=Neut|Number=Sing	2	det	_	_
 2	произведённое	произвести	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	nsubj	_	_
 3	является	являться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
 4	общественным	общественный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
@@ -1037,7 +1037,7 @@
 1	На	на	ADP	IN	_	2	case	_	_
 2	Олипиаде	олипиада	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 3	-	-	PUNCT	-	_	2	punct	_	SpaceAfter=No
-4	2012	2012	NUM	CD	_	2	appos	_	_
+4	2012	2012	NUM	CD	_	2	nummod:entity	_	_
 5	победил	победить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	азербайджанского	азербайджанский	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
 7	боксёра	боксер	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
@@ -1132,7 +1132,7 @@
 
 # sent_id = test-s54
 # text = Здесь производится до 50 % всех индийских легковых автомобилей и мотоциклов, 30 % всех индийских холодильников, 25 % тракторов, велосипедов, сантехники и бумаги, 20 % научных приборов.
-1	Здесь	здесь	ADV	RB	_	2	advmod	_	_
+1	Здесь	здесь	ADV	RB	Degree=Pos	2	advmod	_	_
 2	производится	производиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
 3	до	до	ADP	IN	_	5	case	_	_
 4	50	50	NUM	CD	Case=Loc|NumType=Card	5	nummod	_	_
@@ -1185,7 +1185,7 @@
 
 # sent_id = test-s56
 # text = Теперь штрафоваться должны даже попытки задержки игрока соперника руками и даже попытки зацепа клюшкой.
-1	Теперь	теперь	ADV	RB	_	3	advmod	_	_
+1	Теперь	теперь	ADV	RB	Degree=Pos	3	advmod	_	_
 2	штрафоваться	штрафоваться	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Mid	3	xcomp	_	_
 3	должны	должен	ADJ	JJH	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
 4	даже	даже	PART	UH	_	5	advmod	_	_
@@ -1216,19 +1216,19 @@
 11	всем	весь	DET	DT	Case=Dat|Number=Plur	12	det	_	_
 12	партиям	партия	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	13	iobj	_	_
 13	действовать	действовать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	9	appos	_	_
-14	самостоятельно	самостоятельно	ADV	RB	_	13	advmod	_	SpaceAfter=No
+14	самостоятельно	самостоятельно	ADV	RB	Degree=Pos	13	advmod	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	17	punct	_	_
 16	но	но	CCONJ	CC	_	17	cc	_	_
-17	одновременно	одновременно	ADV	RB	_	14	conj	_	SpaceAfter=No
+17	одновременно	одновременно	ADV	RB	Degree=Pos	14	conj	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	20	punct	_	_
 19	что	что	PRON	WP	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
 20	выражалось	выражаться	VERB	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	13	acl:relcl	_	_
 21	формулой	формула	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	iobj	_	_
 22	``	``	PUNCT	``	_	24	punct	_	SpaceAfter=No
-23	врозь	врозь	ADV	RB	_	24	advmod	_	_
+23	врозь	врозь	ADV	RB	Degree=Pos	24	advmod	_	_
 24	наступать	наступать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	21	appos	_	_
 25	и	и	CCONJ	CC	_	27	cc	_	_
-26	вместе	вместе	ADV	RB	_	27	advmod	_	_
+26	вместе	вместе	ADV	RB	Degree=Pos	27	advmod	_	_
 27	бить	бить	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	24	conj	_	SpaceAfter=No
 28	&#39;&#39;	&#39;&#39;	PUNCT	&#39;&#39;	_	24	punct	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	4	punct	_	_
@@ -1249,9 +1249,9 @@
 12	,	,	PUNCT	,	_	13	punct	_	_
 13	детскую	детский	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	15	punct	_	_
-15	учебно-педагогическую	учебно-педагогический	ADV	AFX	_	11	conj	_	SpaceAfter=No
+15	учебно-педагогическую	учебно-педагогический	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	_	_
-17	общественно-политическую	общественно-политический	ADV	AFX	_	11	conj	_	_
+17	общественно-политическую	общественно-политический	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	conj	_	_
 18	и	и	CCONJ	CC	_	19	cc	_	_
 19	др.	другой	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	conj	_	_
 20	литературу	литература	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
@@ -1328,7 +1328,7 @@
 14	июня	июнь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	flat	_	_
 15	1940	1940	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	_	_
-17	Лондон	Лондон	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	list	_	SpaceAfter=No
+17	Лондон	Лондон	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	list	_	SpaceAfter=No
 18	)	)	PUNCT	)	_	4	punct	_	_
 19	--	--	PUNCT	--	_	21	punct	_	_
 20	австрийский	австрийский	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
@@ -1379,7 +1379,7 @@
 
 # sent_id = test-s64
 # text = Нередко наблюдалась следующая картина: по дорогам следовали немецкие танки, а рядом по полям отступали в том же направлении советские подразделения.
-1	Нередко	нередко	ADV	RB	_	2	advmod	_	_
+1	Нередко	нередко	ADV	RB	Degree=Pos	2	advmod	_	_
 2	наблюдалась	наблюдаться	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
 3	следующая	следующий	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
 4	картина	картина	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
@@ -1391,7 +1391,7 @@
 10	танки	танк	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	16	punct	_	_
 12	а	а	CCONJ	CC	_	16	cc	_	_
-13	рядом	рядом	ADV	RB	_	16	advmod	_	_
+13	рядом	рядом	ADV	RB	Degree=Pos	16	advmod	_	_
 14	по	по	ADP	IN	_	15	case	_	_
 15	полям	поле	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	16	obl	_	_
 16	отступали	отступать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
@@ -1419,11 +1419,11 @@
 12	июня	июнь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	flat	_	_
 13	1941	1941	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
 14	года	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
-15	как	как	ADV	IN	_	18	case	_	_
+15	как	как	ADP	IN	_	18	case	_	_
 16	единая	единый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
 17	организационная	организационный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
 18	единица	единица	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	obl	_	_
-19	практически	практически	ADV	RB	_	21	advmod	_	_
+19	практически	практически	ADV	RB	Degree=Pos	21	advmod	_	_
 20	не	не	PART	NEG	Polarity=Neg	21	advmod	_	_
 21	существовал	существовать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	37	punct	_	_
@@ -1508,7 +1508,7 @@
 6	Birthday	birthday	X	FW	Foreign=Yes	10	nsubj	_	_
 7	Cake	cake	X	FW	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
 8	&#39;&#39;	&#39;&#39;	PUNCT	&#39;&#39;	_	6	punct	_	_
-9	впервые	впервые	ADV	RB	_	10	advmod	_	_
+9	впервые	впервые	ADV	RB	Degree=Pos	10	advmod	_	_
 10	появилась	появиться	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
 11	в	в	ADP	IN	_	13	case	_	_
 12	американском	американский	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
@@ -1555,15 +1555,15 @@
 10	Смит	Смит	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	13	punct	_	_
 12	по	по	ADP	IN	_	13	case	_	_
-13	мнению	мнение	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	16	obl	_	_
+13	мнению	мнение	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	16	parataxis	_	_
 14	рецензента	рецензент	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	13	punct	_	_
 16	звучит	звучать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-17	здесь	здесь	ADV	RB	_	16	advmod	_	_
+17	здесь	здесь	ADV	RB	Degree=Pos	16	advmod	_	_
 18	``	``	PUNCT	``	_	24	punct	_	SpaceAfter=No
-19	как	как	ADV	IN	_	25	case	_	_
-20	вполне	вполне	ADV	RB	_	21	advmod	_	_
-21	здоровый	здоровый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+19	как	как	ADP	IN	_	24	case	_	_
+20	вполне	вполне	ADV	RB	Degree=Pos	21	advmod	_	_
+21	здоровый	здоровый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
 22	и	и	CCONJ	CC	_	23	cc	_	_
 23	работоспособный	работоспособный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	conj	_	_
 24	Лу	Лу	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	obl	_	_
@@ -1575,7 +1575,7 @@
 # text = HD 114762 b находится на расстоянии 132 световых лет от Солнца.
 1	HD	HD	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 2	114762	114762	NUM	CD	Animacy=Inan|Case=Nom|Gender=Masc|NumType=Card	1	appos	_	_
-3	b	b	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nmod	_	_
+3	b	b	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 4	находится	находиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
 5	на	на	ADP	IN	_	6	case	_	_
 6	расстоянии	расстояние	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
@@ -1583,7 +1583,7 @@
 8	световых	световой	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
 9	лет	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
 10	от	от	ADP	IN	_	11	case	_	_
-11	Солнца	Солнце	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+11	Солнца	Солнце	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	obl	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = test-s72
@@ -1616,7 +1616,7 @@
 26	вариант	вариант	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	25	nsubj:pass	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	28	punct	_	_
 28	обозначавшийся	обозначаться	VERB	VBNL	Animacy=Inan|Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	26	acl	_	_
-29	как	как	ADV	IN	_	31	case	_	_
+29	как	как	ADP	IN	_	31	case	_	_
 30	Средний	средний	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
 31	танк	танк	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	28	obl	_	_
 32	T4	T4	X	FW	Foreign=Yes	31	appos	_	_
@@ -1647,9 +1647,9 @@
 10	мобильных	мобильный	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	12	amod	_	_
 11	операционных	операционный	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	12	amod	_	_
 12	системах	система	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	nmod	_	SpaceAfter=No
-13	,	,	PUNCT	,	_	14	punct	_	_
-14	включая	включать	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	12	advcl	_	_
-15	Linux	Linux	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	SpaceAfter=No
+13	,	,	PUNCT	,	_	15	punct	_	_
+14	включая	включая	ADP	IN	_	15	case	_	_
+15	Linux	Linux	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	_	_
 17	Android	Android	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	19	punct	_	_
@@ -1714,7 +1714,7 @@
 
 # sent_id = test-s76
 # text = Как правило не участвует в боевых вылетах, координируя остальных ведьм из башни управления.
-1	Как	как	ADV	IN	_	2	case	_	_
+1	Как	как	ADP	IN	_	2	case	_	_
 2	правило	правило	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	obl	_	_
 3	не	не	PART	NEG	Polarity=Neg	4	advmod	_	_
 4	участвует	участвовать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -1746,7 +1746,7 @@
 
 # sent_id = test-s78
 # text = Ещё в Падуе сделал большое число наблюдений астероидов, комет и покрытий звёзд.
-1	Ещё	еще	ADV	RB	_	4	advmod	_	_
+1	Ещё	еще	ADV	RB	Degree=Pos	4	advmod	_	_
 2	в	в	ADP	IN	_	3	case	_	_
 3	Падуе	Падуя	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
 4	сделал	сделать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -1879,7 +1879,7 @@
 5	1871	1871	ADJ	ORD	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 6	году	год	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
 7	лучшими	лучший	ADJ	JJS	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
-8	игроками	игрок	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	3	iobj	_	_
+8	игроками	игрок	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	3	obl:agent	_	_
 9	расформированного	расформировать	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	acl	_	_
 10	в	в	ADP	IN	_	11	case	_	_
 11	1870	1870	ADJ	ORD	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	9	obl	_	_
@@ -1913,7 +1913,7 @@
 16	а	а	CCONJ	CC	_	20	cc	_	_
 17	Баграта	Баграт	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
 18	Слепого	слепой	ADJ	JJL	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
-19	вторично	вторично	ADV	RB	_	20	advmod	_	_
+19	вторично	вторично	ADV	RB	Degree=Pos	20	advmod	_	_
 20	посадил	посадить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
 21	на	на	ADP	IN	_	23	case	_	_
 22	царский	царский	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
@@ -1928,7 +1928,7 @@
 3	же	же	PART	UH	_	2	advmod	_	_
 4	году	год	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
 5	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
-6	вновь	вновь	ADV	RB	_	7	advmod	_	_
+6	вновь	вновь	ADV	RB	Degree=Pos	7	advmod	_	_
 7	озвучил	озвучить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 8	Кота	кот	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
 9	в	в	ADP	IN	_	10	case	_	_
@@ -1949,9 +1949,9 @@
 # sent_id = test-s87
 # text = 2005 год, премия имени Герда Буцериуса ``Молодая пресса Восточной Европы&#39;&#39;
 1	2005	2005	ADJ	ORD	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
-2	год	год	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+2	год	год	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	4	punct	_	_
-4	премия	премия	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+4	премия	премия	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	parataxis	_	_
 5	имени	имя	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
 6	Герда	Герд	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
 7	Буцериуса	Буцериус	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	flat:name	_	_
@@ -2081,7 +2081,7 @@
 2	Бынаты	Бынаты	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	9	obl	_	_
 3	Хицау	Хицау	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	flat:name	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
-5	наряду	наряду	ADV	RB	_	7	advmod	_	_
+5	наряду	наряду	ADV	RB	Degree=Pos	7	advmod	_	_
 6	с	с	ADP	IN	_	7	case	_	_
 7	Хилы	Хилы	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
 8	дзуаром	Дзуар	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	flat:name	_	_
@@ -2098,7 +2098,7 @@
 19	с	с	ADP	IN	_	20	case	_	_
 20	родителями	родитель	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	18	obl	_	_
 21	и	и	CCONJ	CC	_	23	cc	_	_
-22	благополучно	благополучно	ADV	RB	_	23	advmod	_	_
+22	благополучно	благополучно	ADV	RB	Degree=Pos	23	advmod	_	_
 23	войти	войти	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	18	conj	_	_
 24	в	в	ADP	IN	_	26	case	_	_
 25	новую	новый	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
@@ -2143,7 +2143,7 @@
 
 # sent_id = test-s97
 # text = Впереди сводных полков фронтов шли командующие фронтами и армиями, Герои Советского Союза несли знамёна прославленных частей и соединений.
-1	Впереди	впереди	ADV	RB	_	3	case	_	_
+1	Впереди	впереди	ADV	RB	Degree=Pos	3	case	_	_
 2	сводных	сводный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
 3	полков	полк	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
 4	фронтов	фронт	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
@@ -2168,7 +2168,7 @@
 # text = Беньямино работает параллельно в компании плотников.
 1	Беньямино	Беньямино	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	работает	работать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	параллельно	параллельно	ADV	RB	_	2	advmod	_	_
+3	параллельно	параллельно	ADV	RB	Degree=Pos	2	advmod	_	_
 4	в	в	ADP	IN	_	5	case	_	_
 5	компании	компания	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
 6	плотников	плотник	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
@@ -2296,7 +2296,7 @@
 4	угловой	угловой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 5	размер	размер	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
 6	Луны	луна	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
-7	слегка	слегка	ADV	RB	_	8	advmod	_	_
+7	слегка	слегка	ADV	RB	Degree=Pos	8	advmod	_	_
 8	меняется	меняться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
 9	в	в	ADP	IN	_	10	case	_	_
 10	зависимости	зависимость	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
@@ -2318,7 +2318,7 @@
 7	году	год	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	13	punct	_	_
 9	а	а	CCONJ	CC	_	13	cc	_	_
-10	впервые	впервые	ADV	RB	_	13	advmod	_	_
+10	впервые	впервые	ADV	RB	Degree=Pos	13	advmod	_	_
 11	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nsubj:pass	_	_
 12	был	быть	AUX	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	13	aux:pass	_	_
 13	напечатан	напечатать	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	_
@@ -2433,7 +2433,7 @@
 1	Взгляды	взгляд	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
 2	Карлейля	Карлейль	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 3	в	в	ADP	IN	_	4	case	_	_
-4	чём-то	что-то	PRON	WP	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+4	чём-то	что-то	PRON	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
 5	предвосхитили	предвосхитить	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	воззрения	воззрение	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	5	obj	_	_
 7	Ницше	Ницше	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
@@ -2501,7 +2501,7 @@
 1	Кроме	кроме	ADP	IN	_	2	case	_	_
 2	того	то	PRON	DT	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	2	punct	_	_
-4	здесь	здесь	ADV	RB	_	6	advmod	_	_
+4	здесь	здесь	ADV	RB	Degree=Pos	6	advmod	_	_
 5	Моррис	Моррис	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 6	мог	мочь	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 7	рассчитывать	рассчитывать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
@@ -2513,11 +2513,11 @@
 13	Уокера	Уокер	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	17	punct	_	_
 15	который	который	PRON	AWP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
-16	также	также	ADV	RB	_	17	advmod	_	_
+16	также	также	ADV	RB	Degree=Pos	17	advmod	_	_
 17	жил	жить	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
 18	и	и	CCONJ	CC	_	19	cc	_	_
 19	работал	работать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	_	_
-20	неподалеку	неподалеку	ADV	RB	_	17	advmod	_	SpaceAfter=No
+20	неподалеку	неподалеку	ADV	RB	Degree=Pos	17	advmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = test-s115
@@ -2556,11 +2556,11 @@
 5	американская	американский	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
 6	противоракета	противоракета	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
 7	``	``	PUNCT	``	_	8	punct	_	SpaceAfter=No
-8	Найк	Найк	PROPN	NNP	_	6	appos	_	SpaceAfter=No
+8	Найк	Найк	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
 9	-	-	PUNCT	-	_	8	punct	_	SpaceAfter=No
 10	Зевс	Зевс	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	appos	_	SpaceAfter=No
 11	&#39;&#39;	&#39;&#39;	PUNCT	&#39;&#39;	_	8	punct	_	_
-12	впервые	впервые	ADV	RB	_	13	advmod	_	_
+12	впервые	впервые	ADV	RB	Degree=Pos	13	advmod	_	_
 13	смогла	смочь	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 14	поразить	поразить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	_
 15	боевой	боевой	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
@@ -2582,13 +2582,13 @@
 31	1961	1961	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
 32	года	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
 33	в	в	ADP	IN	_	34	case	_	_
-34	Сары	сары	ADV	AFX	_	28	obl	_	SpaceAfter=No
+34	Сары	сары	X	FW	Foreign=Yes	28	obl	_	SpaceAfter=No
 35	-	-	PUNCT	-	_	34	punct	_	SpaceAfter=No
 36	Шагане	Шаган	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	34	flat:foreign	_	_
 37	ракетой	ракета	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	28	iobj	_	_
 38	В	в	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	37	appos	_	SpaceAfter=No
 39	-	-	PUNCT	-	_	38	punct	_	SpaceAfter=No
-40	1000	1000	NUM	CD	_	38	appos	_	SpaceAfter=No
+40	1000	1000	NUM	CD	_	38	nummod:entity	_	SpaceAfter=No
 41	)	)	PUNCT	)	_	28	punct	_	SpaceAfter=No
 42	,	,	PUNCT	,	_	54	punct	_	_
 43	однако	однако	CCONJ	CC	_	54	cc	_	_
@@ -2598,7 +2598,7 @@
 47	совершенства	совершенство	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	54	obl	_	_
 48	и	и	CCONJ	CC	_	49	cc	_	_
 49	дороговизны	дороговизна	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	47	conj	_	_
-50	так	так	ADV	RB	_	54	advmod	_	_
+50	так	так	ADV	RB	Degree=Pos	54	advmod	_	_
 51	и	и	PART	UH	_	50	fixed	_	_
 52	не	не	PART	NEG	Polarity=Neg	54	advmod	_	_
 53	была	быть	AUX	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	54	aux:pass	_	_
@@ -2625,7 +2625,7 @@
 # sent_id = test-s118
 # text = Дмитрий сначала не дал внятного ответа.
 1	Дмитрий	Дмитрий	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-2	сначала	сначала	ADV	RB	_	4	advmod	_	_
+2	сначала	сначала	ADV	RB	Degree=Pos	4	advmod	_	_
 3	не	не	PART	NEG	Polarity=Neg	4	advmod	_	_
 4	дал	дать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	внятного	внятный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
@@ -2641,7 +2641,7 @@
 5	(	(	PUNCT	(	_	6	punct	_	SpaceAfter=No
 6	произносится	произноситься	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	13	parataxis	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	9	punct	_	_
-8	собственно	собственно	ADV	RB	_	9	advmod	_	_
+8	собственно	собственно	ADV	RB	Degree=Pos	9	advmod	_	_
 9	говоря	говорить	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	6	parataxis	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	9	punct	_	_
 11	Корней	Корней	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	xcomp	_	SpaceAfter=No
@@ -2740,7 +2740,7 @@
 8	если	если	SCONJ	IN	_	6	fixed	_	_
 9	она	она	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
 10	происходит	происходить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
-11	где-нибудь	где-нибудь	ADV	AFX	_	13	advmod	_	_
+11	где-нибудь	где-нибудь	ADV	RB	Degree=Pos	13	advmod	_	_
 12	на	на	ADP	IN	_	13	case	_	_
 13	Востоке	восток	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
 14	--	--	PUNCT	--	_	16	punct	_	_
@@ -2918,7 +2918,7 @@
 8	и	и	CCONJ	CC	_	9	cc	_	_
 9	замкнула	замкнуть	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
 10	его	он	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	obj	_	_
-11	вместе	вместе	ADV	RB	_	14	advmod	_	_
+11	вместе	вместе	ADV	RB	Degree=Pos	14	advmod	_	_
 12	с	с	ADP	IN	_	14	case	_	_
 13	его	его	DET	PRP$	_	14	det	_	_
 14	богатствами	богатство	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	10	nmod	_	_
@@ -3259,7 +3259,7 @@
 11	&#39;&#39;	&#39;&#39;	PUNCT	&#39;&#39;	_	10	punct	_	_
 12	и	и	CCONJ	CC	_	13	cc	_	_
 13	употребляли	употреблять	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
-14	как	как	ADV	IN	_	16	case	_	_
+14	как	как	ADP	IN	_	16	case	_	_
 15	столовую	столовый	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
 16	воду	вода	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	3	punct	_	_
@@ -3380,7 +3380,7 @@
 32	дня	день	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
 33	,	,	PUNCT	,	_	39	punct	_	_
 34	и	и	CCONJ	CC	_	39	cc	_	_
-35	ещё	еще	ADV	RB	_	36	advmod	_	_
+35	ещё	еще	ADV	RB	Degree=Pos	36	advmod	_	_
 36	раз	раз	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	39	obl	_	_
 37	Dies	dies	X	FW	Foreign=Yes	39	nsubj	_	_
 38	irae	irae	X	FW	Foreign=Yes	37	flat:foreign	_	_
@@ -3418,7 +3418,7 @@
 70	не	не	PART	NEG	Polarity=Neg	71	advmod	_	_
 71	Судный	судный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	72	amod	_	_
 72	день	день	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	parataxis	_	_
-73	как	как	ADV	IN	_	74	case	_	_
+73	как	как	ADP	IN	_	74	case	_	_
 74	таковой	таковой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	72	nmod	_	SpaceAfter=No
 75	,	,	PUNCT	,	_	78	punct	_	_
 76	а	а	CCONJ	CC	_	78	cc	_	_
@@ -3464,7 +3464,7 @@
 17	Форже	Форже	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	appos	_	_
 18	и	и	CCONJ	CC	_	23	cc	_	SpaceAfter=No
 19	,	,	PUNCT	,	_	20	punct	_	_
-20	наконец	наконец	ADV	RB	_	23	parataxis	_	SpaceAfter=No
+20	наконец	наконец	ADV	RB	Degree=Pos	23	parataxis	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	20	punct	_	_
 22	самого	сам	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
 23	короля	король	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	conj	_	_
@@ -3579,7 +3579,7 @@
 13	у	у	ADP	IN	_	14	case	_	_
 14	сына	сын	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	ccomp	_	_
 15	Туи	Туи	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
-16	теперь	теперь	ADV	RB	_	14	advmod	_	_
+16	теперь	теперь	ADV	RB	Degree=Pos	14	advmod	_	_
 17	два	два	NUM	CD	Animacy=Anim|Case=Nom|Gender=Masc|NumType=Card	18	nummod:gov	_	_
 18	отца	отец	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	4	punct	_	_
@@ -3706,7 +3706,7 @@
 5	конференции	конференция	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	7	punct	_	_
 7	известный	известный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	_
-8	как	как	ADV	IN	_	9	case	_	_
+8	как	как	ADP	IN	_	9	case	_	_
 9	Pax	pax	X	FW	Foreign=Yes	7	obl	_	_
 10	Britannica	britannica	X	FW	Foreign=Yes	9	flat:foreign	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	7	punct	_	_
@@ -3741,7 +3741,7 @@
 # text = Китайские археологи нередко связывают династию Ся с археологической культурой Эрлитоу.
 1	Китайские	китайский	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
 2	археологи	археолог	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
-3	нередко	нередко	ADV	RB	_	4	advmod	_	_
+3	нередко	нередко	ADV	RB	Degree=Pos	4	advmod	_	_
 4	связывают	связывать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	династию	династия	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
 6	Ся	Ся	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	appos	_	_
@@ -3872,7 +3872,7 @@
 2	Архилоха	Архилох	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
 3	Тюхе	Тюхе	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 4	находится	находиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
-5	рядом	рядом	ADV	RB	_	7	advmod	_	_
+5	рядом	рядом	ADV	RB	Degree=Pos	7	advmod	_	_
 6	с	с	ADP	IN	_	7	case	_	_
 7	Мойрой	Мойра	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
 8	;	;	PUNCT	:	_	4	punct	_	_
@@ -3977,7 +3977,7 @@
 19	в	в	ADP	IN	_	20	case	_	_
 20	Аскании	Аскания	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
 21	-	-	PUNCT	-	_	20	punct	_	SpaceAfter=No
-22	Нова	Нова	PROPN	NNP	_	20	appos	_	SpaceAfter=No
+22	Нова	Нова	X	FW	Foreign=Yes	20	appos	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	6	punct	_	_
 
 # sent_id = test-s181
@@ -4016,7 +4016,7 @@
 
 # sent_id = test-s183
 # text = Здесь сформировался его литературный стиль и привычка быть всегда в центре событий.
-1	Здесь	здесь	ADV	RB	_	2	advmod	_	_
+1	Здесь	здесь	ADV	RB	Degree=Pos	2	advmod	_	_
 2	сформировался	сформироваться	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
 3	его	его	DET	PRP$	_	5	det	_	_
 4	литературный	литературный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
@@ -4024,7 +4024,7 @@
 6	и	и	CCONJ	CC	_	7	cc	_	_
 7	привычка	привычка	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
 8	быть	быть	AUX	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	11	cop	_	_
-9	всегда	всегда	ADV	RB	_	11	advmod	_	_
+9	всегда	всегда	ADV	RB	Degree=Pos	11	advmod	_	_
 10	в	в	ADP	IN	_	11	case	_	_
 11	центре	центр	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
 12	событий	событие	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	SpaceAfter=No
@@ -4232,7 +4232,7 @@
 4	Everything	everything	X	FW	Foreign=Yes	3	appos	_	_
 5	были	быть	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
 6	анонсированы	анонсировать	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
-7	ещё	еще	ADV	RB	_	9	advmod	_	_
+7	ещё	еще	ADV	RB	Degree=Pos	9	advmod	_	_
 8	в	в	ADP	IN	_	9	case	_	_
 9	конце	конец	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
 10	2006	2006	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
@@ -4256,14 +4256,14 @@
 13	,	,	PUNCT	,	_	14	punct	_	_
 14	почувствовав	почувствовать	VERB	VBG	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	24	advcl	_	_
 15	себя	себя	PRON	PRP	Case=Acc|Reflex=Yes	14	obj	_	_
-16	намного	намного	ADV	RB	_	17	advmod	_	_
+16	намного	намного	ADV	RB	Degree=Pos	17	advmod	_	_
 17	умнее	умный	ADJ	JJR	Degree=Cmp	14	xcomp	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	19	punct	_	_
 19	сообразительнее	сообразительный	ADJ	JJR	Degree=Cmp	17	conj	_	_
 20	и	и	CCONJ	CC	_	21	cc	_	_
 21	агрессивнее	агрессивный	ADJ	JJR	Degree=Cmp	17	conj	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	14	punct	_	_
-23	всецело	всецело	ADV	RB	_	24	advmod	_	_
+23	всецело	всецело	ADV	RB	Degree=Pos	24	advmod	_	_
 24	отдаётся	отдаваться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	conj	_	_
 25	идее	идея	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	24	iobj	_	_
 26	захвата	захват	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
@@ -4284,7 +4284,7 @@
 1	Корабль	корабль	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	_	_
 2	противника	противник	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 3	был	быть	AUX	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
-4	серьёзно	серьезно	ADV	RB	_	5	advmod	_	_
+4	серьёзно	серьезно	ADV	RB	Degree=Pos	5	advmod	_	_
 5	поврежден	повредить	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	7	punct	_	_
 7	потерял	потерять	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
@@ -4298,7 +4298,7 @@
 15	в	в	ADP	IN	_	16	case	_	_
 16	итоге	итог	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
 17	смог	смочь	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
-18	все	всё	ADV	RB	_	17	advmod	_	_
+18	все	всё	ADV	RB	Degree=Pos	17	advmod	_	_
 19	же	же	PART	UH	_	18	fixed	_	_
 20	уйти	уйти	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	_
 21	от	от	ADP	IN	_	22	case	_	_
@@ -4323,7 +4323,7 @@
 14	``	``	PUNCT	``	_	16	punct	_	SpaceAfter=No
 15	Мы	мы	PRON	PRP	Case=Nom|Number=Plur|Person=1	16	nsubj	_	_
 16	думали	думать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	parataxis	_	_
-17	нестандартно	нестандартно	ADV	RB	_	16	advmod	_	_
+17	нестандартно	нестандартно	ADV	RB	Degree=Pos	16	advmod	_	_
 18	и	и	CCONJ	CC	_	19	cc	_	_
 19	придумали	придумать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	16	conj	_	_
 20	кое-что	кое-что	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	_
@@ -4446,7 +4446,7 @@
 4	частью	часть	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	xcomp	_	_
 5	конвоя	конвой	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	9	punct	_	_
-7	так	так	ADV	CC	_	9	advmod	_	_
+7	так	так	ADV	RB	Degree=Pos	9	advmod	_	_
 8	же	же	PART	UH	_	7	goeswith	_	_
 9	направлявшегося	направляться	VERB	VBNL	Animacy=Inan|Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	acl	_	_
 10	из	из	ADP	IN	_	11	case	_	_
@@ -4503,7 +4503,7 @@
 4	в	в	ADP	IN	_	6	case	_	_
 5	белградском	белградский	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 6	квартале	квартал	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
-7	Савски	савски	ADV	AFX	_	6	appos	_	SpaceAfter=No
+7	Савски	савски	X	FW	Foreign=Yes	6	appos	_	SpaceAfter=No
 8	-	-	PUNCT	-	_	7	punct	_	SpaceAfter=No
 9	Венац	Венац	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	flat:foreign	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	12	punct	_	_
@@ -4534,7 +4534,7 @@
 5	связи	связь	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
 6	алгской	алгский	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
 7	семьи	семья	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
-8	сугубо	сугубо	ADV	RB	_	9	advmod	_	_
+8	сугубо	сугубо	ADV	RB	Degree=Pos	9	advmod	_	_
 9	гипотетичны	гипотетичный	ADJ	JJH	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	9	punct	_	_
 
@@ -4549,7 +4549,7 @@
 7	философий	философия	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	11	punct	_	_
 9	таких	такой	DET	DT	Case=Gen|Number=Plur	11	case	_	_
-10	как	как	ADV	IN	_	9	fixed	_	_
+10	как	как	ADP	IN	_	9	fixed	_	_
 11	гуманизм	гуманизм	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
 12	и	и	CCONJ	CC	_	13	cc	_	_
 13	натурализм	натурализм	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	conj	_	SpaceAfter=No
@@ -4708,7 +4708,7 @@
 
 # sent_id = test-s222
 # text = Ещё в правление отца получил Западную Моравию (1029).
-1	Ещё	еще	ADV	RB	_	3	advmod	_	_
+1	Ещё	еще	ADV	RB	Degree=Pos	3	advmod	_	_
 2	в	в	ADP	IN	_	3	case	_	_
 3	правление	правление	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
 4	отца	отец	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
@@ -4785,12 +4785,12 @@
 15	цвета	цвет	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	17	punct	_	_
 17	собраны	собрать	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	6	conj	_	_
-18	иногда	иногда	ADV	RB	_	21	advmod	_	_
+18	иногда	иногда	ADV	RB	Degree=Pos	21	advmod	_	_
 19	в	в	ADP	IN	_	21	case	_	_
-20	очень	очень	ADV	RB	_	21	advmod	_	_
+20	очень	очень	ADV	RB	Degree=Pos	21	advmod	_	_
 21	плотные	плотный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	26	amod	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	25	punct	_	_
-23	иногда	иногда	ADV	RB	_	25	advmod	_	_
+23	иногда	иногда	ADV	RB	Degree=Pos	25	advmod	_	_
 24	в	в	ADP	IN	_	25	case	_	_
 25	рыхлые	рыхлый	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	21	conj	_	_
 26	соцветия	соцветие	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	17	obl	_	SpaceAfter=No
@@ -4827,7 +4827,7 @@
 10	,	,	PUNCT	,	_	13	punct	_	_
 11	пусть	пусть	SCONJ	IN	_	13	mark	_	_
 12	и	и	PART	UH	_	13	advmod	_	_
-13	опосредованно	опосредованно	ADV	RB	_	21	advmod	_	SpaceAfter=No
+13	опосредованно	опосредованно	ADV	RB	Degree=Pos	21	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	13	punct	_	_
 15	через	через	ADP	IN	_	19	case	_	_
 16	нами	мы	PRON	PRP	Case=Ins|Number=Plur|Person=1	18	obl:agent	_	_
@@ -4893,7 +4893,7 @@
 # text = В начале 1990-х Вольфман работал в издательстве.
 1	В	в	ADP	IN	_	2	case	_	_
 2	начале	начало	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
-3	1990-х	1990-й	ADJ	CD	_	2	nmod	_	_
+3	1990-х	1990-й	ADJ	CD	Case=Gen|Number=Plur	2	nmod	_	_
 4	Вольфман	Вольфман	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 5	работал	работать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	в	в	ADP	IN	_	7	case	_	_
@@ -4902,7 +4902,7 @@
 
 # sent_id = test-s231
 # text = Несмотря на изоляцию, изучают другие расы, одна платформа (Легион) была отправлена следить за Шепардом.
-1	Несмотря	несмотря	ADV	RB	_	3	case	_	_
+1	Несмотря	несмотря	ADV	RB	Degree=Pos	3	case	_	_
 2	на	на	ADP	IN	_	1	fixed	_	_
 3	изоляцию	изоляция	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
@@ -4952,11 +4952,11 @@
 6	193	193	NUM	CD	Animacy=Inan|Case=Gen|NumType=Card	7	nummod	_	_
 7	государств	государство	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	obl	_	_
 8	мира	мир	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
-9	полностью	полностью	ADV	RB	_	10	advmod	_	_
+9	полностью	полностью	ADV	RB	Degree=Pos	10	advmod	_	_
 10	независимую	независимый	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
 11	политику	политика	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
 12	проводят	проводить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-13	всего	всего	ADV	UH	_	14	advmod	_	_
+13	всего	всего	ADV	RB	Degree=Pos	14	advmod	_	_
 14	три	три	NUM	CD	Animacy=Inan|Case=Nom|NumType=Card	15	nummod:gov	_	_
 15	страны	страна	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nsubj	_	_
 16	--	--	PUNCT	--	_	15	punct	_	_
@@ -4987,7 +4987,7 @@
 
 # sent_id = test-s235
 # text = Наряду с Великобританией Германия являлась основным внешнеторговым партнером России.
-1	Наряду	наряду	ADV	RB	_	3	advmod	_	_
+1	Наряду	наряду	ADV	RB	Degree=Pos	3	advmod	_	_
 2	с	с	ADP	IN	_	3	case	_	_
 3	Великобританией	Великобритания	PROPN	NNP	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
 4	Германия	Германия	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -5022,7 +5022,7 @@
 3	книг	книга	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	таких	такой	DET	DT	Case=Gen|Number=Plur	3	orphan	_	_
-6	как	как	ADV	IN	_	5	fixed	_	SpaceAfter=No
+6	как	как	ADP	IN	_	5	fixed	_	SpaceAfter=No
 7	:	:	PUNCT	:	_	5	punct	_	_
 8	Жена	жена	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
 9	--	--	PUNCT	--	_	11	punct	_	_
@@ -5046,14 +5046,14 @@
 1	Легализация	легализация	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
 2	в	в	ADP	IN	_	3	case	_	_
 3	начале	начало	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	1	nmod	_	_
-4	1990-х	1990-й	NUM	CD	_	5	amod	_	_
+4	1990-х	1990-й	ADJ	ORD	Case=Gen|Number=Plur	5	amod	_	_
 5	годов	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
 6	игорных	игорный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
 7	заведений	заведение	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	1	nmod	_	_
 8	в	в	ADP	IN	_	9	case	_	_
 9	штате	штат	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
 10	Миссисипи	Миссисипи	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	appos	_	_
-11	сильно	сильно	ADV	RB	_	12	advmod	_	_
+11	сильно	сильно	ADV	RB	Degree=Pos	12	advmod	_	_
 12	помогла	помочь	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 13	экономике	экономика	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	obj	_	_
 14	Дельты	Дельта	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
@@ -5125,7 +5125,7 @@
 
 # sent_id = test-s242
 # text = Однажды он прислал Пушкину мемуары сестры (с тоски стала писать) и Пушкин оценил оригинальность этих записок.
-1	Однажды	однажды	ADV	RB	_	3	advmod	_	_
+1	Однажды	однажды	ADV	RB	Degree=Pos	3	advmod	_	_
 2	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 3	прислал	прислать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	Пушкину	Пушкин	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	_
@@ -5284,7 +5284,7 @@
 5	пограничного	пограничный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 6	центра	центр	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	_	_
-8	естественно	естественно	ADV	RB	_	10	advmod	_	SpaceAfter=No
+8	естественно	естественно	ADV	RB	Degree=Pos	10	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	8	punct	_	_
 10	начинает	начинать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 11	претендовать	претендовать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
@@ -5342,7 +5342,7 @@
 1	При	при	ADP	IN	_	2	case	_	_
 2	опасности	опасность	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
 3	бегут	бежать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	вверх	вверх	ADV	RB	_	3	advmod	_	_
+4	вверх	вверх	ADV	RB	Degree=Pos	3	advmod	_	_
 5	по	по	ADP	IN	_	6	case	_	_
 6	склону	склон	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
 7	или	или	CCONJ	CC	_	8	cc	_	_
@@ -5545,7 +5545,7 @@
 6	работу	работа	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
 7	Николь	Николь	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
 8	-	-	PUNCT	-	_	7	punct	_	SpaceAfter=No
-9	Рейн	Рейн	PROPN	NNP	_	7	flat:name	_	_
+9	Рейн	Рейн	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	7	flat:name	_	_
 10	--	--	PUNCT	--	_	6	punct	_	_
 11	таблицы	таблица	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	appos	_	_
 12	колебаний	колебание	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
@@ -5600,7 +5600,7 @@
 9	формат	формат	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
 10	А	а	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	appos	_	SpaceAfter=No
 11	-	-	PUNCT	-	_	10	punct	_	SpaceAfter=No
-12	4	4	NUM	CD	_	10	appos	_	SpaceAfter=No
+12	4	4	NUM	CD	_	10	nummod:entity	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	_	_
 14	выходит	выходить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
 15	четыре	четыре	NUM	CD	Animacy=Inan|Case=Acc|NumType=Card	16	nummod:gov	_	_
@@ -5613,7 +5613,7 @@
 # text = Однако Мавроди успешно уворачивается от обвинений.
 1	Однако	однако	CCONJ	CC	_	4	cc	_	_
 2	Мавроди	Мавроди	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-3	успешно	успешно	ADV	RB	_	4	advmod	_	_
+3	успешно	успешно	ADV	RB	Degree=Pos	4	advmod	_	_
 4	уворачивается	уворачиваться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
 5	от	от	ADP	IN	_	6	case	_	_
 6	обвинений	обвинение	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	obl	_	SpaceAfter=No
@@ -5645,7 +5645,7 @@
 5	уходит	уходить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	своими	свой	DET	PRP$	Case=Ins|Number=Plur	7	det	_	_
 7	корнями	корень	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	iobj	_	_
-8	глубоко	глубоко	ADV	RB	_	5	advmod	_	_
+8	глубоко	глубоко	ADV	RB	Degree=Pos	5	advmod	_	_
 9	в	в	ADP	IN	_	10	case	_	_
 10	прошлое	прошлое	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	5	punct	_	_
@@ -5740,7 +5740,7 @@
 9	,	,	PUNCT	,	_	5	punct	_	_
 10	таких	такой	DET	DT	Case=Gen|Number=Plur	3	det	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	14	punct	_	_
-12	как	как	ADV	IN	_	14	case	_	_
+12	как	как	ADP	IN	_	14	case	_	_
 13	сетевая	сетевой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
 14	маршрутизация	маршрутизация	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nmod	_	_
 15	и	и	CCONJ	CC	_	16	cc	_	_
@@ -5750,7 +5750,7 @@
 19	в	в	ADP	IN	_	21	case	_	_
 20	компьютерной	компьютерный	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
 21	индустрии	индустрия	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	obl	_	_
-22	вновь	вновь	ADV	RB	_	23	advmod	_	_
+22	вновь	вновь	ADV	RB	Degree=Pos	23	advmod	_	_
 23	появился	появиться	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
 24	акцент	акцент	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
 25	на	на	ADP	IN	_	26	case	_	_
@@ -5765,7 +5765,7 @@
 1	В	в	ADP	IN	_	3	case	_	_
 2	настоящее	настоящий	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
 3	время	время	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
-4	здесь	здесь	ADV	RB	_	5	advmod	_	_
+4	здесь	здесь	ADV	RB	Degree=Pos	5	advmod	_	_
 5	размещаются	размещаться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
 6	районный	районный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
 7	молодёжный	молодежный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
@@ -5851,7 +5851,7 @@
 # sent_id = test-s281
 # text = Тот вскоре отказался от этой идеи из-за желания CBS ввести любовную линию с Перри Мейсоном.
 1	Тот	тот	DET	DT	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	вскоре	вскоре	ADV	RB	_	3	advmod	_	_
+2	вскоре	вскоре	ADV	RB	Degree=Pos	3	advmod	_	_
 3	отказался	отказаться	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
 4	от	от	ADP	IN	_	6	case	_	_
 5	этой	этот	DET	DT	Case=Gen|Gender=Fem|Number=Sing	6	det	_	_
@@ -5957,7 +5957,7 @@
 14	Полтавской	полтавский	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
 15	губернии	губерния	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
 16	(	(	PUNCT	(	_	19	punct	_	SpaceAfter=No
-17	ныне	ныне	ADV	RB	_	19	advmod	_	_
+17	ныне	ныне	ADV	RB	Degree=Pos	19	advmod	_	_
 18	Ахтырский	ахтырский	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
 19	район	район	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	_
 20	Сумской	сумской	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
@@ -5989,7 +5989,7 @@
 12	&#39;&#39;	&#39;&#39;	PUNCT	&#39;&#39;	_	10	punct	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	_	_
 14	записанный	записать	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	_
-15	совместно	совместно	ADV	RB	_	14	advmod	_	_
+15	совместно	совместно	ADV	RB	Degree=Pos	14	advmod	_	_
 16	с	с	ADP	IN	_	17	case	_	_
 17	вокалисткой	вокалистка	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	15	obl	_	_
 18	Одри	Одри	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	17	appos	_	_
@@ -6002,7 +6002,7 @@
 
 # sent_id = test-s288
 # text = Почти ничего неизвестно об этом человеке кроме того, что он был консулом в 267 году вместе с Аркесилаем.
-1	Почти	почти	ADV	RB	_	3	advmod	_	_
+1	Почти	почти	ADV	RB	Degree=Pos	3	advmod	_	_
 2	ничего	ничто	PRON	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nsubj	_	_
 3	неизвестно	неизвестный	ADJ	PRED	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
 4	об	об	ADP	IN	_	6	case	_	_
@@ -6018,7 +6018,7 @@
 14	в	в	ADP	IN	_	16	case	_	_
 15	267	267	ADJ	ORD	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
 16	году	год	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_
-17	вместе	вместе	ADV	RB	_	13	advmod	_	_
+17	вместе	вместе	ADV	RB	Degree=Pos	13	advmod	_	_
 18	с	с	ADP	IN	_	19	case	_	_
 19	Аркесилаем	Аркесилай	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	3	punct	_	_
@@ -6034,7 +6034,7 @@
 7	химических	химический	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
 8	элементов	элемент	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
 9	начались	начаться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
-10	задолго	задолго	ADV	RB	_	9	advmod	_	_
+10	задолго	задолго	ADV	RB	Degree=Pos	9	advmod	_	_
 11	до	до	ADP	IN	_	12	case	_	_
 12	открытия	открытие	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
 13	Периодического	периодический	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
@@ -6055,7 +6055,7 @@
 
 # sent_id = test-s291
 # text = Сейчас японские плевротомарии выделены в отдельный род -- Mikadotrochus.
-1	Сейчас	сейчас	ADV	RB	_	4	advmod	_	_
+1	Сейчас	сейчас	ADV	RB	Degree=Pos	4	advmod	_	_
 2	японские	японский	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
 3	плевротомарии	плевротомария	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	4	nsubj:pass	_	_
 4	выделены	выделить	VERB	VBNH	Animacy=Anim|Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -6151,9 +6151,9 @@
 11	арабского	арабский	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
 12	восстания	восстание	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
 13	и	и	CCONJ	CC	_	17	cc	_	_
-14	сразу	сразу	ADV	RB	_	17	advmod	_	_
+14	сразу	сразу	ADV	RB	Degree=Pos	17	advmod	_	_
 15	же	же	PART	UH	_	14	advmod	_	_
-16	активно	активно	ADV	RB	_	17	advmod	_	_
+16	активно	активно	ADV	RB	Degree=Pos	17	advmod	_	_
 17	включился	включиться	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	conj	_	_
 18	в	в	ADP	IN	_	20	case	_	_
 19	антиповстанческие	антиповстанческий	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
@@ -6178,7 +6178,7 @@
 # sent_id = test-s296
 # text = Проходит перпендикулярно от Лермонтовского проспекта до Жулебинского бульвара.
 1	Проходит	проходить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	перпендикулярно	перпендикулярно	ADV	RB	_	1	advmod	_	_
+2	перпендикулярно	перпендикулярно	ADV	RB	Degree=Pos	1	advmod	_	_
 3	от	от	ADP	IN	_	5	case	_	_
 4	Лермонтовского	лермонтовский	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
 5	проспекта	проспект	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	obl	_	_
@@ -6236,7 +6236,7 @@
 4	структуру	структура	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
 5	игры	игра	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	3	punct	_	_
-7	достаточно	достаточно	ADV	RB	_	8	advmod	_	_
+7	достаточно	достаточно	ADV	RB	Degree=Pos	8	advmod	_	_
 8	много	много	NUM	RB	Animacy=Inan|Case=Nom|NumType=Card	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	13	punct	_	_
 10	и	и	CCONJ	CC	_	13	cc	_	_
@@ -6305,7 +6305,7 @@
 19	была	быть	AUX	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	20	cop	_	_
 20	белая	белый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	parataxis	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	23	punct	_	_
-22	как	как	ADV	IN	_	23	case	_	_
+22	как	как	ADP	IN	_	23	case	_	_
 23	молоко	молоко	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	obl	_	SpaceAfter=No
 24	.	.	PUNCT	.	_	8	punct	_	_
 
@@ -6398,7 +6398,7 @@
 # text = Экспедиция была очень сложной.
 1	Экспедиция	экспедиция	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	была	быть	AUX	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	4	cop	_	_
-3	очень	очень	ADV	RB	_	4	advmod	_	_
+3	очень	очень	ADV	RB	Degree=Pos	4	advmod	_	_
 4	сложной	сложный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -6431,7 +6431,7 @@
 
 # sent_id = test-s311
 # text = Ежегодно поезд в обоих направлениях перевозит более 500 тысяч человек.
-1	Ежегодно	ежегодно	ADV	RB	_	6	advmod	_	_
+1	Ежегодно	ежегодно	ADV	RB	Degree=Pos	6	advmod	_	_
 2	поезд	поезд	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
 3	в	в	ADP	IN	_	5	case	_	_
 4	обоих	оба	NUM	CD	Animacy=Inan|Case=Loc|Number=Plur|NumType=Card	5	nummod	_	_
@@ -6448,13 +6448,13 @@
 1	Таинственная	таинственный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
 2	игра	игра	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
 3	(	(	PUNCT	(	_	4	punct	_	SpaceAfter=No
-4	фусиги	фусиги	NOUN	NN	_	2	appos	_	_
-5	ю	ю	ADV	FW	_	4	flat:foreign	_	SpaceAfter=No
+4	фусиги	фусиги	X	FW	Foreign=Yes	2	appos	_	_
+5	ю	ю	X	FW	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
 6	:	:	PUNCT	:	_	4	punct	_	_
-7	ги	ги	ADV	FW	_	4	flat:foreign	_	SpaceAfter=No
+7	ги	ги	X	FW	Foreign=Yes	4	flat:foreign	_	SpaceAfter=No
 8	)	)	PUNCT	)	_	4	punct	_	_
 9	--	--	PUNCT	--	_	12	punct	_	_
-10	сёдзё	седзе	ADV	AFX	_	12	compound	_	SpaceAfter=No
+10	сёдзё	седзе	X	FW	Foreign=Yes	12	compound	_	SpaceAfter=No
 11	-	-	PUNCT	-	_	10	punct	_	SpaceAfter=No
 12	манга	манга	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 13	авторства	авторство	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
@@ -6505,7 +6505,7 @@
 25	часть	часть	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	34	nsubj:pass	_	_
 26	Кордильер	Кордильеры	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	32	punct	_	_
-28	особенно	особенно	ADV	RB	_	32	advmod	_	_
+28	особенно	особенно	ADV	RB	Degree=Pos	32	advmod	_	_
 29	их	их	DET	PRP$	_	32	det	_	_
 30	внешняя	внешний	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
 31	западная	западный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
@@ -6545,7 +6545,7 @@
 65	до	до	ADP	IN	_	67	case	_	_
 66	сих	сей	DET	DT	Case=Gen|Number=Plur	67	det	_	_
 67	пор	пора	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	68	obl	_	_
-68	трудно	трудно	ADV	RB	_	34	conj	_	_
+68	трудно	трудно	ADV	RB	Degree=Pos	34	conj	_	_
 69	интерпретировать	интерпретировать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	68	csubj	_	SpaceAfter=No
 70	,	,	PUNCT	,	_	76	punct	_	_
 71	хотя	хотя	SCONJ	IN	_	76	mark	_	_
@@ -6558,7 +6558,7 @@
 
 # sent_id = test-s315
 # text = Поэтому при планировании сетей территориальное расположение точек присутствия различных провайдеров имеет не меньшее значение, чем стоимость и технические характеристики их услуг.
-1	Поэтому	поэтому	ADV	RB	_	11	advmod	_	_
+1	Поэтому	поэтому	ADV	RB	Degree=Pos	11	advmod	_	_
 2	при	при	ADP	IN	_	3	case	_	_
 3	планировании	планирование	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	_
 4	сетей	сеть	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
@@ -6626,8 +6626,8 @@
 40	,	,	PUNCT	,	_	45	punct	_	_
 41	т.	то	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	45	mark	_	_
 42	е.	быть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	41	fixed	_	_
-43	ещё	еще	ADV	RB	_	44	advmod	_	_
-44	немного	немного	ADV	RB	_	45	advmod	_	_
+43	ещё	еще	ADV	RB	Degree=Pos	44	advmod	_	_
+44	немного	немного	ADV	RB	Degree=Pos	45	advmod	_	_
 45	быстрее	быстро	ADV	RBR	Degree=Cmp	34	advcl	_	SpaceAfter=No
 46	,	,	PUNCT	,	_	50	punct	_	_
 47	чем	чем	SCONJ	IN	_	50	case	_	_
@@ -6735,7 +6735,7 @@
 15	дипломатическим	дипломатический	ADJ	JJL	Case=Dat|Degree=Pos|Number=Plur	16	amod	_	_
 16	проблемам	проблема	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	13	obl	_	_
 17	между	между	ADP	IN	_	18	case	_	_
-18	Гессен	гессен	ADV	AFX	_	16	nmod	_	SpaceAfter=No
+18	Гессен	гессен	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
 19	-	-	PUNCT	-	_	18	punct	_	SpaceAfter=No
 20	Касселем	Кассель	PROPN	NNP	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	flat:foreign	_	SpaceAfter=No
 21	,	,	PUNCT	,	_	22	punct	_	_
@@ -6770,7 +6770,7 @@
 # sent_id = test-s322
 # text = Термин впервые появился в игре Doom.
 1	Термин	термин	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
-2	впервые	впервые	ADV	RB	_	3	advmod	_	_
+2	впервые	впервые	ADV	RB	Degree=Pos	3	advmod	_	_
 3	появился	появиться	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
 4	в	в	ADP	IN	_	5	case	_	_
 5	игре	игра	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
@@ -6868,7 +6868,7 @@
 4	на	на	ADP	IN	_	6	case	_	_
 5	этом	этот	DET	DT	Case=Loc|Gender=Neut|Number=Sing	6	det	_	_
 6	месте	место	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
-7	уже	уже	ADV	RB	_	10	advmod	_	_
+7	уже	уже	ADV	RB	Degree=Pos	10	advmod	_	_
 8	в	в	ADP	IN	_	10	case	_	_
 9	1625	1625	ADJ	ORD	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
 10	году	год	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
@@ -6878,7 +6878,7 @@
 # text = Брэдбери потратил немало сил, чтобы убедить издателя не добавлять на обложку издания надпись ``Научная фантастика&#39;&#39;.
 1	Брэдбери	Брэдбери	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 2	потратил	потратить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	немало	немало	ADV	RB	_	4	advmod	_	_
+3	немало	немало	ADV	RB	Degree=Pos	4	advmod	_	_
 4	сил	сила	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	7	punct	_	_
 6	чтобы	чтобы	SCONJ	IN	_	7	mark	_	_
@@ -7002,7 +7002,7 @@
 14	Россию	Россия	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	_
 15	иностранцев	иностранец	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	18	punct	_	_
-17	действительно	действительно	ADV	RB	_	18	advmod	_	_
+17	действительно	действительно	ADV	RB	Degree=Pos	18	advmod	_	_
 18	способных	способный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
 19	воспитывать	воспитывать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	18	xcomp	_	_
 20	русское	русский	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
@@ -7010,7 +7010,7 @@
 22	или	или	CCONJ	CC	_	28	cc	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	26	punct	_	_
 24	что	что	PRON	WP	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	_
-25	ещё	еще	ADV	UH	_	26	advmod	_	_
+25	ещё	еще	ADV	RB	Degree=Pos	26	advmod	_	_
 26	лучше	хорошо	ADJ	JJR	Degree=Cmp	28	advcl	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	26	punct	_	_
 28	воспитает	воспитать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	18	conj	_	_
@@ -7048,7 +7048,7 @@
 22	Шушу	Шуша	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	26	punct	_	_
 24	чтобы	чтобы	SCONJ	IN	_	26	mark	_	_
-25	оттуда	оттуда	ADV	RB	_	26	advmod	_	_
+25	оттуда	оттуда	ADV	RB	Degree=Pos	26	advmod	_	_
 26	вести	вести	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	12	advcl	_	_
 27	обстрел	обстрел	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obj	_	_
 28	города	город	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
@@ -7119,7 +7119,7 @@
 5	(	(	PUNCT	(	_	4	punct	_	SpaceAfter=No
 6	)	)	PUNCT	)	_	4	punct	_	_
 7	--	--	PUNCT	--	_	10	punct	_	_
-8	сравнительно	сравнительно	ADV	RB	_	9	advmod	_	_
+8	сравнительно	сравнительно	ADV	RB	Degree=Pos	9	advmod	_	_
 9	небольшой	небольшой	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
 10	астероид	астероид	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 11	главного	главный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
@@ -7141,11 +7141,11 @@
 4	этим	этот	DET	DT	Case=Ins|Gender=Neut|Number=Sing	5	det	_	_
 5	постановлением	постановление	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	_
 6	была	быть	AUX	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
-7	официально	официально	ADV	RB	_	8	advmod	_	_
+7	официально	официально	ADV	RB	Degree=Pos	8	advmod	_	_
 8	начата	начать	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
 9	разработка	разработка	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj:pass	_	_
 10	новой	новый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
-11	122-мм	122-мм	ADJ	JJL	_	14	amod	_	_
+11	122-мм	122-мм	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
 12	авиадесантируемой	авиадесантируемый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
 13	самоходной	самоходный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
 14	гаубицы	гаубица	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
@@ -7196,7 +7196,7 @@
 7	шторме	шторм	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
 8	будут	быть	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	9	aux	_	_
 9	работать	работать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	2	acl:relcl	_	_
-10	заметно	заметно	ADV	RB	_	11	advmod	_	_
+10	заметно	заметно	ADV	RB	Degree=Pos	11	advmod	_	_
 11	лучше	хорошо	ADV	RBR	Degree=Cmp	9	advmod	_	_
 12	или	или	CCONJ	CC	_	13	cc	_	_
 13	приобретут	приобрести	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	conj	_	_
@@ -7292,7 +7292,7 @@
 27	охарактеризовал	охарактеризовать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
 28	этот	этот	DET	DT	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	det	_	_
 29	альбом	альбом	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obj	_	_
-30	как	как	ADV	IN	_	33	case	_	_
+30	как	как	ADP	IN	_	33	case	_	_
 31	``	``	PUNCT	``	_	33	punct	_	SpaceAfter=No
 32	полный	полный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
 33	дурдом	дурдом	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
@@ -7330,7 +7330,7 @@
 9	течение	течение	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	fixed	_	_
 10	9	9	NUM	CD	Case=Gen|NumType=Card	11	nummod	_	_
 11	недель	неделя	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	nmod	_	_
-12	подряд	подряд	ADV	RB	_	11	advmod	_	_
+12	подряд	подряд	ADV	RB	Degree=Pos	11	advmod	_	_
 13	с	с	ADP	IN	_	14	case	_	_
 14	25	25	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	nmod	_	_
 15	декабря	декабрь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	flat	_	_
@@ -7502,10 +7502,10 @@
 2	обобщения	обобщение	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
 3	оказываются	оказываться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	_	_
-5	впрочем	впрочем	ADV	RB	_	9	parataxis	_	SpaceAfter=No
+5	впрочем	впрочем	ADV	RB	Degree=Pos	9	parataxis	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	5	punct	_	_
 7	лишь	лишь	PART	UH	_	8	advmod	_	_
-8	приблизительно	приблизительно	ADV	RB	_	9	advmod	_	_
+8	приблизительно	приблизительно	ADV	RB	Degree=Pos	9	advmod	_	_
 9	верными	верный	ADJ	JJL	Case=Ins|Degree=Pos|Number=Plur	3	xcomp	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	15	punct	_	_
 11	и	и	CCONJ	CC	_	15	cc	_	_
@@ -7574,7 +7574,7 @@
 1	Владение	владение	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj:pass	_	_
 2	Мёрсбергенов	Мерсберген	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	5	punct	_	_
-4	впервые	впервые	ADV	RB	_	5	advmod	_	_
+4	впервые	впервые	ADV	RB	Degree=Pos	5	advmod	_	_
 5	упомянутое	упомянуть	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	acl	_	_
 6	в	в	ADP	IN	_	8	case	_	_
 7	1435	1435	ADJ	ORD	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
@@ -7630,7 +7630,7 @@
 # text = Она появляется повсюду: на телевидении, в прессе, на улице...
 1	Она	она	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nsubj	_	_
 2	появляется	появляться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
-3	повсюду	повсюду	ADV	RB	_	2	advmod	_	SpaceAfter=No
+3	повсюду	повсюду	ADV	RB	Degree=Pos	2	advmod	_	SpaceAfter=No
 4	:	:	PUNCT	:	_	3	punct	_	_
 5	на	на	ADP	IN	_	6	case	_	_
 6	телевидении	телевидение	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	parataxis	_	SpaceAfter=No
@@ -7645,7 +7645,7 @@
 # sent_id = test-s366
 # text = Жандармы всерьёз начинают беспокоиться о состоянии здоровья своего коллеги.
 1	Жандармы	жандарм	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
-2	всерьёз	всерьез	ADV	RB	_	4	advmod	_	_
+2	всерьёз	всерьез	ADV	RB	Degree=Pos	4	advmod	_	_
 3	начинают	начинать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	беспокоиться	беспокоиться	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Mid	3	xcomp	_	_
 5	о	о	ADP	IN	_	6	case	_	_
@@ -7694,7 +7694,7 @@
 1	``	``	PUNCT	``	_	2	punct	_	SpaceAfter=No
 2	Зенит	зенит	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpaceAfter=No
 3	-	-	PUNCT	-	_	2	punct	_	SpaceAfter=No
-4	2	2	NUM	CD	_	2	appos	_	SpaceAfter=No
+4	2	2	NUM	CD	_	2	nummod:entity	_	SpaceAfter=No
 5	&#39;&#39;	&#39;&#39;	PUNCT	&#39;&#39;	_	2	punct	_	_
 6	--	--	PUNCT	--	_	9	punct	_	_
 7	российский	российский	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
@@ -7707,7 +7707,7 @@
 # sent_id = test-s370
 # text = Старался повсеместно вводить практику частого Причащения.
 1	Старался	стараться	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
-2	повсеместно	повсеместно	ADV	RB	_	3	advmod	_	_
+2	повсеместно	повсеместно	ADV	RB	Degree=Pos	3	advmod	_	_
 3	вводить	вводить	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	_
 4	практику	практика	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
 5	частого	частый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
@@ -7742,12 +7742,12 @@
 # sent_id = test-s372
 # text = Их очень долго не восстанавливали, вплоть до XX века.
 1	Их	они	PRON	PRP	Case=Acc|Number=Plur|Person=3	5	obj	_	_
-2	очень	очень	ADV	RB	_	3	advmod	_	_
-3	долго	долго	ADV	RB	_	5	advmod	_	_
+2	очень	очень	ADV	RB	Degree=Pos	3	advmod	_	_
+3	долго	долго	ADV	RB	Degree=Pos	5	advmod	_	_
 4	не	не	PART	NEG	Polarity=Neg	5	advmod	_	_
 5	восстанавливали	восстанавливать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	10	punct	_	_
-7	вплоть	вплоть	ADV	RB	_	10	advmod	_	_
+7	вплоть	вплоть	ADV	RB	Degree=Pos	10	advmod	_	_
 8	до	до	ADP	IN	_	10	case	_	_
 9	XX	XX	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
 10	века	век	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
@@ -7767,12 +7767,12 @@
 10	самом	самый	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
 11	острове	остров	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_
 12	--	--	PUNCT	--	_	11	punct	_	_
-13	Кап	кап	ADV	AFX	_	11	appos	_	SpaceAfter=No
+13	Кап	кап	X	FW	Foreign=Yes	11	appos	_	SpaceAfter=No
 14	-	-	PUNCT	-	_	13	punct	_	SpaceAfter=No
 15	Франсуа	Франсуа	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	flat:foreign	_	_
 16	(	(	PUNCT	(	_	18	punct	_	SpaceAfter=No
 17	современный	современный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
-18	Кап	кап	ADV	AFX	_	13	parataxis	_	SpaceAfter=No
+18	Кап	кап	X	FW	Foreign=Yes	13	parataxis	_	SpaceAfter=No
 19	-	-	PUNCT	-	_	18	punct	_	SpaceAfter=No
 20	Аитьен	Аитьен	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	flat:foreign	_	SpaceAfter=No
 21	)	)	PUNCT	)	_	18	punct	_	SpaceAfter=No
@@ -7780,7 +7780,7 @@
 
 # sent_id = test-s374
 # text = Так у оренбургских казаков общинным правом регулировался рыбный промысел.
-1	Так	так	ADV	RB	_	7	advmod	_	_
+1	Так	так	ADV	RB	Degree=Pos	7	advmod	_	_
 2	у	у	ADP	IN	_	4	case	_	_
 3	оренбургских	оренбургский	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
 4	казаков	казак	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
@@ -7813,7 +7813,7 @@
 18	Вест-Индии	Вест-Индия	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	conj	_	_
 19	до	до	ADP	IN	_	20	case	_	_
 20	Колумбии	Колумбия	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
-21	включительно	включительно	ADV	RB	_	20	advmod	_	SpaceAfter=No
+21	включительно	включительно	ADV	RB	Degree=Pos	20	advmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s376
@@ -7827,7 +7827,7 @@
 7	как	как	CCONJ	WRB	_	8	cc	_	_
 8	оружием	оружие	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	12	punct	_	_
-10	так	так	ADV	RB	_	12	cc	_	_
+10	так	так	ADV	RB	Degree=Pos	12	cc	_	_
 11	и	и	PART	UH	_	10	fixed	_	_
 12	храбростью	храбрость	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	18	punct	_	_
@@ -7988,7 +7988,7 @@
 5	Петр	Петр	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
 6	Переньи	Переньи	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	_
 7	строит	строить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-8	тут	тут	ADV	RB	_	7	advmod	_	_
+8	тут	тут	ADV	RB	Degree=Pos	7	advmod	_	_
 9	замок	замок	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
 10	Чонкавар	Чонкавар	PROPN	NNP	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	appos	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	7	punct	_	_
@@ -8021,7 +8021,7 @@
 
 # sent_id = test-s385
 # text = Поэтому методы гомогенизации, использующие первый способ, можно, для наглядности термина, назвать аппроксимационной гомогенизацией.
-1	Поэтому	поэтому	ADV	RB	_	9	advmod	_	_
+1	Поэтому	поэтому	ADV	RB	Degree=Pos	9	advmod	_	_
 2	методы	метод	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obj	_	_
 3	гомогенизации	гомогенизация	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	_	_
@@ -8138,7 +8138,7 @@
 10	эффект	эффект	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	SpaceAfter=No
 11	)	)	PUNCT	)	_	8	punct	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	6	punct	_	_
-13	как	как	ADV	IN	_	14	case	_	_
+13	как	как	ADP	IN	_	14	case	_	_
 14	следствие	следствие	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	obl	_	_
 15	--	--	PUNCT	--	_	23	punct	_	_
 16	переход	переход	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
@@ -8157,12 +8157,12 @@
 
 # sent_id = test-s391
 # text = Впрочем, этот роман длился недолго, а в своих воспоминаниях он написал: ``Я порвал с ней, когда узнал, о чем она болтает&#39;&#39;.
-1	Впрочем	впрочем	ADV	RB	_	5	parataxis	_	SpaceAfter=No
+1	Впрочем	впрочем	ADV	RB	Degree=Pos	5	parataxis	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	1	punct	_	_
 3	этот	этот	DET	DT	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
 4	роман	роман	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 5	длился	длиться	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
-6	недолго	недолго	ADV	RB	_	5	advmod	_	SpaceAfter=No
+6	недолго	недолго	ADV	RB	Degree=Pos	5	advmod	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	13	punct	_	_
 8	а	а	CCONJ	CC	_	13	cc	_	_
 9	в	в	ADP	IN	_	11	case	_	_
@@ -8202,7 +8202,7 @@
 # sent_id = test-s393
 # text = В 1470-х годах он воевал против турок в Крыму.
 1	В	в	ADP	IN	_	3	case	_	_
-2	1470-х	1470-й	NUM	CD	_	3	amod	_	_
+2	1470-х	1470-й	ADJ	ORD	Case=Loc|Number=Plur	3	amod	_	_
 3	годах	год	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_
 4	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 5	воевал	воевать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -8229,7 +8229,7 @@
 13	которая	который	PRON	AWP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj:pass	_	_
 14	была	быть	AUX	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
 15	предназначена	предназначить	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	9	acl:relcl	_	_
-16	исключительно	исключительно	ADV	RB	_	17	advmod	_	_
+16	исключительно	исключительно	ADV	RB	Degree=Pos	17	advmod	_	_
 17	Каумуалии	Каумуалия	PROPN	NNP	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	15	iobj	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	17	punct	_	_
 19	королю	король	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	17	appos	_	_
@@ -8254,7 +8254,7 @@
 10	)	)	PUNCT	)	_	6	punct	_	_
 11	или	или	CCONJ	CC	_	13	cc	_	_
 12	``	``	PUNCT	``	_	13	punct	_	SpaceAfter=No
-13	Ной	ной	ADV	AFX	_	6	conj	_	SpaceAfter=No
+13	Ной	ной	X	FW	Foreign=Yes	6	conj	_	SpaceAfter=No
 14	-	-	PUNCT	-	_	13	punct	_	SpaceAfter=No
 15	Рим	Рим	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	flat:foreign	_	_
 16	Вест	Вест	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	flat:foreign	_	SpaceAfter=No
@@ -8295,7 +8295,7 @@
 11	засаду	засада	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
 12	и	и	CCONJ	CC	_	13	cc	_	_
 13	стали	стать	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
-14	скрытно	скрытно	ADV	RB	_	15	advmod	_	_
+14	скрытно	скрытно	ADV	RB	Degree=Pos	15	advmod	_	_
 15	окружать	окружать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	_
 16	основные	основной	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
 17	силы	сила	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
@@ -8330,7 +8330,7 @@
 7	хотя	хотя	SCONJ	IN	_	11	mark	_	_
 8	в	в	ADP	IN	_	9	case	_	_
 9	сериале	сериал	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
-10	часто	часто	ADV	RB	_	11	advmod	_	_
+10	часто	часто	ADV	RB	Degree=Pos	11	advmod	_	_
 11	показано	показать	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	advcl	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	16	punct	_	_
 13	что	что	SCONJ	IN	_	16	mark	_	_
@@ -8393,7 +8393,7 @@
 17	валов	вал	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nsubj	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	19	punct	_	_
 19	расположенных	расположить	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	17	acl	_	_
-20	параллельно	параллельно	ADV	RB	_	21	case	_	_
+20	параллельно	параллельно	ADV	RB	Degree=Pos	21	case	_	_
 21	друг	друг	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	obl	_	_
 22	другу	друг	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	21	fixed	_	_
 23	на	на	ADP	IN	_	24	case	_	_
@@ -8453,9 +8453,9 @@
 6	Клуба	клуб	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
 7	слизней	слизень	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
 8	прошло	пройти	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-9	прямо	прямо	ADV	RB	_	13	advmod	_	_
+9	прямо	прямо	ADV	RB	Degree=Pos	13	advmod	_	_
 10	в	в	ADP	IN	_	13	case	_	_
-11	Хогвартс	хогвартс	PROPN	NNP	_	13	compound	_	SpaceAfter=No
+11	Хогвартс	хогвартс	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	compound	_	SpaceAfter=No
 12	-	-	PUNCT	-	_	13	punct	_	SpaceAfter=No
 13	Экспрессе	экспресс	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	13	punct	_	_
@@ -8496,7 +8496,7 @@
 
 # sent_id = test-s407
 # text = Изначально в японской миссии ``Хаябуса&#39;&#39; планировался и наноровер -- миниатюрный самоходный робот, который должен был спустится с основного зонда на поверхность астероида и исследовать его в нескольких местах.
-1	Изначально	изначально	ADV	RB	_	8	advmod	_	_
+1	Изначально	изначально	ADV	RB	Degree=Pos	8	advmod	_	_
 2	в	в	ADP	IN	_	4	case	_	_
 3	японской	японский	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
 4	миссии	миссия	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
@@ -8579,7 +8579,7 @@
 1	В	в	ADP	IN	_	3	case	_	_
 2	этом	этот	DET	DT	Case=Loc|Gender=Neut|Number=Sing	3	det	_	_
 3	произведении	произведение	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
-4	удачно	удачно	ADV	RB	_	5	advmod	_	_
+4	удачно	удачно	ADV	RB	Degree=Pos	5	advmod	_	_
 5	соединились	соединиться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
 6	индивидуальные	индивидуальный	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
 7	черты	черта	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
@@ -8614,7 +8614,7 @@
 2	России	Россия	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
 3	с	с	ADP	IN	_	4	case	_	_
 4	начала	начало	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
-5	2000-х	2000-й	NUM	CD	_	6	amod	_	_
+5	2000-х	2000-й	ADJ	ORD	Case=Gen|Number=Plur	6	amod	_	_
 6	годов	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
 7	фильм	фильм	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	_
 8	выпускался	выпускаться	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
@@ -8716,7 +8716,7 @@
 2	деятель	деятель	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
 3	и	и	CCONJ	CC	_	4	cc	_	_
 4	популяризатор	популяризатор	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
-5	роллер	роллер	ADV	AFX	_	6	compound	_	_
+5	роллер	роллер	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	compound	_	_
 6	спорта	спорт	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 7	в	в	ADP	IN	_	8	case	_	_
 8	России	Россия	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
@@ -8740,7 +8740,7 @@
 14	и	и	CCONJ	CC	_	15	cc	_	_
 15	атакует	атаковать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
 16	их	они	PRON	PRP	Case=Acc|Number=Plur|Person=3	15	obj	_	_
-17	вместе	вместе	ADV	RB	_	15	advmod	_	_
+17	вместе	вместе	ADV	RB	Degree=Pos	15	advmod	_	_
 18	с	с	ADP	IN	_	19	case	_	_
 19	Бамблби	Бамблби	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	17	obl	_	_
 20	и	и	CCONJ	CC	_	21	cc	_	_
@@ -8847,7 +8847,7 @@
 13	популяциям	популяция	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	17	iobj	_	_
 14	этих	этот	DET	DT	Case=Gen|Number=Plur	15	det	_	_
 15	птиц	птица	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
-16	регулярно	регулярно	ADV	RB	_	17	advmod	_	_
+16	регулярно	регулярно	ADV	RB	Degree=Pos	17	advmod	_	_
 17	наносили	наносить	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 18	ущерб	ущерб	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
 19	охотники	охотник	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
@@ -8898,7 +8898,7 @@
 5	,	,	PUNCT	,	_	7	punct	_	_
 6	который	который	PRON	AWP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 7	может	мочь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
-8	легко	легко	ADV	RB	_	9	advmod	_	_
+8	легко	легко	ADV	RB	Degree=Pos	9	advmod	_	_
 9	двигаться	двигаться	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Mid	7	xcomp	_	_
 10	вдоль	вдоль	ADP	IN	_	11	case	_	_
 11	гильзы	гильза	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
@@ -8978,7 +8978,7 @@
 # sent_id = test-s433
 # text = Мне иногда даже сексом сложно заниматься: столько всего творится в голове...&#39;&#39;
 1	Мне	я	PRON	PRP	Case=Dat|Number=Sing|Person=1	5	iobj	_	_
-2	иногда	иногда	ADV	RB	_	5	advmod	_	_
+2	иногда	иногда	ADV	RB	Degree=Pos	5	advmod	_	_
 3	даже	даже	PART	UH	_	4	advmod	_	_
 4	сексом	секс	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	obj	_	_
 5	сложно	сложный	ADJ	PRED	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
@@ -8995,7 +8995,7 @@
 # sent_id = test-s434
 # text = И тут же добавлял: ``Но с моей сексуальной жизнью всё в порядке!&#39;&#39;
 1	И	и	CCONJ	CC	_	4	cc	_	_
-2	тут	тут	ADV	RB	_	4	advmod	_	_
+2	тут	тут	ADV	RB	Degree=Pos	4	advmod	_	_
 3	же	же	PART	UH	_	2	advmod	_	_
 4	добавлял	добавлять	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 5	:	:	PUNCT	:	_	4	punct	_	_
@@ -9055,7 +9055,7 @@
 3	часы	часы	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	7	punct	_	_
 5	которые	который	PRON	AWP	Animacy=Inan|Case=Acc|Number=Plur	7	obj	_	_
-6	кто-либо	кто-либо	PRON	DT	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	кто-либо	кто-либо	PRON	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
 7	приспособил	приспособить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
 8	для	для	ADP	IN	_	9	case	_	_
 9	ношения	ношение	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
@@ -9082,7 +9082,7 @@
 13	что	что	SCONJ	IN	_	18	mark	_	_
 14	предвыборная	предвыборный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
 15	программа	программа	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
-16	никогда	никогда	ADV	RB	_	18	advmod	_	_
+16	никогда	никогда	ADV	RB	Degree=Pos	18	advmod	_	_
 17	не	не	PART	NEG	Polarity=Neg	18	advmod	_	_
 18	заканчивается	заканчиваться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	ccomp	_	SpaceAfter=No
 19	.	.	PUNCT	.	_	11	punct	_	_
@@ -9247,7 +9247,7 @@
 2	)	)	PUNCT	)	_	1	punct	_	_
 3	--	--	PUNCT	--	_	4	punct	_	_
 4	переводится	переводиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
-5	как	как	ADV	IN	_	6	case	_	_
+5	как	как	ADP	IN	_	6	case	_	_
 6	Бог	бог	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	obl	_	_
 7	с	с	ADP	IN	_	9	case	_	_
 8	персидского	персидский	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
@@ -9256,7 +9256,7 @@
 
 # sent_id = test-s448
 # text = Поэтому сертификаты могут образовывать цепочки: корневой центр сертификации подписывает ключ службы безопасности компании, а та -- ключи сотрудников.
-1	Поэтому	поэтому	ADV	RB	_	3	advmod	_	_
+1	Поэтому	поэтому	ADV	RB	Degree=Pos	3	advmod	_	_
 2	сертификаты	сертификат	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 3	могут	мочь	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	образовывать	образовывать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
@@ -9281,7 +9281,7 @@
 # sent_id = test-s449
 # text = Англичане традиционно называли их Gypsies (от Egyptians -- ``египтяне&#39;&#39;), испанцы -- Gitanos (также от Egiptanos -- ``египтяне&#39;&#39;), французы -- Bohémiens (``богемцы&#39;&#39;, ``чехи&#39;&#39;), Gitans (искажённое испанское Gitanos) или Tsiganes (заимствование от греческого -- τσιγγάνοι, цинга́ни), немцы -- Zigeuner, итальянцы -- Zingari, голландцы -- Zigeuners, венгры -- Cigány или Fáraók népe (``фараоново племя&#39;&#39;), азербайджанцы, qaraçılar (``чёрные&#39;&#39;), грузины -- ბოშები (бошеби), армяне, Գնչուներ (гнчунер), боша, финны -- mustalaiset (``чёрные&#39;&#39;), казахи -- долы, сығандар, узбеки, ``люли&#39;&#39;, ``сигонлар&#39;&#39;, баски -- ``Erromintxela&#39;&#39;, Ijitoak; албанцы -- Jevgjit (``египтяне&#39;&#39;); евреи -- צוענים (цо&#39;&#39; ани́м), от названия библейской провинции Цоан в Древнем Египте; персы -- کولی (коли́); литовцы -- Čigonai; латыши -- Čigāni; болгары -- Цигани; эстонцы -- ``mustlased&#39;&#39; (от ``Must&#39;&#39; -- чёрный).
 1	Англичане	англичанин	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
-2	традиционно	традиционно	ADV	RB	_	3	advmod	_	_
+2	традиционно	традиционно	ADV	RB	Degree=Pos	3	advmod	_	_
 3	называли	называть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	их	они	PRON	PRP	Case=Acc|Number=Plur|Person=3	3	obj	_	_
 5	Gypsies	gypsies	X	FW	Foreign=Yes	3	xcomp	_	_
@@ -9492,7 +9492,7 @@
 6	к	к	ADP	IN	_	7	case	_	_
 7	жизни	жизнь	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
 8	в	в	ADP	IN	_	11	case	_	_
-9	очень	очень	ADV	RB	_	10	advmod	_	_
+9	очень	очень	ADV	RB	Degree=Pos	10	advmod	_	_
 10	суровых	суровый	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
 11	условиях	условие	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	7	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	3	punct	_	_
@@ -9625,7 +9625,7 @@
 14	Berliner	berliner	X	FW	Foreign=Yes	12	flat:foreign	_	SpaceAfter=No
 15	&#39;&#39;	&#39;&#39;	PUNCT	&#39;&#39;	_	12	punct	_	SpaceAfter=No
 16	)	)	PUNCT	)	_	12	punct	_	_
-17	якобы	якобы	ADV	RB	_	18	advmod	_	_
+17	якобы	якобы	ADV	RB	Degree=Pos	18	advmod	_	_
 18	превратилась	превратиться	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
 19	по	по	ADP	IN	_	20	case	_	_
 20	смыслу	смысл	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	18	obl	_	_
@@ -9646,7 +9646,7 @@
 35	)	)	PUNCT	)	_	30	punct	_	SpaceAfter=No
 36	,	,	PUNCT	,	_	39	punct	_	_
 37	чем	что	PRON	WP	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	39	iobj	_	_
-38	якобы	якобы	ADV	RB	_	39	advmod	_	_
+38	якобы	якобы	ADV	RB	Degree=Pos	39	advmod	_	_
 39	вызвала	вызвать	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	26	acl:relcl	_	_
 40	смех	смех	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	39	obj	_	_
 41	у	у	ADP	IN	_	42	case	_	_
@@ -9683,7 +9683,7 @@
 6	вошла	войти	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 7	в	в	ADP	IN	_	8	case	_	_
 8	состав	состав	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
-9	55-го	55-й	NUM	CD	_	12	amod	_	_
+9	55-го	55-й	ADJ	ORD	Case=Gen|Gender=Masc|Number=Sing	12	amod	_	_
 10	резервного	резервный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
 11	стрелкового	стрелковый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
 12	корпуса	корпус	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
@@ -9760,7 +9760,7 @@
 5	баллады	баллада	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
 6	о	о	ADP	IN	_	7	case	_	_
 7	любви	любовь	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
-8	1950-х	1950-й	NUM	CD	_	9	amod	_	_
+8	1950-х	1950-й	ADJ	ORD	Case=Gen|Number=Plur	9	amod	_	_
 9	годов	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
 10	;	;	PUNCT	:	_	13	punct	_	_
 11	главная	главный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
@@ -9780,7 +9780,7 @@
 25	о	о	ADP	IN	_	26	case	_	_
 26	возлюбленном	возлюбленный	NOUN	NN	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	24	nmod	_	_
 27	останется	остаться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	13	conj	_	_
-28	навсегда	навсегда	ADV	RB	_	27	advmod	_	SpaceAfter=No
+28	навсегда	навсегда	ADV	RB	Degree=Pos	27	advmod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = test-s463
@@ -9789,7 +9789,7 @@
 2	Photos	photo	X	FW	Foreign=Yes	1	flat:foreign	_	_
 3	--	--	PUNCT	--	_	7	punct	_	_
 4	это	это	PART	UH	_	7	expl	_	_
-5	условно	условно	ADV	RB	_	6	advmod	_	_
+5	условно	условно	ADV	RB	Degree=Pos	6	advmod	_	_
 6	бесплатная	бесплатный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
 7	утилита	утилита	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	10	punct	_	_
@@ -9860,7 +9860,7 @@
 31	NazTokio	Naztokio	X	FW	Foreign=Yes	27	obl	_	SpaceAfter=No
 32	,	,	PUNCT	,	_	38	punct	_	_
 33	но	но	CCONJ	CC	_	38	cc	_	_
-34	пока	пока	ADV	RB	_	38	advmod	_	_
+34	пока	пока	ADV	RB	Degree=Pos	38	advmod	_	_
 35	единственной	единственный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	37	amod	_	_
 36	подтвержденной	подтвердить	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Ins|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	37	acl	_	_
 37	песней	песня	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	38	xcomp	_	_
@@ -9965,11 +9965,11 @@
 
 # sent_id = test-s469
 # text = Первоначально альбом был выпущен неофициально в июле 2009 года на лейбле Ройса MIC
-1	Первоначально	первоначально	ADV	RB	_	4	advmod	_	_
+1	Первоначально	первоначально	ADV	RB	Degree=Pos	4	advmod	_	_
 2	альбом	альбом	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
 3	был	быть	AUX	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
 4	выпущен	выпустить	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
-5	неофициально	неофициально	ADV	RB	_	4	advmod	_	_
+5	неофициально	неофициально	ADV	RB	Degree=Pos	4	advmod	_	_
 6	в	в	ADP	IN	_	7	case	_	_
 7	июле	июль	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
 8	2009	2009	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
@@ -10017,7 +10017,7 @@
 8	программу	программа	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
 9	ПЗУ	пзу	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	13	punct	_	_
-11	несмотря	несмотря	ADV	RB	_	13	case	_	_
+11	несмотря	несмотря	ADV	RB	Degree=Pos	13	case	_	_
 12	на	на	ADP	IN	_	11	fixed	_	_
 13	наличие	наличие	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
 14	в	в	ADP	IN	_	15	case	_	_
@@ -10092,7 +10092,7 @@
 21	спирта	спирт	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	18	punct	_	_
 23	его	он	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	26	obj	_	_
-24	предварительно	предварительно	ADV	RB	_	26	advmod	_	_
+24	предварительно	предварительно	ADV	RB	Degree=Pos	26	advmod	_	_
 25	необходимо	необходимый	ADJ	PRED	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	3	parataxis	_	_
 26	отогнать	отогнать	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	25	csubj	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	30	punct	_	_
@@ -10148,7 +10148,7 @@
 9	и	и	CCONJ	CC	_	10	cc	_	_
 10	Дюльмен	Дюльмен	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
 11	проживало	проживать	VERB	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-12	уже	уже	ADV	RB	_	13	advmod	_	_
+12	уже	уже	ADV	RB	Degree=Pos	13	advmod	_	_
 13	более	более	ADV	RBR	Degree=Cmp	15	advmod	_	_
 14	90	90	NUM	CD	Case=Gen|NumType=Card	15	nummod	_	_
 15	тысяч	тысяча	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	16	nummod:gov	_	_
@@ -10185,7 +10185,7 @@
 18	-	-	PUNCT	-	_	15	punct	_	SpaceAfter=No
 19	Рейне	Рейн	PROPN	AFX	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	flat:name	_	SpaceAfter=No
 20	)	)	PUNCT	)	_	13	punct	_	_
-21	рядом	рядом	ADV	RB	_	24	advmod	_	_
+21	рядом	рядом	ADV	RB	Degree=Pos	24	advmod	_	_
 22	со	со	ADP	IN	_	24	case	_	_
 23	швейцарской	швейцарский	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
 24	границей	граница	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
@@ -10213,8 +10213,8 @@
 
 # sent_id = test-s482
 # text = Довольно долго управлял итальянской оперой в Петербурге, где иногда устраивал и концерты с оркестром и солистами, певцами.
-1	Довольно	довольно	ADV	RB	_	2	advmod	_	_
-2	долго	долго	ADV	RB	_	3	advmod	_	_
+1	Довольно	довольно	ADV	RB	Degree=Pos	2	advmod	_	_
+2	долго	долго	ADV	RB	Degree=Pos	3	advmod	_	_
 3	управлял	управлять	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	итальянской	итальянский	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	оперой	опера	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obj	_	_
@@ -10222,7 +10222,7 @@
 7	Петербурге	Петербург	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	11	punct	_	_
 9	где	где	ADV	WRB	_	11	advmod	_	_
-10	иногда	иногда	ADV	RB	_	11	advmod	_	_
+10	иногда	иногда	ADV	RB	Degree=Pos	11	advmod	_	_
 11	устраивал	устраивать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
 12	и	и	PART	UH	_	13	advmod	_	_
 13	концерты	концерт	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
@@ -10239,7 +10239,7 @@
 1	Юзеф	Юзеф	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	Беляк	Беляк	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_
 3	был	быть	AUX	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	5	cop	_	_
-4	дважды	дважды	ADV	RB	_	5	advmod	_	_
+4	дважды	дважды	ADV	RB	Degree=Pos	5	advmod	_	_
 5	женат	женатый	ADJ	JJH	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
 6	и	и	CCONJ	CC	_	7	cc	_	_
 7	оставил	оставить	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
@@ -10265,7 +10265,7 @@
 12	,	,	PUNCT	,	_	11	punct	_	_
 13	был	быть	AUX	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
 14	мобилизован	мобилизовать	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	_
-15	как	как	ADV	IN	_	18	advmod	_	_
+15	как	как	ADV	WRB	_	18	advmod	_	_
 16	раз	раз	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	fixed	_	_
 17	к	к	ADP	IN	_	18	case	_	_
 18	нападению	нападение	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	14	obl	_	_
@@ -10328,7 +10328,7 @@
 52	Южная	южный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	53	amod	_	_
 53	Америка	Америка	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	51	nsubj	_	_
 54	(	(	PUNCT	(	_	56	punct	_	SpaceAfter=No
-55	там	там	ADV	RB	_	56	advmod	_	_
+55	там	там	ADV	RB	Degree=Pos	56	advmod	_	_
 56	встречаюстя	встречаться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	53	parataxis	_	_
 57	все	весь	DET	DT	Case=Nom|Number=Plur	59	det	_	_
 58	остальные	остальной	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	59	amod	_	_
@@ -10380,12 +10380,12 @@
 5	школы	школа	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
 6	работал	работать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 7	трактористом	тракторист	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	xcomp	_	_
-8	сначала	сначала	ADV	RB	_	10	advmod	_	_
+8	сначала	сначала	ADV	RB	Degree=Pos	10	advmod	_	_
 9	на	на	ADP	IN	_	10	case	_	_
 10	родине	родина	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	16	punct	_	_
 12	а	а	CCONJ	CC	_	16	cc	_	_
-13	затем	затем	ADV	RB	_	16	advmod	_	_
+13	затем	затем	ADV	RB	Degree=Pos	16	advmod	_	_
 14	в	в	ADP	IN	_	16	case	_	_
 15	Кемеровской	кемеровский	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
 16	области	область	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
@@ -10405,7 +10405,7 @@
 10	Рейнджерс	Рейнджерс	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	flat:foreign	_	SpaceAfter=No
 11	&#39;&#39;	&#39;&#39;	PUNCT	&#39;&#39;	_	9	punct	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	14	punct	_	_
-13	затем	затем	ADV	RB	_	14	advmod	_	_
+13	затем	затем	ADV	RB	Degree=Pos	14	advmod	_	_
 14	выступал	выступать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
 15	в	в	ADP	IN	_	16	case	_	_
 16	США	США	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	14	obl	_	_
@@ -10438,7 +10438,7 @@
 4	и	и	CCONJ	CC	_	5	cc	_	_
 5	напечатан	напечатать	VERB	VBNH	Animacy=Inan|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	_
 6	в	в	ADP	IN	_	9	case	_	_
-7	рекордно	рекордно	ADV	RB	_	8	advmod	_	_
+7	рекордно	рекордно	ADV	RB	Degree=Pos	8	advmod	_	_
 8	короткие	короткий	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
 9	сроки	срок	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	3	punct	_	_
@@ -10467,8 +10467,8 @@
 20	,	,	PUNCT	,	_	17	punct	_	_
 21	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	22	nsubj	_	_
 22	жил	жить	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
-23	достаточно	достаточно	ADV	RB	_	24	advmod	_	_
-24	хорошо	хорошо	ADV	RB	_	22	advmod	_	_
+23	достаточно	достаточно	ADV	RB	Degree=Pos	24	advmod	_	_
+24	хорошо	хорошо	ADV	RB	Degree=Pos	22	advmod	_	_
 25	среди	среди	ADP	IN	_	26	case	_	_
 26	индейцев	индеец	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	22	obl	_	_
 27	Шауни	шауни	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	26	appos	_	_
@@ -10537,7 +10537,7 @@
 4	версии	версия	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 5	6	6	NUM	CD	Case=Nom|NumType=Card	4	appos	_	SpaceAfter=No
 6	)	)	PUNCT	)	_	4	punct	_	_
-7	по-своему	по-своему	ADV	RB	_	8	advmod	_	_
+7	по-своему	по-своему	ADV	RB	Degree=Pos	8	advmod	_	_
 8	трактовал	трактовать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 9	HTML	html	X	FW	Foreign=Yes	11	compound	_	SpaceAfter=No
 10	-	-	PUNCT	-	_	9	punct	_	SpaceAfter=No
@@ -10579,7 +10579,7 @@
 22	подбородке	подбородок	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	nmod	_	_
 23	останется	остаться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	17	conj	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	26	punct	_	_
-25	как	как	ADV	IN	_	26	case	_	_
+25	как	как	ADP	IN	_	26	case	_	_
 26	Шриватса	Шриватса	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
 27	,	,	PUNCT	,	_	26	punct	_	_
 28	и	и	CCONJ	CC	_	35	cc	_	_
@@ -10590,7 +10590,7 @@
 33	проишествии	происшествие	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	30	obl	_	SpaceAfter=No
 34	,	,	PUNCT	,	_	30	punct	_	_
 35	нужно	нужный	ADJ	JJL	Degree=Pos	17	conj	_	_
-36	ежедневно	ежедневно	ADV	RB	_	37	advmod	_	_
+36	ежедневно	ежедневно	ADV	RB	Degree=Pos	37	advmod	_	_
 37	прикладовать	прикладовать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	35	csubj	_	_
 38	чистую	чистый	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
 39	камфору	камфора	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	37	obj	_	_
@@ -10605,10 +10605,10 @@
 2	свойство	свойство	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
 3	позволяет	позволять	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	6	punct	_	_
-5	например	например	ADV	RB	_	6	advmod	_	_
+5	например	например	ADV	RB	Degree=Pos	6	advmod	_	_
 6	кошке	кошка	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	3	iobj	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	8	punct	_	_
-8	независимо	независимо	ADV	RB	_	12	advmod	_	_
+8	независимо	независимо	ADV	RB	Degree=Pos	12	advmod	_	_
 9	от	от	ADP	IN	_	10	case	_	_
 10	зрения	зрение	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
 11	,	,	PUNCT	,	_	8	punct	_	_
@@ -10659,7 +10659,7 @@
 9	(	(	PUNCT	(	_	16	punct	_	SpaceAfter=No
 10	при	при	ADP	IN	_	11	case	_	_
 11	этом	это	PRON	DT	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	obl	_	_
-12	часто	часто	ADV	RB	_	16	advmod	_	_
+12	часто	часто	ADV	RB	Degree=Pos	16	advmod	_	_
 13	на	на	ADP	IN	_	15	case	_	_
 14	пшеничных	пшеничный	ADJ	JJL	Case=Loc|Degree=Pos|Number=Plur	15	amod	_	_
 15	полях	поле	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	16	obl	_	_
@@ -11153,13 +11153,13 @@
 23	Петра	Петр	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	conj	_	_
 24	в	в	ADP	IN	_	25	case	_	_
 25	церковь	церковь	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
-26	Санта	санта	ADV	AFX	_	25	appos	_	SpaceAfter=No
+26	Санта	санта	X	FW	Foreign=Yes	25	appos	_	SpaceAfter=No
 27	-	-	PUNCT	-	_	26	punct	_	SpaceAfter=No
 28	Мария	Мария	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	26	flat:foreign	_	SpaceAfter=No
 29	-	-	PUNCT	-	_	26	punct	_	SpaceAfter=No
-30	ин	ин	PART	UH	_	26	flat:foreign	_	SpaceAfter=No
+30	ин	ин	X	FW	Foreign=Yes	26	flat:foreign	_	SpaceAfter=No
 31	-	-	PUNCT	-	_	26	punct	_	SpaceAfter=No
-32	Арачели	арачели	PROPN	NNP	_	26	flat:foreign	_	_
+32	Арачели	арачели	X	FW	Foreign=Yes	26	flat:foreign	_	_
 33	на	на	ADP	IN	_	35	case	_	_
 34	Капитолийском	капитолийский	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
 35	холме	холм	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
@@ -11223,12 +11223,12 @@
 13	,	,	PUNCT	,	_	12	punct	_	_
 14	крайней	крайний	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	12	fixed	_	_
 15	мере	мера	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	fixed	_	_
-16	частично	частично	ADV	RB	_	6	advmod	_	SpaceAfter=No
+16	частично	частично	ADV	RB	Degree=Pos	6	advmod	_	SpaceAfter=No
 17	)	)	PUNCT	)	_	16	punct	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	22	punct	_	_
 19	как	как	ADV	WRB	_	22	advmod	_	_
 20	это	это	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obj	_	_
-21	уже	уже	ADV	RB	_	22	advmod	_	_
+21	уже	уже	ADV	RB	Degree=Pos	22	advmod	_	_
 22	сделал	сделать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	_
 23	Брэнд	Брэнд	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	27	punct	_	_
@@ -11357,7 +11357,7 @@
 # sent_id = test-s527
 # text = Весна 20-го года.
 1	Весна	весна	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
-2	20-го	20-й	NUM	CD	_	3	amod	_	_
+2	20-го	20-й	ADJ	ORD	Case=Gen|Gender=Masc|Number=Sing	3	amod	_	_
 3	года	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	_	_
 
@@ -11371,14 +11371,14 @@
 6	у	у	ADP	IN	_	7	case	_	_
 7	болельщиков	болельщик	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	14	punct	_	_
-9	особенно	особенно	ADV	RB	_	14	advmod	_	SpaceAfter=No
+9	особенно	особенно	ADV	RB	Degree=Pos	14	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	9	punct	_	_
 11	когда	когда	SCONJ	WRB	_	14	mark	_	_
 12	Кейс	Кейс	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj:pass	_	_
 13	был	быть	AUX	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
 14	заменён	заменить	VERB	VBNH	Animacy=Anim|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	advcl	_	_
 15	не	не	PART	NEG	Polarity=Neg	16	advmod	_	_
-16	столь	столь	ADV	RB	_	17	advmod	_	_
+16	столь	столь	ADV	RB	Degree=Pos	17	advmod	_	_
 17	надёжным	надежный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
 18	Терри	Терри	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	iobj	_	_
 19	Харлоком	Харлок	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	18	flat:name	_	SpaceAfter=No
@@ -11386,7 +11386,7 @@
 
 # sent_id = test-s529
 # text = Как злодей Зорпокс похож на Драккена, но значительно более компетентен и владеет боевыми искусствами, в серии ``Bad Boy&#39;&#39;, не только впервые реализовал двойной вложенный план (что Драккен осуществил только в ``So the Drama&#39;&#39;), но и сумел приструнить Шиго.
-1	Как	как	ADV	IN	_	2	case	_	_
+1	Как	как	ADP	IN	_	2	case	_	_
 2	злодей	злодей	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	obl	_	_
 3	Зорпокс	Зорпокс	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
 4	похож	похожий	ADJ	JJH	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
@@ -11394,7 +11394,7 @@
 6	Драккена	Драккен	PROPN	NNP	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	11	punct	_	_
 8	но	но	CCONJ	CC	_	11	cc	_	_
-9	значительно	значительно	ADV	RB	_	10	advmod	_	_
+9	значительно	значительно	ADV	RB	Degree=Pos	10	advmod	_	_
 10	более	более	ADV	RBR	Degree=Cmp	11	advmod	_	_
 11	компетентен	компетентный	ADJ	JJH	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	conj	_	_
 12	и	и	CCONJ	CC	_	13	cc	_	_
@@ -11411,7 +11411,7 @@
 23	,	,	PUNCT	,	_	20	punct	_	_
 24	не	не	PART	NEG	_	27	cc	_	_
 25	только	только	PART	RB	_	24	fixed	_	_
-26	впервые	впервые	ADV	RB	_	27	advmod	_	_
+26	впервые	впервые	ADV	RB	Degree=Pos	27	advmod	_	_
 27	реализовал	реализовать	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
 28	двойной	двойной	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
 29	вложенный	вложить	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	30	acl	_	_
@@ -11448,7 +11448,7 @@
 8	таких	такой	DET	DT	Case=Gen|Number=Plur	9	det	_	_
 9	тренеров	тренер	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	9	punct	_	_
-11	как	как	ADV	IN	_	12	case	_	_
+11	как	как	ADP	IN	_	12	case	_	_
 12	Пасториса	Пасториса	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	,	_	14	punct	_	_
 14	Менотти	Менотти	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
@@ -11460,7 +11460,7 @@
 # text = Таковы, например, рассказы об отведении в Вавилон иудейских пленников не лично самим Навуходоносором, а по его приказанию Асфеказом (1:3), о воспитании пленных юношей при царском дворце и в придворных школах (1:5, 6), о разделении халдейских жрецов и правительственных чиновников на различные классы (2 и 4 гл.; 3:3), о поставленной Навуходоносором на поле Двир громадной золотой статуе (3 гл.), о сопровождающей её открытие процессии, о болезни Навуходоносора и т. п.
 1	Таковы	таков	ADJ	JJH	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	,	_	3	punct	_	_
-3	например	например	ADV	RB	_	1	parataxis	_	SpaceAfter=No
+3	например	например	ADV	RB	Degree=Pos	1	parataxis	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	3	punct	_	_
 5	рассказы	рассказ	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
 6	об	об	ADP	IN	_	7	case	_	_
@@ -11470,7 +11470,7 @@
 10	иудейских	иудейский	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
 11	пленников	пленник	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
 12	не	не	PART	NEG	Polarity=Neg	13	advmod	_	_
-13	лично	лично	ADV	RB	_	14	advmod	_	_
+13	лично	лично	ADV	RB	Degree=Pos	14	advmod	_	_
 14	самим	сам	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
 15	Навуходоносором	Навуходоносор	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	,	_	21	punct	_	_
@@ -11678,7 +11678,7 @@
 # sent_id = test-s536
 # text = Именно здесь, в пойме реки Которосль, в XVIII веке были образованы первые мануфактуры.
 1	Именно	именно	PART	UH	_	2	advmod	_	_
-2	здесь	здесь	ADV	RB	_	13	advmod	_	SpaceAfter=No
+2	здесь	здесь	ADV	RB	Degree=Pos	13	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	5	punct	_	_
 4	в	в	ADP	IN	_	5	case	_	_
 5	пойме	пойма	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	obl	_	_
@@ -11845,9 +11845,9 @@
 14	ЦРУ	ЦРУ	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	18	punct	_	_
 16	где	где	ADV	WRB	_	18	advmod	_	_
-17	сначала	сначала	ADV	RB	_	18	advmod	_	_
+17	сначала	сначала	ADV	RB	Degree=Pos	18	advmod	_	_
 18	работал	работать	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	acl:relcl	_	_
-19	вместе	вместе	ADV	RB	_	21	advmod	_	_
+19	вместе	вместе	ADV	RB	Degree=Pos	21	advmod	_	_
 20	с	с	ADP	IN	_	21	case	_	_
 21	Уильямом	Уильям	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	_
 22	Кроссом	Кросс	PROPN	NNP	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	21	flat:name	_	_
@@ -12219,10 +12219,10 @@
 
 # sent_id = test-s563
 # text = Сын чиновника, Покровский родился в 1808 г. и воспитывался в Казанской Гимназии, в которой окончил курс в 1820 г.; в 1823 г. он поступил в Казанский Университет (28-го июня), из которого вышел 28-го июня 1826 г. со степенью кандидата, после чего определился учителем средних классов Казанской Гимназии, с прикомандированием к Педагогическому Институту, состоявшему при Университете.
-1	Сын	сын	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+1	Сын	сын	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	dislocated	_	_
 2	чиновника	чиновник	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
 3	,	,	PUNCT	,	_	1	punct	_	_
-4	Покровский	Покровский	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+4	Покровский	Покровский	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
 5	родился	родиться	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
 6	в	в	ADP	IN	_	8	case	_	_
 7	1808	1808	ADJ	ORD	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
@@ -12250,14 +12250,14 @@
 29	Казанский	казанский	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
 30	Университет	университет	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obl	_	_
 31	(	(	PUNCT	(	_	32	punct	_	SpaceAfter=No
-32	28-го	28-й	NUM	CD	_	27	parataxis	_	_
+32	28-го	28-й	ADJ	ORD	Case=Gen|Gender=Neut|Number=Sing	27	parataxis	_	_
 33	июня	июнь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	flat	_	SpaceAfter=No
 34	)	)	PUNCT	)	_	32	punct	_	SpaceAfter=No
 35	,	,	PUNCT	,	_	38	punct	_	_
 36	из	из	ADP	IN	_	37	case	_	_
 37	которого	который	PRON	AWP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	obl	_	_
 38	вышел	выйти	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	30	acl:relcl	_	_
-39	28-го	28-й	NUM	CD	_	38	obl	_	_
+39	28-го	28-й	ADJ	ORD	Case=Gen|Gender=Neut|Number=Sing	38	obl	_	_
 40	июня	июнь	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	39	flat	_	_
 41	1826	1826	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	42	amod	_	_
 42	г.	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	_
@@ -12299,7 +12299,7 @@
 
 # sent_id = test-s565
 # text = Здесь приводится список праздников Киргизии.
-1	Здесь	здесь	ADV	RB	_	2	advmod	_	_
+1	Здесь	здесь	ADV	RB	Degree=Pos	2	advmod	_	_
 2	приводится	приводиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
 3	список	список	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
 4	праздников	праздник	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
@@ -12313,7 +12313,7 @@
 3	же	же	PART	UH	_	2	advmod	_	_
 4	день	день	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	46	obl	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	4	punct	_	_
-6	сначала	сначала	ADV	RB	_	8	advmod	_	_
+6	сначала	сначала	ADV	RB	Degree=Pos	8	advmod	_	_
 7	после	после	ADP	IN	_	8	case	_	_
 8	просьбы	просьба	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	46	obl	_	_
 9	главы	глава	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
@@ -12324,7 +12324,7 @@
 14	Алексеевой	Алексеева	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	13	flat:name	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	19	punct	_	_
 16	а	а	CCONJ	CC	_	19	cc	_	_
-17	затем	затем	ADV	RB	_	19	advmod	_	_
+17	затем	затем	ADV	RB	Degree=Pos	19	advmod	_	_
 18	и	и	PART	UH	_	19	advmod	_	_
 19	требований	требование	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	conj	_	_
 20	депутатов	депутат	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
@@ -12392,21 +12392,21 @@
 # sent_id = test-s568
 # text = По данным статистического сборника 1894 года в Чамеровской волости Весьегонского уезда значится деревня Романовское (в 1889 году в ней было 55 дворов, 229 жителей), а село Романовское -- второе название погоста Никола-Высока (1/2 версты от деревни, 11 семей священнослужителей).
 1	По	по	ADP	IN	_	2	case	_	_
-2	данным	данные	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	12	obl	_	_
+2	данным	данные	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	12	parataxis	_	_
 3	статистического	статистический	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
 4	сборника	сборник	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 5	1894	1894	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 6	года	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
 7	в	в	ADP	IN	_	9	case	_	_
 8	Чамеровской	чамеровский	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
-9	волости	волость	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	nmod	_	_
+9	волости	волость	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
 10	Весьегонского	весьегонский	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
 11	уезда	уезд	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
 12	значится	значиться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
 13	деревня	деревня	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
 14	Романовское	романовское	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	appos	_	_
 15	(	(	PUNCT	(	_	21	punct	_	SpaceAfter=No
-16	в	в	ADP	IN	_	21	case	_	_
+16	в	в	ADP	IN	_	18	case	_	_
 17	1889	1889	ADJ	ORD	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
 18	году	год	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	obl	_	_
 19	в	в	ADP	IN	_	20	case	_	_
@@ -12500,12 +12500,12 @@
 10	финскую	финский	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
 11	версию	версия	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
 12	фильма	фильм	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
-13	всё	всё	ADV	RB	_	16	advmod	_	_
+13	всё	всё	ADV	RB	Degree=Pos	16	advmod	_	_
 14	же	же	PART	UH	_	13	fixed	_	_
 15	финские	финский	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
 16	актеры	актер	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
 17	(	(	PUNCT	(	_	19	punct	_	SpaceAfter=No
-18	у	у	ADP	IN	_	20	case	_	_
+18	у	у	ADP	IN	_	19	case	_	_
 19	Анны	Анна	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	9	parataxis	_	_
 20	Орочко	Орочко	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	19	flat:name	_	_
 21	и	и	CCONJ	CC	_	22	cc	_	_
@@ -12535,11 +12535,11 @@
 15	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = test-s574
-# text = Температура плавления 962 ° C.
+# text = Температура плавления 962°C.
 1	Температура	температура	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	плавления	плавление	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
-3	962	962	NUM	CD	Animacy=Inan|Case=Nom|Gender=Masc|NumType=Card	4	nummod:gov	_	_
-4	°	°	SYM	SYM	_	0	root	_	_
+3	962	962	NUM	CD	Animacy=Inan|Case=Nom|Gender=Masc|NumType=Card	4	nummod:gov	_	SpaceAfter=No
+4	°	°	SYM	SYM	_	0	root	_	SpaceAfter=No
 5	C	C	NOUN	SYM	_	4	nmod	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	4	punct	_	_
 
@@ -12555,9 +12555,9 @@
 8	активации	активация	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
 9	&#39;&#39;	&#39;&#39;	PUNCT	&#39;&#39;	_	8	punct	_	_
 10	следует	следовать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-11	рассматривать	рассматривать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
-12	исключительно	исключительно	ADV	RB	_	14	advmod	_	_
-13	как	как	ADV	IN	_	14	case	_	_
+11	рассматривать	рассматривать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	10	csubj	_	_
+12	исключительно	исключительно	ADV	RB	Degree=Pos	14	advmod	_	_
+13	как	как	ADP	IN	_	14	case	_	_
 14	эффект	эффект	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	obl	_	_
 15	отмены	отмена	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	10	punct	_	_
@@ -12583,12 +12583,12 @@
 17	производства	производство	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	SpaceAfter=No
 18	,	,	PUNCT	,	_	22	punct	_	_
 19	а	а	CCONJ	CC	_	22	cc	_	_
-20	равно	равно	ADV	RB	_	19	fixed	_	_
+20	равно	равно	ADV	RB	Degree=Pos	19	fixed	_	_
 21	и	и	PART	UH	_	19	fixed	_	_
 22	типографии	типография	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	conj	_	SpaceAfter=No
 23	,	,	PUNCT	,	_	25	punct	_	_
 24	частью	часть	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	25	obl	_	_
-25	самостоятельно	самостоятельно	ADV	RB	_	12	advmod	_	SpaceAfter=No
+25	самостоятельно	самостоятельно	ADV	RB	Degree=Pos	12	advmod	_	SpaceAfter=No
 26	,	,	PUNCT	,	_	30	punct	_	_
 27	а	а	CCONJ	CC	_	30	cc	_	_
 28	частью	часть	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	30	obl	_	_
@@ -12650,8 +12650,8 @@
 5	Боскета	Боскет	PROPN	NNP	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	flat:name	_	_
 6	(	(	PUNCT	(	_	7	punct	_	SpaceAfter=No
 7	известная	известный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
-8	также	также	PART	UH	_	10	advmod	_	_
-9	как	как	ADV	IN	_	10	case	_	_
+8	также	также	PART	UH	_	7	advmod	_	_
+9	как	как	ADP	IN	_	10	case	_	_
 10	стена	стена	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	obl	_	_
 11	или	или	CCONJ	CC	_	12	cc	_	_
 12	стена	стена	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	conj	_	_
@@ -12674,7 +12674,7 @@
 29	Киево-Печерской	Киево-печерский	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
 30	лавры	лавра	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	_
 31	в	в	ADP	IN	_	32	case	_	_
-32	середине	середина	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_
+32	середине	середина	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	21	obl	_	_
 33	XVIII	XVIII	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
 34	в	в	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	19	punct	_	_
@@ -12693,7 +12693,7 @@
 10	челленджерах	челленджер	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
 11	&#39;&#39;	&#39;&#39;	PUNCT	&#39;&#39;	_	10	punct	_	_
 12	он	он	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
-13	впервые	впервые	ADV	RB	_	14	advmod	_	_
+13	впервые	впервые	ADV	RB	Degree=Pos	14	advmod	_	_
 14	вошёл	войти	VERB	VBC	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 15	в	в	ADP	IN	_	16	case	_	_
 16	число	число	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obl	_	_
@@ -12717,7 +12717,7 @@
 
 # sent_id = test-s581
 # text = Недалеко от даоского храма Чэнхуанмяо раньше находился рынок.
-1	Недалеко	недалеко	ADV	RB	_	7	advmod	_	_
+1	Недалеко	недалеко	ADV	RB	Degree=Pos	7	advmod	_	_
 2	от	от	ADP	IN	_	4	case	_	_
 3	даоского	даоский	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
 4	храма	храм	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
@@ -12736,7 +12736,7 @@
 5	темазепам	темазепам	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
 6	более	более	ADV	RBR	Degree=Cmp	7	advmod	_	_
 7	2-3	2-3	NUM	CD	Animacy=Inan|Case=Gen|NumType=Card	8	nummod	_	_
-8	нед	нед	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+8	нед	неделя	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	4	punct	_	_
 10	необходима	необходимый	ADJ	JJH	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
 11	периодическая	периодический	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
@@ -12759,9 +12759,9 @@
 5	для	для	ADP	IN	_	6	case	_	_
 6	Формулы	формула	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
 7	-	-	PUNCT	-	_	6	punct	_	SpaceAfter=No
-8	1	1	NUM	CD	_	6	appos	_	SpaceAfter=No
+8	1	1	NUM	CD	_	6	nummod:entity	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	13	punct	_	_
-10	поэтому	поэтому	ADV	RB	_	13	advmod	_	_
+10	поэтому	поэтому	ADV	RB	Degree=Pos	13	advmod	_	_
 11	чаще	часто	ADV	RBR	Degree=Cmp	13	advmod	_	_
 12	всего	всё	PRON	DT	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	_
 13	используются	использоваться	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
@@ -12911,7 +12911,7 @@
 16	присвоением	присвоение	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	_
 17	регистрационного	регистрационный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
 18	номера	номер	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
-19	6862	6862	NUM	CD	Animacy=Inan|Case=Nom|Gender=Masc|NumType=Card	18	appos	_	SpaceAfter=No
+19	6862	6862	NUM	CD	Animacy=Inan|Case=Nom|Gender=Masc|NumType=Card	18	nummod:entity	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s591
@@ -12969,7 +12969,7 @@
 22	могла	мочь	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	acl	_	_
 23	ему	он	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	24	iobj	_	_
 24	сообщить	сообщить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	22	xcomp	_	_
-25	что-то	что-то	PRON	WP	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_
+25	что-то	что-то	PRON	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_
 26	важное	важный	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -12977,7 +12977,7 @@
 # text = По другой версии, высказанной греческим археологом Николасом Ялурисом, в Бассах не было культовой статуи -- ее роль выполняла коринфская колонна, разделявшая / соединявшая две части храма.
 1	По	по	ADP	IN	_	3	case	_	_
 2	другой	другой	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
-3	версии	версия	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+3	версии	версия	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	parataxis	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	5	punct	_	_
 5	высказанной	высказать	VERB	VBNL	Animacy=Inan|Aspect=Perf|Case=Dat|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	acl	_	_
 6	греческим	греческий	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
@@ -12991,7 +12991,7 @@
 14	было	быть	VERB	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 15	культовой	культовый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
 16	статуи	статуя	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nsubj	_	_
-17	--	--	PUNCT	--	_	14	punct	_	_
+17	--	--	PUNCT	--	_	20	punct	_	_
 18	ее	ее	DET	PRP$	_	19	det	_	_
 19	роль	роль	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
 20	выполняла	выполнять	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	parataxis	_	_
@@ -13008,7 +13008,7 @@
 
 # sent_id = test-s594
 # text = Сначала организаторы митинга хотели провести его 10 числа, но из-за несогласия властей его пришлось перенести на следующий день.
-1	Сначала	сначала	ADV	RB	_	4	advmod	_	_
+1	Сначала	сначала	ADV	RB	Degree=Pos	4	advmod	_	_
 2	организаторы	организатор	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
 3	митинга	митинг	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 4	хотели	хотеть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -13021,9 +13021,9 @@
 11	из-за	из-за	ADP	AFX	_	12	case	_	_
 12	несогласия	несогласие	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
 13	властей	власть	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
-14	его	он	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	15	obj	_	_
+14	его	он	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3	16	obj	_	_
 15	пришлось	прийтись	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	_
-16	перенести	перенести	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+16	перенести	перенести	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	15	csubj	_	_
 17	на	на	ADP	IN	_	19	case	_	_
 18	следующий	следующий	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
 19	день	день	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
@@ -13081,7 +13081,7 @@
 6	,	,	PUNCT	,	_	7	punct	_	_
 7	известный	известный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	1	amod	_	_
 8	также	также	PART	UH	_	10	cc	_	_
-9	как	как	ADV	IN	_	10	case	_	_
+9	как	как	ADP	IN	_	10	case	_	_
 10	Четин	Четин	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	obl	_	_
 11	Алп	Алп	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	flat:name	_	_
 12	(	(	PUNCT	(	_	14	punct	_	SpaceAfter=No
@@ -13139,7 +13139,7 @@
 22	сельскохозяйственного	сельскохозяйственный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
 23	института	институт	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	26	punct	_	_
-25	затем	затем	ADV	RB	_	26	advmod	_	_
+25	затем	затем	ADV	RB	Degree=Pos	26	advmod	_	_
 26	заведующий	заведующий	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
 27	отделом	отдел	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	26	nmod	_	_
 28	Воронежского	воронежский	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
@@ -13159,7 +13159,7 @@
 8	веками	век	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	obl	_	_
 9	до	до	ADP	IN	_	11	case	_	_
 10	н.	наш	DET	PRP$	Case=Gen|Gender=Fem|Number=Sing	11	det	_	_
-11	э	э	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+11	э	эра	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = test-s601
@@ -13167,10 +13167,10 @@
 1	Ему	он	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3	2	iobj	_	_
 2	удалось	удаться	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
 3	это	это	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
-4	сделать	сделать	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
-5	как	как	ADV	IN	_	7	advmod	_	_
+4	сделать	сделать	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	2	csubj	_	_
+5	как	как	ADV	WRB	_	7	advmod	_	_
 6	раз	раз	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	fixed	_	_
-7	вовремя	вовремя	ADV	RB	_	4	advmod	_	SpaceAfter=No
+7	вовремя	вовремя	ADV	RB	Degree=Pos	4	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	,	_	10	punct	_	_
 9	чтобы	чтобы	SCONJ	IN	_	10	mark	_	_
 10	успеть	успеть	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	4	advcl	_	_
