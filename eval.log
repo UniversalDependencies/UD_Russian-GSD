@@ -3,24 +3,24 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Russian-GSD:
-commit 61bf0d11b44060fff89bef68e2ffaff646862e39
-Merge: 98c10c5 c41aac6
+commit 665c2f803fcf49bdba368032a021d17afebe550e
+Merge: 018687f f8893e3
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 99389 of 99389 words (nodes).
-Size: min(0, log((N/1000)**2)) = 9.19808288710983.
+Size: counted 98000 of 98000 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.16993495734114.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
 Split: Found at least 10000 test words.
-Lemmas: source of annotation (from README) factor is 0.4.
+Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 16 out of 17 found in the corpus.
-Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 62281 out of 99389 total words have one or more features.
-Features: source of annotation (from README) factor is 0.8.
-Universal relations: 33 out of 37 found in the corpus.
-Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 4128 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 99389 words.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 64012 out of 98000 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 35 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Udapi: found 3804 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 98000 words.
 Genres: found 1 out of 17 known.
 validate.py --lang ru --max-err=10 UD_Russian-GSD/ru_gsd-ud-dev.conllu
 *** PASSED ***
@@ -29,14 +29,14 @@ validate.py --lang ru --max-err=10 UD_Russian-GSD/ru_gsd-ud-test.conllu
 validate.py --lang ru --max-err=10 UD_Russian-GSD/ru_gsd-ud-train.conllu
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
+(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
-(weight=0.0769230769230769) * (score{lemmas}=0.4) = 0.0307692307692308
-(weight=0.256410256410256) * (score{size}=0.665779440326755) = 0.17071267700686
+(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
+(weight=0.256410256410256) * (score{size}=0.663742025230832) = 0.1701902628797
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.584662286570949) = 0.179896088175676
-(weight=0.0769230769230769) * (score{udeprels}=0.713513513513514) = 0.0548856548856549
-(TOTAL score=0.611527602571962) * (availability=1) * (validity=1) = 0.611527602571962
-STARS = 3
-UD_Russian-GSD	0.611527602571962	3
+(weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
+(weight=0.307692307692308) * (score{udapi}=0.611836734693878) = 0.188257456828885
+(weight=0.0769230769230769) * (score{udeprels}=0.945945945945946) = 0.0727650727650728
+(TOTAL score=0.713264074524941) * (availability=1) * (validity=1) = 0.713264074524941
+STARS = 3.5
+UD_Russian-GSD	0.713264074524941	3.5
