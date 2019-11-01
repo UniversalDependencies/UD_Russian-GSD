@@ -2969,7 +2969,7 @@
 6	Харьков	Харьков	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
 7	научный	научный	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 8	--	--	PUNCT	--	_	6	punct	_	_
-9	Харькову	Харьков	PROPN	NNP	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	orphan	_	_
+9	Харькову	Харьков	PROPN	NNP	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	6	nmod	_	_
 10	индустриальному	индустриальный	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
 11	!	!	PUNCT	.	_	6	punct	_	SpaceAfter=No
 12	&#39;&#39;	&#39;&#39;	PUNCT	&#39;&#39;	_	6	punct	_	_
@@ -3413,12 +3413,12 @@
 31	2009	2009	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
 32	года	год	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
 33	под	под	ADP	IN	_	34	case	_	orig_deprel=obl
-34	лейблом	лейбл	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	30	orphan	_	_
+34	лейблом	лейбл	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	29	orphan	_	_
 35	Mercury	mercury	X	FW	Foreign=Yes	34	appos	_	_
 36	Records	records	X	FW	Foreign=Yes	35	flat:foreign	_	_
 37	--	--	PUNCT	--	_	39	punct	_	_
 38	в	в	ADP	IN	_	39	case	_	_
-39	Великобритании	Великобритания	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	30	orphan	_	SpaceAfter=No
+39	Великобритании	Великобритания	PROPN	NNP	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	29	orphan	_	SpaceAfter=No
 40	.	.	PUNCT	.	_	8	punct	_	_
 
 # sent_id = dev-s147
