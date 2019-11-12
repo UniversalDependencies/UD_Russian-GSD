@@ -5,10 +5,14 @@ Russian Universal Dependencies Treebank annotated and converted by Google.
 
 # Changelog
 
+* 2019-11-15 v2.5
+  * Google gave permission to drop the "NC" restriction from the license.
+    This applies to the UD annotations (not the underlying content, of which Google claims no ownership or copyright).
+
 2019-02-06 v.2.3+
-  * Major revision, manual reannotation of the fields LEMMA, UPOS, FEAT, HEAD, DEPREL 
-  * chains of foreign words now depend on the first word 
-  * splitted words retokenized 
+  * Major revision, manual reannotation of the fields LEMMA, UPOS, FEAT, HEAD, DEPREL
+  * chains of foreign words now depend on the first word
+  * splitted words retokenized
 
 2016-11-15 v1.4
   * Added lemmas.
@@ -17,7 +21,7 @@ Russian Universal Dependencies Treebank annotated and converted by Google.
 <pre>
 === Machine-readable metadata =================================================
 Data available since: UD v1.3
-License: CC BY-NC-SA 4.0
+License: CC BY-SA 4.0
 Includes text: yes
 Genre: wiki
 Lemmas: manual native
