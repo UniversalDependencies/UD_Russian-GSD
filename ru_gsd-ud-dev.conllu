@@ -1451,8 +1451,8 @@
 10	как	как	ADV	WRB	_	8	cc	_	_
 11	из	из	ADP	IN	_	18	case	_	_
 12	одиночных	одиночный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	SpaceAfter=No
-13	,	,	PUNCT	,	_	17	punct	_	_
-14	так	так	ADV	RB	Degree=Pos	17	cc	_	_
+13	,	,	PUNCT	,	_	18	punct	_	_
+14	так	так	ADV	RB	Degree=Pos	18	cc	_	_
 15	и	и	CCONJ	CC	_	14	fixed	_	_
 16	из	из	ADP	IN	_	18	case	_	_
 17	множественных	множественный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
@@ -2017,11 +2017,11 @@
 10	(	(	PUNCT	(	_	21	punct	_	SpaceAfter=No
 11	в	в	ADP	IN	_	21	case	_	_
 12	Крещенский	крещенский	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	SpaceAfter=No
-13	,	,	PUNCT	,	_	20	punct	_	_
-14	а	а	CCONJ	CC	_	20	cc	_	_
+13	,	,	PUNCT	,	_	21	punct	_	_
+14	а	а	CCONJ	CC	_	21	cc	_	_
 15	с	с	ADP	IN	_	17	case	_	_
 16	XVIII	XVIII	ADJ	ORD	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
-17	века	век	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+17	века	век	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
 18	--	--	PUNCT	--	_	17	punct	_	_
 19	в	в	ADP	IN	_	21	case	_	_
 20	Васильев	васильев	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
@@ -12857,7 +12857,7 @@
 3	Монморанси́	Монморанси	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	SpaceAfter=No
 4	-	-	PUNCT	-	_	3	punct	_	SpaceAfter=No
 5	Лава́ль	Лаваль	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	SpaceAfter=No
-6	,	,	PUNCT	,	_	3	punct	_	_
+6	,	,	PUNCT	,	_	7	punct	_	_
 7	баро́н	барон	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
 8	де	Де	PART	UH	_	9	case	_	_
 9	Рэ	Рэ	PROPN	NNP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
