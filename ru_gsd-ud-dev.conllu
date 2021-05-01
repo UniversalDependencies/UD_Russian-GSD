@@ -1344,7 +1344,7 @@
 13	,	,	PUNCT	,	_	14	punct	_	_
 14	представителей	представитель	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	conj	_	_
 15	элиты	элита	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
-16	можно	можно	VERB	PRED	Degree=Pos	0	root	_	_
+16	можно	можно	VERB	PRED	_	0	root	_	_
 17	действительно	действительно	ADV	RB	Degree=Pos	16	advmod	_	_
 18	наблюдать	наблюдать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	16	xcomp	_	_
 19	эффективную	эффективный	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
@@ -3011,11 +3011,11 @@
 21	знаем	знать	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	SpaceAfter=No
 22	,	,	PUNCT	,	_	24	punct	_	_
 23	что	что	PRON	WP	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_
-24	надо	надо	VERB	PRED	Degree=Pos	21	ccomp	_	_
+24	надо	надо	VERB	PRED	_	21	ccomp	_	_
 25	делать	делать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	24	xcomp	_	_
 26	и	и	CCONJ	CC	_	28	cc	_	_
 27	чего	что	PRON	WP	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	obj	_	_
-28	надо	надо	VERB	PRED	Degree=Pos	24	conj	_	_
+28	надо	надо	VERB	PRED	_	24	conj	_	_
 29	избегать	избегать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	28	xcomp	_	SpaceAfter=No
 30	&#39;&#39;	&#39;&#39;	PUNCT	&#39;&#39;	_	6	punct	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	6	punct	_	_
@@ -5071,7 +5071,7 @@
 3	в	в	ADP	IN	_	4	case	_	_
 4	творчестве	творчество	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
 5	зодчего	зодчий	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
-6	можно	можно	VERB	PRED	Degree=Pos	0	root	_	_
+6	можно	можно	VERB	PRED	_	0	root	_	_
 7	встретить	встретить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
 8	и	и	PART	UH	_	9	advmod	_	_
 9	храмы	храм	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
@@ -8079,7 +8079,7 @@
 17	,	,	PUNCT	,	_	10	punct	_	_
 18	так	так	ADV	RB	Degree=Pos	20	advmod	_	_
 19	нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1	20	nsubj	_	_
-20	надо	надо	VERB	PRED	Degree=Pos	2	ccomp	_	_
+20	надо	надо	VERB	PRED	_	2	ccomp	_	_
 21	создать	создать	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	20	xcomp	_	_
 22	диктатуру	диктатура	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
 23	украинского	украинский	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
@@ -8228,7 +8228,7 @@
 10	;	;	PUNCT	:	_	4	punct	_	_
 11	о	о	ADP	IN	_	12	case	_	_
 12	них	они	PRON	PRP	Case=Loc|Number=Plur|Person=3	13	obl	_	_
-13	можно	можно	VERB	PRED	Degree=Pos	4	parataxis	_	_
+13	можно	можно	VERB	PRED	_	4	parataxis	_	_
 14	сказать	сказать	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	_
 15	то	то	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
 16	же	же	PART	UH	_	15	advmod	_	SpaceAfter=No
@@ -9897,7 +9897,7 @@
 10	метанефрина	метанефрин	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	appos	_	_
 11	и	и	CCONJ	CC	_	12	cc	_	_
 12	норметанефрина	норметанефрин	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	conj	_	_
-13	можно	можно	VERB	PRED	Degree=Pos	0	root	_	_
+13	можно	можно	VERB	PRED	_	0	root	_	_
 14	наблюдать	наблюдать	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	_
 15	при	при	ADP	IN	_	16	case	_	_
 16	карциноиде	карциноид	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
@@ -12068,7 +12068,7 @@
 13	немецких	немецкий	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
 14	аффиксов	аффикс	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
 15	,	,	PUNCT	,	_	9	punct	_	_
-16	можно	можно	VERB	PRED	Degree=Pos	0	root	_	_
+16	можно	можно	VERB	PRED	_	0	root	_	_
 17	выделить	выделить	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	_
 18	следующие	следующий	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
 19	основные	основной	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
@@ -12796,7 +12796,7 @@
 1	В	в	ADP	IN	_	2	case	_	_
 2	числе	число	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	obl	_	_
 3	тех	тот	DET	DT	Case=Gen|Number=Plur	5	det	_	_
-4	немногих	немного	NUM	JJ	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+4	немногих	немного	NUM	JJ	Case=Gen|Number=Plur	5	amod	_	_
 5	гостей	гость	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
 6	дома	дом	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	,	_	11	punct	_	_

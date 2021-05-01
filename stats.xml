@@ -47,8 +47,8 @@
     <feat name="Case" value="Nom" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,PUNCT,SYM,VERB">15374</feat><!-- он, который, это, она, они, которые, что, население, 1, все -->
     <feat name="Case" value="Par" upos="NOUN">2</feat><!-- разу, ходу -->
     <feat name="Case" value="Voc" upos="NOUN">1</feat><!-- Боже -->
-    <feat name="Degree" value="Cmp" upos="ADJ,ADV,NUM">292</feat><!-- более, менее, позже, больше, позднее, ранее, далее, чаще, выше, старше -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV,NOUN,NUM,VERB">13947</feat><!-- так, уже, ещё, второй, вместе, можно, 2008, затем, 2010, других -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV">290</feat><!-- более, менее, позже, больше, позднее, ранее, далее, чаще, выше, старше -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">13889</feat><!-- так, уже, ещё, второй, вместе, 2008, затем, 2010, других, 2004 -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">45</feat><!-- наиболее, лучшую, крупнейший, лучшее, Высший, ближайшую, высшую, лучшему, лучшие, лучший -->
     <feat name="Foreign" value="Yes" upos="NOUN,PROPN,X">1493</feat><!-- the, of, a, and, Airlines, Music, Records, company, de, to -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">14555</feat><!-- была, области, России, она, войны, реки, территории, часть, которой, части -->
