@@ -12042,7 +12042,7 @@
 15	его	его	DET	PRP$	_	16	det	_	_
 16	сына	сын	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
 17	Нуралы	Нуралы	PROPN	NNP	_	16	appos	_	SpaceAfter=No
-18	-	-	PUNCT	-	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	punct	_	SpaceAfter=No
+18	-	-	PUNCT	-	_	17	punct	_	SpaceAfter=No
 19	хана	хан	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	appos	_	_
 20	(	(	PUNCT	(	_	21	punct	_	SpaceAfter=No
 21	1748	1748	ADJ	ORD	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	appos	_	_
