@@ -58,7 +58,7 @@
     <feat name="Mood" value="Ind" upos="AUX,VERB">6010</feat><!-- был, было, были, была, является, стал, составляет, может, находится, входит -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">12340</feat><!-- были, лет, которые, человек, они, США, км, все, годах, которых -->
     <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,VERB">44664</feat><!-- года, году, был, он, было, время, была, это, который, области -->
-    <feat name="NumType" value="Card" upos="DET,NUM,PROPN,SYM">2015</feat><!-- 2, два, один, 1, несколько, двух, 10, 4, три, 3 -->
+    <feat name="NumType" value="Card" upos="NUM">2006</feat><!-- 2, два, один, 1, несколько, двух, 10, 4, три, 3 -->
     <feat name="Person" value="1" upos="PRON,VERB">92</feat><!-- я, мы, нам, нас, мне, меня, видим, знаем, очистим, рассмотрим -->
     <feat name="Person" value="2" upos="PRON,VERB">40</feat><!-- вы, см., вам, тебе, Будь, ПРосыпайся, Пощадите, Создай, Ср., балуетесь -->
     <feat name="Person" value="3" upos="AUX,PRON,VERB">2923</feat><!-- он, является, она, они, его, составляет, может, находится, входит, имеет -->

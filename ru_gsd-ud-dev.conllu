@@ -1182,7 +1182,7 @@
 4	и	и	CCONJ	CC	_	5	cc	_	_
 5	сожгла	сжечь	VERB	VBC	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	7	punct	_	_
-7	одного	один	DET	DT	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|NumType=Card	5	acl	_	_
+7	одного	один	DET	DT	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	acl	_	_
 8	за	за	ADP	IN	_	9	case	_	_
 9	другим	другой	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	,	_	7	punct	_	_
