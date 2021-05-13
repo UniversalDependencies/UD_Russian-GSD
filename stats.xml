@@ -35,30 +35,30 @@
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="41">
     <feat name="Abbr" value="Yes" upos="ADV,DET,NOUN,PROPN,X">27</feat><!-- д, ВЧ, НЧ, В., ЛГБТ, RSS, АКВА, Г., Д., З. -->
-    <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,PUNCT,VERB">7820</feat><!-- человек, который, человека, женщин, один, мужчин, которые, назначен, членом, автор -->
-    <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB">30545</feat><!-- года, году, время, области, лет, России, это, войны, реки, год -->
+    <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">7819</feat><!-- человек, который, человека, женщин, один, мужчин, которые, назначен, членом, автор -->
+    <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">30544</feat><!-- года, году, время, области, лет, России, это, войны, реки, год -->
     <feat name="Aspect" value="Imp" upos="AUX,VERB">5159</feat><!-- был, было, были, была, является, составляет, может, находится, быть, входит -->
     <feat name="Aspect" value="Perf" upos="ADJ,VERB">4087</feat><!-- стал, получил, родился, начал, стала, окончил, род., назначен, вышел, получила -->
     <feat name="Case" value="Acc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">6845</feat><!-- время, его, год, состав, то, годы, свою, свой, участие, их -->
     <feat name="Case" value="Dat" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">2165</feat><!-- ему, данным, им, дней, которому, переписи, мнению, округу, ей, результатам -->
     <feat name="Case" value="Gen" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">17756</feat><!-- года, лет, этого, того, войны, человек, области, реки, города, века -->
     <feat name="Case" value="Ins" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">3865</feat><!-- тем, собой, одним, ним, первым, помощью, образом, частью, членом, им -->
-    <feat name="Case" value="Loc" upos="ADJ,DET,NOUN,NUM,PART,PRON,PROPN,VERB">6543</feat><!-- году, том, этом, районе, годах, составе, городе, России, начале, качестве -->
-    <feat name="Case" value="Nom" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,PUNCT,SYM,VERB">15374</feat><!-- он, который, это, она, они, которые, что, население, 1, все -->
+    <feat name="Case" value="Loc" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">6542</feat><!-- году, том, этом, районе, годах, составе, городе, России, начале, качестве -->
+    <feat name="Case" value="Nom" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">15373</feat><!-- он, который, это, она, они, которые, что, население, 1, все -->
     <feat name="Case" value="Par" upos="NOUN">2</feat><!-- разу, ходу -->
     <feat name="Case" value="Voc" upos="NOUN">1</feat><!-- Боже -->
-    <feat name="Degree" value="Cmp" upos="ADJ,ADV,NUM">292</feat><!-- более, менее, позже, больше, позднее, ранее, далее, чаще, выше, старше -->
-    <feat name="Degree" value="Pos" upos="ADJ,ADV,NOUN,NUM,VERB">13947</feat><!-- так, уже, ещё, второй, вместе, можно, 2008, затем, 2010, других -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV">290</feat><!-- более, менее, позже, больше, позднее, ранее, далее, чаще, выше, старше -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">13889</feat><!-- так, уже, ещё, второй, вместе, 2008, затем, 2010, других, 2004 -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">45</feat><!-- наиболее, лучшую, крупнейший, лучшее, Высший, ближайшую, высшую, лучшему, лучшие, лучший -->
     <feat name="Foreign" value="Yes" upos="NOUN,PROPN,X">1493</feat><!-- the, of, a, and, Airlines, Music, Records, company, de, to -->
     <feat name="Gender" value="Fem" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">14555</feat><!-- была, области, России, она, войны, реки, территории, часть, которой, части -->
-    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,VERB">26969</feat><!-- года, году, был, он, который, лет, человек, год, км, его -->
+    <feat name="Gender" value="Masc" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">26967</feat><!-- года, году, был, он, который, лет, человек, год, км, его -->
     <feat name="Gender" value="Neut" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">8654</feat><!-- было, время, это, того, что, том, то, население, тем, населения -->
     <feat name="Mood" value="Imp" upos="VERB">21</feat><!-- см., Будь, Откроем, ПРосыпайся, Пощадите, Создай, Ср., балуйтесь, введи, выходите -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">6010</feat><!-- был, было, были, была, является, стал, составляет, может, находится, входит -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">12340</feat><!-- были, лет, которые, человек, они, США, км, все, годах, которых -->
-    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PART,PRON,PROPN,PUNCT,VERB">44664</feat><!-- года, году, был, он, было, время, была, это, который, области -->
-    <feat name="NumType" value="Card" upos="DET,NUM,PROPN,SYM">2015</feat><!-- 2, два, один, 1, несколько, двух, 10, 4, три, 3 -->
+    <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">44662</feat><!-- года, году, был, он, было, время, была, это, который, области -->
+    <feat name="NumType" value="Card" upos="NUM">2006</feat><!-- 2, два, один, 1, несколько, двух, 10, 4, три, 3 -->
     <feat name="Person" value="1" upos="PRON,VERB">92</feat><!-- я, мы, нам, нас, мне, меня, видим, знаем, очистим, рассмотрим -->
     <feat name="Person" value="2" upos="PRON,VERB">40</feat><!-- вы, см., вам, тебе, Будь, ПРосыпайся, Пощадите, Создай, Ср., балуетесь -->
     <feat name="Person" value="3" upos="AUX,PRON,VERB">2923</feat><!-- он, является, она, они, его, составляет, может, находится, входит, имеет -->
