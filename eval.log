@@ -1,13 +1,13 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Russian-GSD:
-commit 80d4640ba85ed075f217b22894ab84ef9f7d6736
+commit e63fd42363fe108ca4c21a1bd8d92ef11c6acc8d
+Merge: f9cce4a 47c45de
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 09:50:53 2021 +0200
-Size: counted 98000 of 98000 words (nodes).
-Size: min(0, log((N/1000)**2)) = 9.16993495734114.
+Size: counted 97994 of 97994 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.16981250461296.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,14 +15,14 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 63960 out of 98000 total words have one or more features.
+Features: 63960 out of 97994 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
                TOTAL       3726
 Udapi: found 3726 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 98000 words.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 97994 words.
 Genres: found 1 out of 17 known.
 validate.py --lang ru --max-err=10 UD_Russian-GSD/ru_gsd-ud-dev.conllu
 *** PASSED ***
@@ -34,11 +34,11 @@ Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.663742025230832) = 0.1701902628797
+(weight=0.256410256410256) * (score{size}=0.663733161806808) = 0.170187990206874
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
-(weight=0.307692307692308) * (score{udapi}=0.619795918367347) = 0.190706436420722
+(weight=0.307692307692308) * (score{udapi}=0.619772639141172) = 0.190699273581899
 (weight=0.0769230769230769) * (score{udeprels}=0.945945945945946) = 0.0727650727650728
-(TOTAL score=0.715713054116777) * (availability=1) * (validity=1) = 0.715713054116777
+(TOTAL score=0.715703618605128) * (availability=1) * (validity=1) = 0.715703618605128
 STARS = 3.5
-UD_Russian-GSD	0.715713054116777	3.5
+UD_Russian-GSD	0.715703618605128	3.5
