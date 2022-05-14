@@ -4446,8 +4446,8 @@
 4	частью	часть	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	xcomp	_	_
 5	конвоя	конвой	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	,	_	9	punct	_	_
-7	так	так	ADV	RB	Degree=Pos	9	advmod	_	_
-8	же	же	PART	UH	_	7	goeswith	_	_
+7	так	также	ADV	RB	Degree=Pos|Typo=Yes	9	advmod	_	_
+8	же	_	X	UH	_	7	goeswith	_	_
 9	направлявшегося	направляться	VERB	VBNL	Animacy=Inan|Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	5	acl	_	_
 10	из	из	ADP	IN	_	11	case	_	_
 11	Ливерпуля	Ливерпуль	PROPN	NNP	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_

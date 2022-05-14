@@ -8969,8 +8969,8 @@
 7	зрителей	зритель	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nsubj	_	SpaceAfter=No
 8	&#39;&#39;	&#39;&#39;	PUNCT	``	_	7	punct	_	_
 9	(	(	PUNCT	(	_	10	punct	_	SpaceAfter=No
-10	12	12	NUM	CD	Case=Nom|NumType=Card	7	appos	_	_
-11	ЗЗ	33	NUM	CD	Case=Gen|NumType=Card	10	goeswith	_	SpaceAfter=No
+10	12	1233	NUM	CD	Case=Nom|NumType=Card|Typo=Yes	7	appos	_	_
+11	ЗЗ	_	X	CD	_	10	goeswith	_	SpaceAfter=No
 12	)	)	PUNCT	)	_	10	punct	_	_
 13	--	--	PUNCT	--	_	14	punct	_	_
 14	одна	один	NUM	CD	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing|NumType=Card	0	root	_	_
@@ -9105,8 +9105,8 @@
 9	двигателя	двигатель	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
 10	:	:	PUNCT	:	_	15	punct	_	_
 11	24-сильный	24-сильный	ADJ	ORD	Case=Nom|Gender=Masc|Number=Sing	14	amod	_	_
-12	4-х	4-х	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
-13	цилиндровый	цилиндровый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	goeswith	_	_
+12	4-х	4-х	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	compound	_	_
+13	цилиндровый	цилиндровый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
 14	мотор	мотор	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
 15	располагался	располагаться	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	parataxis	_	_
 16	в	в	ADP	IN	_	18	case	_	_
@@ -9285,8 +9285,8 @@
 9	на	на	ADP	IN	_	10	case	_	_
 10	сайте	сайт	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
 11	группы	группа	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
-12	pweination.	Pweination.	X	FW	Foreign=Yes	10	appos	_	_
-13	соm	соm	X	FW	Foreign=Yes	12	goeswith	_	SpaceAfter=No
+12	pweination.	Pweination.соm	X	FW	Foreign=Yes|Typo=Yes	10	appos	_	_
+13	соm	_	X	FW	_	12	goeswith	_	SpaceAfter=No
 14	,	,	PUNCT	,	_	20	punct	_	_
 15	но	но	CCONJ	CC	_	20	cc	_	_
 16	в	в	ADP	IN	_	17	case	_	_
