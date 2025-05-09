@@ -338,10 +338,10 @@
 22	чашеобразные	чашеобразный	ADJ	JJL	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	23	amod	_	_
 23	гнёзда	гнездо	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	14	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	,	_	29	punct	_	_
-25	такие	такой	DET	DT	Case=Ins|Number=Plur	29	case	_	_
+25	такие	такой	DET	DT	Animacy=Inan|Case=Acc|ExtPos=ADP|Number=Plur	29	case	_	_
 26	как	как	SCONJ	IN	_	25	fixed	_	_
 27	у	у	ADP	IN	_	29	case	_	_
-28	жёлтой	желтый	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+28	жёлтой	желтый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
 29	древесницы	древесница	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	7	punct	_	_
 
@@ -2838,7 +2838,7 @@
 3	международных	международный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
 4	организаций	организация	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	,	_	8	punct	_	_
-6	таких	такой	DET	DT	Case=Gen|Number=Plur	8	case	_	_
+6	таких	такой	DET	DT	Case=Gen|ExtPos=ADP|Number=Plur	8	case	_	_
 7	как	как	ADP	IN	_	6	fixed	_	_
 8	НАТО	НАТО	PROPN	NNP	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	,	_	10	punct	_	_
@@ -3105,7 +3105,7 @@
 27	правоотношений	правоотношение	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	26	nmod	_	SpaceAfter=No
 28	&#39;&#39;	&#39;&#39;	PUNCT	&#39;&#39;	_	27	punct	_	SpaceAfter=No
 29	,	,	PUNCT	,	_	32	punct	_	_
-30	т.	то	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	32	advmod	_	_
+30	т.	то	PRON	DT	Animacy=Inan|Case=Nom|ExtPos=CCONJ|Gender=Neut|Number=Sing	32	cc	_	_
 31	е.	быть	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	fixed	_	_
 32	явления	явление	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	23	appos	_	SpaceAfter=No
 33	,	,	PUNCT	,	_	34	punct	_	_
@@ -3941,7 +3941,7 @@
 
 # sent_id = dev-s166
 # text = Тем не менее около 20 человек сторонников были задержаны, среди которых, оказалось и несколько членов ``Единой России&#39;&#39;.
-1	Тем	то	PRON	DT	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	advmod	_	_
+1	Тем	то	PRON	DT	Animacy=Inan|Case=Ins|ExtPos=ADV|Gender=Neut|Number=Sing	9	parataxis:discourse	_	_
 2	не	не	PART	NEG	_	1	fixed	_	_
 3	менее	менее	ADV	RBR	Degree=Cmp	1	fixed	_	_
 4	около	около	ADP	IN	_	5	case	_	_
@@ -5937,7 +5937,7 @@
 10	,	,	PUNCT	,	_	8	punct	_	_
 11	камней	камень	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	4	obl	_	SpaceAfter=No
 12	,	,	PUNCT	,	_	15	punct	_	_
-13	таких	такой	DET	DT	Case=Gen|Number=Plur	15	case	_	_
+13	таких	такой	DET	DT	Case=Gen|ExtPos=ADP|Number=Plur	15	case	_	_
 14	как	как	ADP	IN	_	13	fixed	_	_
 15	стразы	страз	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	nmod	_	_
 16	или	или	CCONJ	CC	_	18	cc	_	_
@@ -8091,7 +8091,7 @@
 
 # sent_id = dev-s346
 # text = Тем не менее, коммерческие организации Свободной зоны по своей структуре фактически копируют структуру Церкви саентологии, хотя и имеют меньший размах деятельности и большую аморфность.
-1	Тем	то	PRON	DT	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	advmod	_	_
+1	Тем	то	PRON	DT	Animacy=Inan|Case=Ins|ExtPos=ADV|Gender=Neut|Number=Sing	13	parataxis:discourse	_	_
 2	не	не	PART	NEG	_	1	fixed	_	_
 3	менее	менее	ADV	RBR	Degree=Cmp	1	fixed	_	SpaceAfter=No
 4	,	,	PUNCT	,	_	1	punct	_	_
@@ -11750,7 +11750,7 @@
 10	,	,	PUNCT	,	_	13	punct	_	_
 11	пока	пока	SCONJ	IN	_	13	mark	_	_
 12	не	не	PART	NEG	Polarity=Neg	13	advmod	_	_
-13	начнутся	начаться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	8	acl	_	_
+13	начнутся	начаться	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	9	acl	_	_
 14	тесты	тест	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	2	punct	_	_
 
