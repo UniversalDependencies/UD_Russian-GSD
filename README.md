@@ -23,6 +23,7 @@ Russian Universal Dependencies Treebank annotated and converted by Google.
 Data available since: UD v1.3
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: wiki
 Lemmas: manual native
 UPOS: manual native
