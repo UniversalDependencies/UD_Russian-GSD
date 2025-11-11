@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Russian-GSD:
-commit bc219f814087fc58e01970fa2e318e8cd5e4c46c
-Merge: 18aa5e4 2797570
+commit 799ea4b59b29f053d414a370759697592d6e7c95
+Merge: 5400f2f 9acc9d6
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'ru_gsd'
+Language code (from CoNLL-U file name) = 'ru'
+Found the following data files: ru_gsd-ud-dev.conllu, ru_gsd-ud-test.conllu, ru_gsd-ud-train.conllu
 Size: counted 97994 of 97994 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.16981250461296.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,62 +23,57 @@ Features: 63963 out of 97994 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL       3663
-Udapi: found 3663 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 97994 words.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-GSD/ru_gsd-ud-dev.conllu
-[Line 405 Sent dev-s17 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'В течение' does not have the 'ExtPos' feature
-[Line 525 Sent dev-s19 Node 54]: [L3 Warning fixed-without-extpos] Fixed expression 'а также' does not have the 'ExtPos' feature
-[Line 703 Sent dev-s26 Node 20]: [L3 Warning fixed-without-extpos] Fixed expression 'а также' does not have the 'ExtPos' feature
-[Line 1113 Sent dev-s46 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Несмотря на' does not have the 'ExtPos' feature
-[Line 1167 Sent dev-s48 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'так как' does not have the 'ExtPos' feature
-[Line 1455 Sent dev-s61 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'так и' does not have the 'ExtPos' feature
-[Line 1735 Sent dev-s75 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'тогда как' does not have the 'ExtPos' feature
-[Line 1858 Sent dev-s80 Node 21]: [L3 Warning fixed-without-extpos] Fixed expression 'так как' does not have the 'ExtPos' feature
-[Line 2176 Sent dev-s94 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'не только' does not have the 'ExtPos' feature
-[Line 2182 Sent dev-s94 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'но и' does not have the 'ExtPos' feature
+[Line 20 Sent dev-s1]: [L3 Warning pron-det-without-prontype] The word 'собой' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 29 Sent dev-s1]: [L3 Warning pron-det-without-prontype] The word 'его' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 65 Sent dev-s3]: [L3 Warning pron-det-without-prontype] The word 'Он' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 71 Sent dev-s3]: [L3 Warning pron-det-without-prontype] The word 'всей' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 81 Sent dev-s3]: [L3 Warning pron-det-without-prontype] The word 'свой' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 142 Sent dev-s7]: [L3 Warning pron-det-without-prontype] The word 'что' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 144 Sent dev-s7]: [L3 Warning pron-det-without-prontype] The word 'её' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 180 Sent dev-s8]: [L3 Warning pron-det-without-prontype] The word 'который' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 212 Sent dev-s9]: [L3 Warning pron-det-without-prontype] The word 'Такое' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 325 Sent dev-s13]: [L3 Warning pron-det-without-prontype] The word 'который' is tagged 'PRON' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-Warnings: 59
+Warnings: 457
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-GSD/ru_gsd-ud-test.conllu
-[Line 430 Sent test-s19 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'как будто' does not have the 'ExtPos' feature
-[Line 579 Sent test-s24 Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'так как' does not have the 'ExtPos' feature
-[Line 626 Sent test-s26 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Тем не менее' does not have the 'ExtPos' feature
-[Line 743 Sent test-s31 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'с помощью' does not have the 'ExtPos' feature
-[Line 754 Sent test-s31 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'в соответствии с' does not have the 'ExtPos' feature
-[Line 807 Sent test-s34 Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'так как' does not have the 'ExtPos' feature
-[Line 925 Sent test-s41 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'в течение' does not have the 'ExtPos' feature
-[Line 936 Sent test-s41 Node 23]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 935 Sent test-s41 Node 22]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 937 Sent test-s41 Node 24]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 106 Sent test-s6]: [L3 Warning pron-det-without-prontype] The word 'его' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 173 Sent test-s9]: [L3 Warning pron-det-without-prontype] The word 'такой' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 192 Sent test-s10]: [L3 Warning pron-det-without-prontype] The word 'её' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 203 Sent test-s10]: [L3 Warning pron-det-without-prontype] The word 'её' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 207 Sent test-s10]: [L3 Warning pron-det-without-prontype] The word 'всеми' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 215 Sent test-s10]: [L3 Warning pron-det-without-prontype] The word 'неё' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 269 Sent test-s12]: [L3 Warning pron-det-without-prontype] The word 'которому' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 345 Sent test-s16]: [L3 Warning pron-det-without-prontype] The word 'его' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 366 Sent test-s17]: [L3 Warning pron-det-without-prontype] The word 'ему' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 391 Sent test-s18]: [L3 Warning pron-det-without-prontype] The word 'Его' is tagged 'DET' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-Warnings: 96
+Warnings: 509
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-GSD/ru_gsd-ud-train.conllu
-[Line 912 Sent train-s39 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'в том числе' does not have the 'ExtPos' feature
-[Line 1130 Sent train-s49 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Несмотря на' does not have the 'ExtPos' feature
-[Line 1171 Sent train-s50 Node 31]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 1169 Sent train-s50 Node 29]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3309 Sent train-s150 Node 15]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3681 Sent train-s166 Node 21]: [L3 Warning fixed-without-extpos] Fixed expression 'в то время как' does not have the 'ExtPos' feature
-[Line 3833 Sent train-s173 Node 6]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3841 Sent train-s173 Node 14]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 4216 Sent train-s192 Node 33]: [L3 Warning fixed-without-extpos] Fixed expression 'друг за другом' does not have the 'ExtPos' feature
-[Line 4328 Sent train-s197 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'так и' does not have the 'ExtPos' feature
+[Line 12 Sent train-s1]: [L3 Warning pron-det-without-prontype] The word 'кто' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 14 Sent train-s1]: [L3 Warning pron-det-without-prontype] The word 'свои' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 32 Sent train-s2]: [L3 Warning pron-det-without-prontype] The word 'он' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 46 Sent train-s2]: [L3 Warning pron-det-without-prontype] The word 'которого' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 62 Sent train-s3]: [L3 Warning pron-det-without-prontype] The word 'весь' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 86 Sent train-s4]: [L3 Warning pron-det-without-prontype] The word 'Этим' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 122 Sent train-s6]: [L3 Warning pron-det-without-prontype] The word 'он' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 131 Sent train-s6]: [L3 Warning pron-det-without-prontype] The word 'своей' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 251 Sent train-s11]: [L3 Warning pron-det-without-prontype] The word 'этого' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 292 Sent train-s13]: [L3 Warning pron-det-without-prontype] The word 'ним' is tagged 'PRON' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-Warnings: 406
+Warnings: 3095
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
-(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.663733161806808) = 0.170187990206874
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
-(weight=0.307692307692308) * (score{udapi}=0.626201604179848) = 0.192677416670722
-(weight=0.0769230769230769) * (score{udeprels}=0.945945945945946) = 0.0727650727650728
-(TOTAL score=0.717430379089627) * (availability=1) * (validity=1) = 0.717430379089627
-STARS = 3.5
-UD_Russian-GSD	0.717430379089627	3.5
+(weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.663733161806808) = 0.245827096965484
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.941176470588235) = 0.104575163398693
+(weight=0.111111111111111) * (score{udeprels}=0.945945945945946) = 0.105105105105105
+(TOTAL score=0.757976501271751) * (availability=1) * (validity=1) = 0.757976501271751
+STARS = 4
+UD_Russian-GSD	0.757976501271751	4
