@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Russian-GSD:
-commit 799ea4b59b29f053d414a370759697592d6e7c95
-Merge: 5400f2f 9acc9d6
+commit 79be03625d67c427b127181c6a413c6b93756582
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:37:07 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ru_gsd'
 Language code (from CoNLL-U file name) = 'ru'
@@ -25,48 +25,101 @@ Universal relations: 35 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-GSD/ru_gsd-ud-dev.conllu
-[Line 20 Sent dev-s1]: [L3 Warning pron-det-without-prontype] The word 'собой' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 29 Sent dev-s1]: [L3 Warning pron-det-without-prontype] The word 'его' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 65 Sent dev-s3]: [L3 Warning pron-det-without-prontype] The word 'Он' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 71 Sent dev-s3]: [L3 Warning pron-det-without-prontype] The word 'всей' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 81 Sent dev-s3]: [L3 Warning pron-det-without-prontype] The word 'свой' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 142 Sent dev-s7]: [L3 Warning pron-det-without-prontype] The word 'что' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 144 Sent dev-s7]: [L3 Warning pron-det-without-prontype] The word 'её' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 180 Sent dev-s8]: [L3 Warning pron-det-without-prontype] The word 'который' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 212 Sent dev-s9]: [L3 Warning pron-det-without-prontype] The word 'Такое' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 325 Sent dev-s13]: [L3 Warning pron-det-without-prontype] The word 'который' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 457
-*** PASSED ***
+[Line 20 Sent dev-s1]: [L3 WARNING pron-det-without-prontype] The word 'собой' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 29 Sent dev-s1]: [L3 WARNING pron-det-without-prontype] The word 'его' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 65 Sent dev-s3]: [L3 WARNING pron-det-without-prontype] The word 'Он' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 71 Sent dev-s3]: [L3 WARNING pron-det-without-prontype] The word 'всей' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 81 Sent dev-s3]: [L3 WARNING pron-det-without-prontype] The word 'свой' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 142 Sent dev-s7]: [L3 WARNING pron-det-without-prontype] The word 'что' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 144 Sent dev-s7]: [L3 WARNING pron-det-without-prontype] The word 'её' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 180 Sent dev-s8]: [L3 WARNING pron-det-without-prontype] The word 'который' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 212 Sent dev-s9]: [L3 WARNING pron-det-without-prontype] The word 'Такое' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 325 Sent dev-s13]: [L3 WARNING pron-det-without-prontype] The word 'который' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 405 Sent dev-s17]: [L3 WARNING fixed-without-extpos] Fixed expression 'В течение' does not have the 'ExtPos' feature
+[Line 525 Sent dev-s19]: [L3 WARNING fixed-without-extpos] Fixed expression 'а также' does not have the 'ExtPos' feature
+[Line 703 Sent dev-s26]: [L3 WARNING fixed-without-extpos] Fixed expression 'а также' does not have the 'ExtPos' feature
+[Line 1113 Sent dev-s46]: [L3 WARNING fixed-without-extpos] Fixed expression 'Несмотря на' does not have the 'ExtPos' feature
+[Line 1167 Sent dev-s48]: [L3 WARNING fixed-without-extpos] Fixed expression 'так как' does not have the 'ExtPos' feature
+[Line 1455 Sent dev-s61]: [L3 WARNING fixed-without-extpos] Fixed expression 'так и' does not have the 'ExtPos' feature
+[Line 1735 Sent dev-s75]: [L3 WARNING fixed-without-extpos] Fixed expression 'тогда как' does not have the 'ExtPos' feature
+[Line 1858 Sent dev-s80]: [L3 WARNING fixed-without-extpos] Fixed expression 'так как' does not have the 'ExtPos' feature
+[Line 2176 Sent dev-s94]: [L3 WARNING fixed-without-extpos] Fixed expression 'не только' does not have the 'ExtPos' feature
+[Line 2182 Sent dev-s94]: [L3 WARNING fixed-without-extpos] Fixed expression 'но и' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 6775 Sent dev-s294]: [L3 SYNTAX obl-should-be-nmod] The parent (node [1] 'Выбор') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 8552 Sent dev-s367]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'процесс') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+Warnings: 455
+SYNTAX errors: 2
+*** FAILED *** with 2 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-GSD/ru_gsd-ud-test.conllu
-[Line 106 Sent test-s6]: [L3 Warning pron-det-without-prontype] The word 'его' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 173 Sent test-s9]: [L3 Warning pron-det-without-prontype] The word 'такой' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 192 Sent test-s10]: [L3 Warning pron-det-without-prontype] The word 'её' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 203 Sent test-s10]: [L3 Warning pron-det-without-prontype] The word 'её' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 207 Sent test-s10]: [L3 Warning pron-det-without-prontype] The word 'всеми' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 215 Sent test-s10]: [L3 Warning pron-det-without-prontype] The word 'неё' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 269 Sent test-s12]: [L3 Warning pron-det-without-prontype] The word 'которому' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 345 Sent test-s16]: [L3 Warning pron-det-without-prontype] The word 'его' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 366 Sent test-s17]: [L3 Warning pron-det-without-prontype] The word 'ему' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 391 Sent test-s18]: [L3 Warning pron-det-without-prontype] The word 'Его' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 509
-*** PASSED ***
+[Line 106 Sent test-s6]: [L3 WARNING pron-det-without-prontype] The word 'его' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 173 Sent test-s9]: [L3 WARNING pron-det-without-prontype] The word 'такой' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 192 Sent test-s10]: [L3 WARNING pron-det-without-prontype] The word 'её' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 203 Sent test-s10]: [L3 WARNING pron-det-without-prontype] The word 'её' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 207 Sent test-s10]: [L3 WARNING pron-det-without-prontype] The word 'всеми' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 215 Sent test-s10]: [L3 WARNING pron-det-without-prontype] The word 'неё' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 269 Sent test-s12]: [L3 WARNING pron-det-without-prontype] The word 'которому' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 345 Sent test-s16]: [L3 WARNING pron-det-without-prontype] The word 'его' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 366 Sent test-s17]: [L3 WARNING pron-det-without-prontype] The word 'ему' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 391 Sent test-s18]: [L3 WARNING pron-det-without-prontype] The word 'Его' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 430 Sent test-s19]: [L3 WARNING fixed-without-extpos] Fixed expression 'как будто' does not have the 'ExtPos' feature
+[Line 579 Sent test-s24]: [L3 WARNING fixed-without-extpos] Fixed expression 'так как' does not have the 'ExtPos' feature
+[Line 626 Sent test-s26]: [L3 WARNING fixed-without-extpos] Fixed expression 'Тем не менее' does not have the 'ExtPos' feature
+[Line 743 Sent test-s31]: [L3 WARNING fixed-without-extpos] Fixed expression 'с помощью' does not have the 'ExtPos' feature
+[Line 754 Sent test-s31]: [L3 WARNING fixed-without-extpos] Fixed expression 'в соответствии с' does not have the 'ExtPos' feature
+[Line 807 Sent test-s34]: [L3 WARNING fixed-without-extpos] Fixed expression 'так как' does not have the 'ExtPos' feature
+[Line 925 Sent test-s41]: [L3 WARNING fixed-without-extpos] Fixed expression 'в течение' does not have the 'ExtPos' feature
+[Line 1178 Sent test-s55]: [L3 WARNING fixed-without-extpos] Fixed expression 'потому что' does not have the 'ExtPos' feature
+[Line 1477 Sent test-s66]: [L3 WARNING fixed-without-extpos] Fixed expression 'в качестве' does not have the 'ExtPos' feature
+[Line 1586 Sent test-s71]: [L3 SYNTAX obl-should-be-nmod] The parent (node [9] 'лет') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 2426 Sent test-s111]: [L3 WARNING fixed-without-extpos] Fixed expression 'в качестве' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+Warnings: 508
+SYNTAX errors: 1
+*** FAILED *** with 1 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ru --max-err=10 UD_Russian-GSD/ru_gsd-ud-train.conllu
-[Line 12 Sent train-s1]: [L3 Warning pron-det-without-prontype] The word 'кто' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 14 Sent train-s1]: [L3 Warning pron-det-without-prontype] The word 'свои' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 32 Sent train-s2]: [L3 Warning pron-det-without-prontype] The word 'он' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 46 Sent train-s2]: [L3 Warning pron-det-without-prontype] The word 'которого' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 62 Sent train-s3]: [L3 Warning pron-det-without-prontype] The word 'весь' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 86 Sent train-s4]: [L3 Warning pron-det-without-prontype] The word 'Этим' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 122 Sent train-s6]: [L3 Warning pron-det-without-prontype] The word 'он' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 131 Sent train-s6]: [L3 Warning pron-det-without-prontype] The word 'своей' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 251 Sent train-s11]: [L3 Warning pron-det-without-prontype] The word 'этого' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 292 Sent train-s13]: [L3 Warning pron-det-without-prontype] The word 'ним' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Warnings: 3095
-*** PASSED ***
-Validity: 1
+[Line 12 Sent train-s1]: [L3 WARNING pron-det-without-prontype] The word 'кто' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 14 Sent train-s1]: [L3 WARNING pron-det-without-prontype] The word 'свои' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 32 Sent train-s2]: [L3 WARNING pron-det-without-prontype] The word 'он' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 46 Sent train-s2]: [L3 WARNING pron-det-without-prontype] The word 'которого' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 62 Sent train-s3]: [L3 WARNING pron-det-without-prontype] The word 'весь' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 86 Sent train-s4]: [L3 WARNING pron-det-without-prontype] The word 'Этим' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 122 Sent train-s6]: [L3 WARNING pron-det-without-prontype] The word 'он' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 131 Sent train-s6]: [L3 WARNING pron-det-without-prontype] The word 'своей' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 251 Sent train-s11]: [L3 WARNING pron-det-without-prontype] The word 'этого' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 292 Sent train-s13]: [L3 WARNING pron-det-without-prontype] The word 'ним' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 912 Sent train-s39]: [L3 WARNING fixed-without-extpos] Fixed expression 'в том числе' does not have the 'ExtPos' feature
+[Line 1130 Sent train-s49]: [L3 WARNING fixed-without-extpos] Fixed expression 'Несмотря на' does not have the 'ExtPos' feature
+[Line 3681 Sent train-s166]: [L3 WARNING fixed-without-extpos] Fixed expression 'в то время как' does not have the 'ExtPos' feature
+[Line 3949 Sent train-s179]: [L3 SYNTAX obl-should-be-nmod] The parent (node [3] 'выполнения') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 4216 Sent train-s192]: [L3 WARNING fixed-without-extpos] Fixed expression 'друг за другом' does not have the 'ExtPos' feature
+[Line 4328 Sent train-s197]: [L3 WARNING fixed-without-extpos] Fixed expression 'так и' does not have the 'ExtPos' feature
+[Line 4440 Sent train-s201]: [L3 WARNING fixed-without-extpos] Fixed expression 'а также' does not have the 'ExtPos' feature
+[Line 4648 Sent train-s212]: [L3 WARNING fixed-without-extpos] Fixed expression 'так как' does not have the 'ExtPos' feature
+[Line 4826 Sent train-s219]: [L3 WARNING fixed-without-extpos] Fixed expression 'в то время как' does not have the 'ExtPos' feature
+[Line 4856 Sent train-s219]: [L3 WARNING fixed-without-extpos] Fixed expression 'так как' does not have the 'ExtPos' feature
+[Line 5638 Sent train-s254]: [L3 WARNING fixed-without-extpos] Fixed expression 'так как' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 9531 Sent train-s433]: [L3 SYNTAX obl-should-be-nmod] The parent (node [21] 'спец-эффекты') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 12638 Sent train-s572]: [L3 SYNTAX obl-should-be-nmod] The parent (node [9] 'завоевания') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 17993 Sent train-s798]: [L3 SYNTAX obl-should-be-nmod] The parent (node [12] 'фронт') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 28658 Sent train-s1270]: [L3 SYNTAX obl-should-be-nmod] The parent (node [14] 'занятия') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 28738 Sent train-s1274]: [L3 SYNTAX obl-should-be-nmod] The parent (node [6] 'ареста') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 29291 Sent train-s1300]: [L3 SYNTAX obl-should-be-nmod] The parent (node [9] 'леса') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 31159 Sent train-s1386]: [L3 SYNTAX obl-should-be-nmod] The parent (node [22] 'охвата') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 31664 Sent train-s1406]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'игры') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 34835 Sent train-s1545]: [L3 SYNTAX obl-should-be-nmod] The parent (node [7] 'большего') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 3071
+SYNTAX errors: 24
+*** FAILED *** with 24 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
@@ -74,6 +127,6 @@ Validity: 1
 (weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
 (weight=0.111111111111111) * (score{tags}=0.941176470588235) = 0.104575163398693
 (weight=0.111111111111111) * (score{udeprels}=0.945945945945946) = 0.105105105105105
-(TOTAL score=0.757976501271751) * (availability=1) * (validity=1) = 0.757976501271751
-STARS = 4
-UD_Russian-GSD	0.757976501271751	4
+(TOTAL score=0.757976501271751) * (availability=1) * (validity=0.01) = 0.00757976501271751
+STARS = 0
+UD_Russian-GSD	0.00757976501271751	0
